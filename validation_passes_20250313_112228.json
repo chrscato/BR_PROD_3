@@ -1,0 +1,4545 @@
+[
+  {
+    "file_info": {
+      "file_name": "C:\\Users\\ChristopherCato\\OneDrive - clarity-dx.com\\Documents\\Bill_Review_INTERNAL\\scripts\\VAILIDATION\\data\\extracts\\valid\\mapped\\staging\\20241217_1036.json",
+      "order_id": "4DD333A9-B298-4D86-9506-AEDF3268ACE0",
+      "timestamp": "2025-03-13T11:22:46.277671",
+      "validation_session_id": "1a09e030-8d09-42d1-8dd0-4f3bd90d3295"
+    },
+    "validation_summary": {
+      "status": "PASS",
+      "total_checks": 1,
+      "failed_checks": 0
+    },
+    "data": {
+      "patient_info": {
+        "Order_ID": "4DD333A9-B298-4D86-9506-AEDF3268ACE0",
+        "FileMaker_Record_Number": "20241121725-01",
+        "Patient_Address": "28 Sunset Dr ",
+        "Patient_City": "Sewell",
+        "Patient_State": "NJ",
+        "Patient_Zip": "8080.0",
+        "Patient_Injury_Date": "11/15/2024",
+        "Patient_Injury_Description": "Left Knee",
+        "Patient_DOB": "4/10/1973",
+        "Patient_Last_Name": "Bavuso",
+        "Patient_First_Name": "Steven",
+        "PatientName": "Steven Bavuso",
+        "PatientPhone": "16093643783",
+        "Referring_Physician": "Jessica Timmerman",
+        "Referring_Physician_NPI": "1225477904.0",
+        "Assigning_Company": "ArcBest",
+        "Assigning_Adjuster": "Darsey Brown",
+        "Claim_Number": "1ABF20241966-1",
+        "Order_Type": "Imaging",
+        "Jurisdiction_State": "NJ",
+        "created_at": "2024-12-26 14:00:10",
+        "updated_at": "2024-12-26 14:00:10",
+        "is_active": 1,
+        "bundle_type": null,
+        "provider_id": "21A0F81B-F7F8-4AB8-B8AC-6540D3E63AB8",
+        "provider_name": "Atlantic Medical Imaging At Inspira"
+      },
+      "provider_info": {
+        "Address 1 Full": "40 Village Green Dr. \nWoolwich Twnshp, NJ 08085",
+        "Billing Address 1": "PO BOX 1564",
+        "Billing Address 2": null,
+        "Billing Address City": "INDIANAPOLIS",
+        "Billing Address Postal Code": "46206",
+        "Billing Address State": "IN",
+        "Billing Name": "ATLANTIC MEDICAL IMAGING",
+        "DBA Name Billing Name": "Atlantic Medical Imaging At Inspira",
+        "Latitude": "39.7375178",
+        "Location": null,
+        "Need OTA": null,
+        "Provider Network": "In Network",
+        "Provider Status": "Contract Complete",
+        "Provider Type": "Imaging",
+        "TIN": "22-2222502",
+        "NPI": "1396771556",
+        "PrimaryKey": "21A0F81B-F7F8-4AB8-B8AC-6540D3E63AB8"
+      },
+      "date_of_service": "2024-11-29",
+      "line_items": [
+        {
+          "date_of_service": "2024-11-29",
+          "cpt": "73721",
+          "modifier": "LT",
+          "units": 1,
+          "charge": "1445.00",
+          "validated_rate": 525.0
+        }
+      ],
+      "comparison_details": {}
+    }
+  },
+  {
+    "file_info": {
+      "file_name": "C:\\Users\\ChristopherCato\\OneDrive - clarity-dx.com\\Documents\\Bill_Review_INTERNAL\\scripts\\VAILIDATION\\data\\extracts\\valid\\mapped\\staging\\20241217_1073.json",
+      "order_id": "F77EA405-005A-4B10-A7BB-A3F3A99E1BCB",
+      "timestamp": "2025-03-13T11:22:46.277769",
+      "validation_session_id": "1a09e030-8d09-42d1-8dd0-4f3bd90d3295"
+    },
+    "validation_summary": {
+      "status": "PASS",
+      "total_checks": 2,
+      "failed_checks": 0
+    },
+    "data": {
+      "patient_info": {
+        "Order_ID": "F77EA405-005A-4B10-A7BB-A3F3A99E1BCB",
+        "FileMaker_Record_Number": "2024920065-01",
+        "Patient_Address": "1513 Chase Common Drive ",
+        "Patient_City": "Norcross",
+        "Patient_State": "GA",
+        "Patient_Zip": "30071.0",
+        "Patient_Injury_Date": "2024-04-14 00:00:00",
+        "Patient_Injury_Description": "Sacrum/ Coccyx",
+        "Patient_DOB": "1968-02-05 00:00:00",
+        "Patient_Last_Name": "Daniel",
+        "Patient_First_Name": "James",
+        "PatientName": "James Daniel",
+        "PatientPhone": "16787247093.0",
+        "Referring_Physician": null,
+        "Referring_Physician_NPI": null,
+        "Assigning_Company": "Publix Super Markets, Inc.",
+        "Assigning_Adjuster": "Jennifer Cosentino",
+        "Claim_Number": "WC2024627473",
+        "Order_Type": "Imaging",
+        "Jurisdiction_State": "GA",
+        "created_at": "2025-01-09 13:39:37",
+        "updated_at": "2025-01-09 13:39:37",
+        "is_active": 1,
+        "bundle_type": null,
+        "provider_id": "50BA3EEC-BCA9-4C2F-A93E-F21571D42B2E",
+        "provider_name": "American Health Imaging Of Decatur"
+      },
+      "provider_info": {
+        "Address 1 Full": "2774 North Decatur Road \nDecatur, GA  30033-5910",
+        "Billing Address 1": "PO Box 745973",
+        "Billing Address 2": null,
+        "Billing Address City": "Atlanta",
+        "Billing Address Postal Code": "30374",
+        "Billing Address State": "GA",
+        "Billing Name": "American Health Imaging of Georgia LLC",
+        "DBA Name Billing Name": "American Health Imaging Of Decatur",
+        "Latitude": "33.7934312",
+        "Location": "Decatur",
+        "Need OTA": "No",
+        "Provider Network": "In Network",
+        "Provider Status": "Contract Complete",
+        "Provider Type": "Imaging",
+        "TIN": "58-2388975",
+        "NPI": "1508841511",
+        "PrimaryKey": "50BA3EEC-BCA9-4C2F-A93E-F21571D42B2E"
+      },
+      "date_of_service": "2024-11-13",
+      "line_items": [
+        {
+          "date_of_service": "2024-11-13",
+          "cpt": "72197",
+          "modifier": null,
+          "units": 1,
+          "charge": "2515.00",
+          "validated_rate": 402.22
+        },
+        {
+          "date_of_service": "2024-11-13",
+          "cpt": "A9575",
+          "modifier": "JZ",
+          "units": 200,
+          "charge": "200.00",
+          "validated_rate": 0.0
+        }
+      ],
+      "comparison_details": {
+        "hcfa_codes": [
+          "72197",
+          "A9575"
+        ],
+        "order_codes": [
+          "72197"
+        ],
+        "hcfa_categories": {
+          "72197": "MRI w/&w/o",
+          "A9575": "ancillary"
+        },
+        "order_categories": {
+          "72197": "MRI w/&w/o"
+        }
+      }
+    }
+  },
+  {
+    "file_info": {
+      "file_name": "C:\\Users\\ChristopherCato\\OneDrive - clarity-dx.com\\Documents\\Bill_Review_INTERNAL\\scripts\\VAILIDATION\\data\\extracts\\valid\\mapped\\staging\\20241217_1093.json",
+      "order_id": "EAF7CF61-A532-4C69-9436-DDC889F63A4E",
+      "timestamp": "2025-03-13T11:22:46.277837",
+      "validation_session_id": "1a09e030-8d09-42d1-8dd0-4f3bd90d3295"
+    },
+    "validation_summary": {
+      "status": "PASS",
+      "total_checks": 1,
+      "failed_checks": 0
+    },
+    "data": {
+      "patient_info": {
+        "Order_ID": "EAF7CF61-A532-4C69-9436-DDC889F63A4E",
+        "FileMaker_Record_Number": "20241021150-01",
+        "Patient_Address": "11985 Hudson Ridge Dr ",
+        "Patient_City": "Port Richey",
+        "Patient_State": "FL",
+        "Patient_Zip": "34668.0",
+        "Patient_Injury_Date": "10/29/2024",
+        "Patient_Injury_Description": "Right Calf",
+        "Patient_DOB": "11/25/1971",
+        "Patient_Last_Name": "Correa",
+        "Patient_First_Name": "Sharon I",
+        "PatientName": "Sharon I Correa",
+        "PatientPhone": "17272396729",
+        "Referring_Physician": "Casey Moore",
+        "Referring_Physician_NPI": "1033867759.0",
+        "Assigning_Company": "CCMSI",
+        "Assigning_Adjuster": "Kelley Voyles",
+        "Claim_Number": "M419503",
+        "Order_Type": "Imaging",
+        "Jurisdiction_State": "FL",
+        "created_at": "2024-12-26 14:00:10",
+        "updated_at": "2024-12-26 14:00:10",
+        "is_active": 1,
+        "bundle_type": null,
+        "provider_id": "390AA630-1793-49BF-B57B-CACE075D1F3A",
+        "provider_name": "Tower Radiology - New Port Richey"
+      },
+      "provider_info": {
+        "Address 1 Full": "5539 Marine Parkway \nNew Port Richey, FL 34652",
+        "Billing Address 1": "PO Box 31249",
+        "Billing Address 2": null,
+        "Billing Address City": "Tampa",
+        "Billing Address Postal Code": "336313249",
+        "Billing Address State": "FL",
+        "Billing Name": "Tower Imaging LLC",
+        "DBA Name Billing Name": "Tower Radiology - New Port Richey",
+        "Latitude": "28.2347643",
+        "Location": null,
+        "Need OTA": null,
+        "Provider Network": "In Network",
+        "Provider Status": "Contract Complete",
+        "Provider Type": "Imaging",
+        "TIN": "59-1433551",
+        "NPI": "1750935409",
+        "PrimaryKey": "390AA630-1793-49BF-B57B-CACE075D1F3A"
+      },
+      "date_of_service": "2024-11-04",
+      "line_items": [
+        {
+          "date_of_service": "2024-11-04",
+          "cpt": "73718",
+          "modifier": "AR",
+          "units": 1,
+          "charge": "1293.00",
+          "validated_rate": 275.0
+        }
+      ],
+      "comparison_details": {}
+    }
+  },
+  {
+    "file_info": {
+      "file_name": "C:\\Users\\ChristopherCato\\OneDrive - clarity-dx.com\\Documents\\Bill_Review_INTERNAL\\scripts\\VAILIDATION\\data\\extracts\\valid\\mapped\\staging\\20241217_1123.json",
+      "order_id": "5E04C264-22AB-4360-974E-9E935C00D988",
+      "timestamp": "2025-03-13T11:22:46.277924",
+      "validation_session_id": "1a09e030-8d09-42d1-8dd0-4f3bd90d3295"
+    },
+    "validation_summary": {
+      "status": "PASS",
+      "total_checks": 1,
+      "failed_checks": 0
+    },
+    "data": {
+      "patient_info": {
+        "Order_ID": "5E04C264-22AB-4360-974E-9E935C00D988",
+        "FileMaker_Record_Number": "2024819839-01",
+        "Patient_Address": "205 Sinnickson ST ",
+        "Patient_City": "Salem",
+        "Patient_State": "NJ",
+        "Patient_Zip": "8079.0",
+        "Patient_Injury_Date": "10/22/2020",
+        "Patient_Injury_Description": "RT wrist pain",
+        "Patient_DOB": "3/10/1964",
+        "Patient_Last_Name": "Parsons",
+        "Patient_First_Name": "Katherine",
+        "PatientName": "Katherine Parsons",
+        "PatientPhone": "18569358741",
+        "Referring_Physician": null,
+        "Referring_Physician_NPI": null,
+        "Assigning_Company": "Benchmark Administrators",
+        "Assigning_Adjuster": "Colleen Ford",
+        "Claim_Number": "7203031",
+        "Order_Type": "Imaging",
+        "Jurisdiction_State": "NJ",
+        "created_at": "2024-12-26 14:00:10",
+        "updated_at": "2024-12-26 14:00:10",
+        "is_active": 1,
+        "bundle_type": null,
+        "provider_id": "B62F294F-15B3-4FB9-B9AD-C51C1EBE5865",
+        "provider_name": "Atlantic Medical Imaging"
+      },
+      "provider_info": {
+        "Address 1 Full": "40 Village Green Dr. \nSwedesboro, NJ 08085",
+        "Billing Address 1": "PO BOX 1564",
+        "Billing Address 2": null,
+        "Billing Address City": "INDIANAPOLIS",
+        "Billing Address Postal Code": "46206",
+        "Billing Address State": "IN",
+        "Billing Name": "ATLANTIC MEDICAL IMAGING",
+        "DBA Name Billing Name": "Atlantic Medical Imaging",
+        "Latitude": "39.7374596",
+        "Location": null,
+        "Need OTA": null,
+        "Provider Network": "In Network",
+        "Provider Status": "Research Phase",
+        "Provider Type": "Imaging",
+        "TIN": "22-2222502",
+        "NPI": "1396771556",
+        "PrimaryKey": "B62F294F-15B3-4FB9-B9AD-C51C1EBE5865"
+      },
+      "date_of_service": "2024-10-21",
+      "line_items": [
+        {
+          "date_of_service": "2024-10-21",
+          "cpt": "73110",
+          "modifier": "RT",
+          "units": 1,
+          "charge": "135.00",
+          "validated_rate": 25.0
+        }
+      ],
+      "comparison_details": {}
+    }
+  },
+  {
+    "file_info": {
+      "file_name": "C:\\Users\\ChristopherCato\\OneDrive - clarity-dx.com\\Documents\\Bill_Review_INTERNAL\\scripts\\VAILIDATION\\data\\extracts\\valid\\mapped\\staging\\20250109_1005.json",
+      "order_id": "D5A62B06-1A0D-4017-969B-CAEAA7B51711",
+      "timestamp": "2025-03-13T11:22:46.278219",
+      "validation_session_id": "1a09e030-8d09-42d1-8dd0-4f3bd90d3295"
+    },
+    "validation_summary": {
+      "status": "PASS",
+      "total_checks": 1,
+      "failed_checks": 0
+    },
+    "data": {
+      "patient_info": {
+        "Order_ID": "D5A62B06-1A0D-4017-969B-CAEAA7B51711",
+        "FileMaker_Record_Number": "20241121806-01",
+        "Patient_Address": "10243 SW 38th Ave ",
+        "Patient_City": "Ocala",
+        "Patient_State": "FL",
+        "Patient_Zip": "34476.0",
+        "Patient_Injury_Date": "10/24/2024",
+        "Patient_Injury_Description": "Left Knee",
+        "Patient_DOB": "4/28/1973",
+        "Patient_Last_Name": "Bachmaier",
+        "Patient_First_Name": "Jennifer",
+        "PatientName": "Jennifer Bachmaier",
+        "PatientPhone": "13524109105",
+        "Referring_Physician": null,
+        "Referring_Physician_NPI": null,
+        "Assigning_Company": "Davies",
+        "Assigning_Adjuster": "Kass Bassette",
+        "Claim_Number": "12941032",
+        "Order_Type": "Imaging",
+        "Jurisdiction_State": "FL",
+        "created_at": "2024-12-26 14:00:10",
+        "updated_at": "2024-12-26 14:00:10",
+        "is_active": 1,
+        "bundle_type": null,
+        "provider_id": "BB290DD4-A7D2-4A88-B0C4-42D7FE59D02C",
+        "provider_name": "Care First Imaging"
+      },
+      "provider_info": {
+        "Address 1 Full": "1714 SW 17TH ST \nOCALA, FL 34471",
+        "Billing Address 1": "PO BOX 631520",
+        "Billing Address 2": null,
+        "Billing Address City": "CINCINNATI",
+        "Billing Address Postal Code": "452631520",
+        "Billing Address State": "OH",
+        "Billing Name": "RADIOLOGY IMAGIN SPECIALISTS LLC",
+        "DBA Name Billing Name": "Care First Imaging",
+        "Latitude": "29.1701874",
+        "Location": null,
+        "Need OTA": null,
+        "Provider Network": "Out of Network",
+        "Provider Status": "Contact Initiated",
+        "Provider Type": "Imaging",
+        "TIN": "81-1981130",
+        "NPI": "1952763971",
+        "PrimaryKey": "BB290DD4-A7D2-4A88-B0C4-42D7FE59D02C"
+      },
+      "date_of_service": "2024-12-12",
+      "line_items": [
+        {
+          "date_of_service": "2024-12-12",
+          "cpt": "73700",
+          "modifier": "LT",
+          "units": 1,
+          "charge": "700",
+          "validated_rate": 200.0
+        }
+      ],
+      "comparison_details": {}
+    }
+  },
+  {
+    "file_info": {
+      "file_name": "C:\\Users\\ChristopherCato\\OneDrive - clarity-dx.com\\Documents\\Bill_Review_INTERNAL\\scripts\\VAILIDATION\\data\\extracts\\valid\\mapped\\staging\\20250109_1006.json",
+      "order_id": "0D86C897-4BBA-4AEA-9B5E-78FA18C04208",
+      "timestamp": "2025-03-13T11:22:46.278252",
+      "validation_session_id": "1a09e030-8d09-42d1-8dd0-4f3bd90d3295"
+    },
+    "validation_summary": {
+      "status": "PASS",
+      "total_checks": 1,
+      "failed_checks": 0
+    },
+    "data": {
+      "patient_info": {
+        "Order_ID": "0D86C897-4BBA-4AEA-9B5E-78FA18C04208",
+        "FileMaker_Record_Number": "2024920307-01",
+        "Patient_Address": "337 SW 30th Ave  ",
+        "Patient_City": "Cape Coral ",
+        "Patient_State": "FL",
+        "Patient_Zip": "33991.0",
+        "Patient_Injury_Date": "1/14/2023",
+        "Patient_Injury_Description": "LT Knee",
+        "Patient_DOB": "7/26/1968",
+        "Patient_Last_Name": "Merrill",
+        "Patient_First_Name": "Jason",
+        "PatientName": "Jason Merrill",
+        "PatientPhone": "19704123149",
+        "Referring_Physician": "Brett Sweitzer ",
+        "Referring_Physician_NPI": "1558547620.0",
+        "Assigning_Company": "Next Level Administrators",
+        "Assigning_Adjuster": "April Fullford",
+        "Claim_Number": "SZ2300026486",
+        "Order_Type": "Imaging",
+        "Jurisdiction_State": "FL",
+        "created_at": "2024-12-26 14:00:10",
+        "updated_at": "2024-12-26 14:00:10",
+        "is_active": 1,
+        "bundle_type": null,
+        "provider_id": "DB079FBA-ADC5-443D-B957-3312F55D6342",
+        "provider_name": "Care First Imaging"
+      },
+      "provider_info": {
+        "Address 1 Full": "1203 SE 8th Ave \nCape Coral, FL 33990",
+        "Billing Address 1": "PO BOX 31125",
+        "Billing Address 2": "",
+        "Billing Address City": "TAMPA",
+        "Billing Address Postal Code": "336313125",
+        "Billing Address State": "FL",
+        "Billing Name": "RADIOLOGY IMAGING SPECIALISTS LLC",
+        "DBA Name Billing Name": "Care First Imaging",
+        "Latitude": "26.6294602",
+        "Location": null,
+        "Need OTA": null,
+        "Provider Network": "Out of Network",
+        "Provider Status": "Research Phase",
+        "Provider Type": "Imaging",
+        "TIN": "81-1981130",
+        "NPI": "1376182923",
+        "PrimaryKey": "DB079FBA-ADC5-443D-B957-3312F55D6342"
+      },
+      "date_of_service": "2024-09-24",
+      "line_items": [
+        {
+          "date_of_service": "2024-09-24",
+          "cpt": "73721",
+          "modifier": "LT",
+          "units": 1,
+          "charge": "1950.00",
+          "validated_rate": 250.0
+        }
+      ],
+      "comparison_details": {}
+    }
+  },
+  {
+    "file_info": {
+      "file_name": "C:\\Users\\ChristopherCato\\OneDrive - clarity-dx.com\\Documents\\Bill_Review_INTERNAL\\scripts\\VAILIDATION\\data\\extracts\\valid\\mapped\\staging\\20250109_1008.json",
+      "order_id": "B13695A9-840B-4CF2-A499-60F5F3FA5526",
+      "timestamp": "2025-03-13T11:22:46.278283",
+      "validation_session_id": "1a09e030-8d09-42d1-8dd0-4f3bd90d3295"
+    },
+    "validation_summary": {
+      "status": "PASS",
+      "total_checks": 1,
+      "failed_checks": 0
+    },
+    "data": {
+      "patient_info": {
+        "Order_ID": "B13695A9-840B-4CF2-A499-60F5F3FA5526",
+        "FileMaker_Record_Number": "20241222023-01",
+        "Patient_Address": "1927 NW 27th St,  ",
+        "Patient_City": "Cape Coral",
+        "Patient_State": "FL",
+        "Patient_Zip": "33993.0",
+        "Patient_Injury_Date": "12/1/2024",
+        "Patient_Injury_Description": "Right Ankle",
+        "Patient_DOB": "6/12/1989",
+        "Patient_Last_Name": "Cano",
+        "Patient_First_Name": "Geraldo",
+        "PatientName": "Geraldo Cano",
+        "PatientPhone": "13059344571",
+        "Referring_Physician": null,
+        "Referring_Physician_NPI": null,
+        "Assigning_Company": "Publix",
+        "Assigning_Adjuster": "Cori Contreras",
+        "Claim_Number": "WC2024641159",
+        "Order_Type": "Imaging",
+        "Jurisdiction_State": "FL",
+        "created_at": "2024-12-26 14:00:10",
+        "updated_at": "2024-12-26 14:00:10",
+        "is_active": 1,
+        "bundle_type": null,
+        "provider_id": "DB079FBA-ADC5-443D-B957-3312F55D6342",
+        "provider_name": "Care First Imaging"
+      },
+      "provider_info": {
+        "Address 1 Full": "1203 SE 8th Ave \nCape Coral, FL 33990",
+        "Billing Address 1": "PO BOX 31125",
+        "Billing Address 2": "",
+        "Billing Address City": "TAMPA",
+        "Billing Address Postal Code": "336313125",
+        "Billing Address State": "FL",
+        "Billing Name": "RADIOLOGY IMAGING SPECIALISTS LLC",
+        "DBA Name Billing Name": "Care First Imaging",
+        "Latitude": "26.6294602",
+        "Location": null,
+        "Need OTA": null,
+        "Provider Network": "Out of Network",
+        "Provider Status": "Research Phase",
+        "Provider Type": "Imaging",
+        "TIN": "81-1981130",
+        "NPI": "1376182923",
+        "PrimaryKey": "DB079FBA-ADC5-443D-B957-3312F55D6342"
+      },
+      "date_of_service": "2024-12-09",
+      "line_items": [
+        {
+          "date_of_service": "2024-12-09",
+          "cpt": "73721",
+          "modifier": "RT",
+          "units": 1,
+          "charge": "1950.00",
+          "validated_rate": 250.0
+        }
+      ],
+      "comparison_details": {}
+    }
+  },
+  {
+    "file_info": {
+      "file_name": "C:\\Users\\ChristopherCato\\OneDrive - clarity-dx.com\\Documents\\Bill_Review_INTERNAL\\scripts\\VAILIDATION\\data\\extracts\\valid\\mapped\\staging\\20250109_1009.json",
+      "order_id": "F4F7A61D-B81A-423A-A7E6-5EDF39A73407",
+      "timestamp": "2025-03-13T11:22:46.278314",
+      "validation_session_id": "1a09e030-8d09-42d1-8dd0-4f3bd90d3295"
+    },
+    "validation_summary": {
+      "status": "PASS",
+      "total_checks": 1,
+      "failed_checks": 0
+    },
+    "data": {
+      "patient_info": {
+        "Order_ID": "F4F7A61D-B81A-423A-A7E6-5EDF39A73407",
+        "FileMaker_Record_Number": "20241121512-01",
+        "Patient_Address": "22789 SW Surf Blvd ",
+        "Patient_City": "Ocala",
+        "Patient_State": "FL",
+        "Patient_Zip": "34474.0",
+        "Patient_Injury_Date": "8/15/2024",
+        "Patient_Injury_Description": "Right Elbow",
+        "Patient_DOB": "4/3/1966",
+        "Patient_Last_Name": "Doyle",
+        "Patient_First_Name": "Mary",
+        "PatientName": "Mary Doyle",
+        "PatientPhone": "19788074028",
+        "Referring_Physician": null,
+        "Referring_Physician_NPI": null,
+        "Assigning_Company": "Davies",
+        "Assigning_Adjuster": "Kass Bassette",
+        "Claim_Number": "1287551",
+        "Order_Type": "Imaging",
+        "Jurisdiction_State": "FL",
+        "created_at": "2024-12-26 14:00:10",
+        "updated_at": "2024-12-26 14:00:10",
+        "is_active": 1,
+        "bundle_type": null,
+        "provider_id": "BB290DD4-A7D2-4A88-B0C4-42D7FE59D02C",
+        "provider_name": "Care First Imaging"
+      },
+      "provider_info": {
+        "Address 1 Full": "1714 SW 17TH ST \nOCALA, FL 34471",
+        "Billing Address 1": "PO BOX 631520",
+        "Billing Address 2": null,
+        "Billing Address City": "CINCINNATI",
+        "Billing Address Postal Code": "452631520",
+        "Billing Address State": "OH",
+        "Billing Name": "RADIOLOGY IMAGIN SPECIALISTS LLC",
+        "DBA Name Billing Name": "Care First Imaging",
+        "Latitude": "29.1701874",
+        "Location": null,
+        "Need OTA": null,
+        "Provider Network": "Out of Network",
+        "Provider Status": "Contact Initiated",
+        "Provider Type": "Imaging",
+        "TIN": "81-1981130",
+        "NPI": "1952763971",
+        "PrimaryKey": "BB290DD4-A7D2-4A88-B0C4-42D7FE59D02C"
+      },
+      "date_of_service": "2024-12-09",
+      "line_items": [
+        {
+          "date_of_service": "2024-12-09",
+          "cpt": "73200",
+          "modifier": "RT",
+          "units": 1,
+          "charge": "700.00",
+          "validated_rate": 200.0
+        }
+      ],
+      "comparison_details": {}
+    }
+  },
+  {
+    "file_info": {
+      "file_name": "C:\\Users\\ChristopherCato\\OneDrive - clarity-dx.com\\Documents\\Bill_Review_INTERNAL\\scripts\\VAILIDATION\\data\\extracts\\valid\\mapped\\staging\\20250109_1010.json",
+      "order_id": "0135EFC3-8348-45B5-9E69-36B9BD6335C4",
+      "timestamp": "2025-03-13T11:22:46.278345",
+      "validation_session_id": "1a09e030-8d09-42d1-8dd0-4f3bd90d3295"
+    },
+    "validation_summary": {
+      "status": "PASS",
+      "total_checks": 1,
+      "failed_checks": 0
+    },
+    "data": {
+      "patient_info": {
+        "Order_ID": "0135EFC3-8348-45B5-9E69-36B9BD6335C4",
+        "FileMaker_Record_Number": "20241121304-01",
+        "Patient_Address": "4770 NW 64th St ",
+        "Patient_City": "Ocala",
+        "Patient_State": "Fl",
+        "Patient_Zip": "34482.0",
+        "Patient_Injury_Date": "8/30/2024",
+        "Patient_Injury_Description": "RT Humerus",
+        "Patient_DOB": "9/8/1964",
+        "Patient_Last_Name": "Iturrey",
+        "Patient_First_Name": "Betsy P",
+        "PatientName": "Betsy P Iturrey",
+        "PatientPhone": "13522926077",
+        "Referring_Physician": null,
+        "Referring_Physician_NPI": null,
+        "Assigning_Company": "Davies",
+        "Assigning_Adjuster": "Kass Bassette",
+        "Claim_Number": "1288915",
+        "Order_Type": "Imaging",
+        "Jurisdiction_State": "FL",
+        "created_at": "2024-12-26 14:00:10",
+        "updated_at": "2024-12-26 14:00:10",
+        "is_active": 1,
+        "bundle_type": null,
+        "provider_id": "BB290DD4-A7D2-4A88-B0C4-42D7FE59D02C",
+        "provider_name": "Care First Imaging"
+      },
+      "provider_info": {
+        "Address 1 Full": "1714 SW 17TH ST \nOCALA, FL 34471",
+        "Billing Address 1": "PO BOX 631520",
+        "Billing Address 2": null,
+        "Billing Address City": "CINCINNATI",
+        "Billing Address Postal Code": "452631520",
+        "Billing Address State": "OH",
+        "Billing Name": "RADIOLOGY IMAGIN SPECIALISTS LLC",
+        "DBA Name Billing Name": "Care First Imaging",
+        "Latitude": "29.1701874",
+        "Location": null,
+        "Need OTA": null,
+        "Provider Network": "Out of Network",
+        "Provider Status": "Contact Initiated",
+        "Provider Type": "Imaging",
+        "TIN": "81-1981130",
+        "NPI": "1952763971",
+        "PrimaryKey": "BB290DD4-A7D2-4A88-B0C4-42D7FE59D02C"
+      },
+      "date_of_service": "2024-12-09",
+      "line_items": [
+        {
+          "date_of_service": "2024-12-09",
+          "cpt": "73218",
+          "modifier": "RT",
+          "units": 1,
+          "charge": "1950",
+          "validated_rate": 250.0
+        }
+      ],
+      "comparison_details": {}
+    }
+  },
+  {
+    "file_info": {
+      "file_name": "C:\\Users\\ChristopherCato\\OneDrive - clarity-dx.com\\Documents\\Bill_Review_INTERNAL\\scripts\\VAILIDATION\\data\\extracts\\valid\\mapped\\staging\\20250109_1095.json",
+      "order_id": "5A825507-27A1-4F99-8261-0732D5306E5D",
+      "timestamp": "2025-03-13T11:22:46.278536",
+      "validation_session_id": "1a09e030-8d09-42d1-8dd0-4f3bd90d3295"
+    },
+    "validation_summary": {
+      "status": "PASS",
+      "total_checks": 1,
+      "failed_checks": 0
+    },
+    "data": {
+      "patient_info": {
+        "Order_ID": "5A825507-27A1-4F99-8261-0732D5306E5D",
+        "FileMaker_Record_Number": "20241121599-01",
+        "Patient_Address": "9444 N Millitary Trl ",
+        "Patient_City": "Palm Beach Gardens ",
+        "Patient_State": "FL",
+        "Patient_Zip": "33802.0",
+        "Patient_Injury_Date": "1/8/2014",
+        "Patient_Injury_Description": "L-Spine, LT hip",
+        "Patient_DOB": "10/13/1965",
+        "Patient_Last_Name": "Edwards",
+        "Patient_First_Name": "Shafiga",
+        "PatientName": "Shafiga Edwards",
+        "PatientPhone": "15613899511",
+        "Referring_Physician": null,
+        "Referring_Physician_NPI": null,
+        "Assigning_Company": "Publix",
+        "Assigning_Adjuster": "Evelyn Dowdy",
+        "Claim_Number": "WC2014305335 ",
+        "Order_Type": "Imaging",
+        "Jurisdiction_State": "FL",
+        "created_at": "2024-12-26 14:00:10",
+        "updated_at": "2024-12-26 14:00:10",
+        "is_active": 1,
+        "bundle_type": null,
+        "provider_id": "B3E168DD-C15C-4AC7-81FA-57485A40D79B",
+        "provider_name": "Rayus Radiology"
+      },
+      "provider_info": {
+        "Address 1 Full": "3601 PGA Boulevard \nPalm Beach Gardens, FL 33410",
+        "Billing Address 1": "PO BOX 745918",
+        "Billing Address 2": null,
+        "Billing Address City": "LOS ANGELES",
+        "Billing Address Postal Code": "90074-5918",
+        "Billing Address State": "CA",
+        "Billing Name": "RAYUS RADIOLOGY",
+        "DBA Name Billing Name": "Rayus Radiology",
+        "Latitude": "26.8454473",
+        "Location": null,
+        "Need OTA": "No",
+        "Provider Network": "Out of Network",
+        "Provider Status": "Research Phase",
+        "Provider Type": "Imaging",
+        "TIN": "65-0378614",
+        "NPI": "1730125261",
+        "PrimaryKey": "B3E168DD-C15C-4AC7-81FA-57485A40D79B"
+      },
+      "date_of_service": "2024-11-27",
+      "line_items": [
+        {
+          "date_of_service": "2024-11-27",
+          "cpt": "73721",
+          "modifier": "LT",
+          "units": 1,
+          "charge": "2439.00",
+          "validated_rate": 250.0
+        }
+      ],
+      "comparison_details": {
+        "hcfa_codes": [
+          "73721"
+        ],
+        "order_codes": [
+          "73721",
+          "72148"
+        ],
+        "hcfa_categories": {
+          "73721": "MRI w/o"
+        },
+        "order_categories": {
+          "72148": "MRI w/o",
+          "73721": "MRI w/o"
+        }
+      }
+    }
+  },
+  {
+    "file_info": {
+      "file_name": "C:\\Users\\ChristopherCato\\OneDrive - clarity-dx.com\\Documents\\Bill_Review_INTERNAL\\scripts\\VAILIDATION\\data\\extracts\\valid\\mapped\\staging\\20250109_1159.json",
+      "order_id": "5A825507-27A1-4F99-8261-0732D5306E5D",
+      "timestamp": "2025-03-13T11:22:46.278687",
+      "validation_session_id": "1a09e030-8d09-42d1-8dd0-4f3bd90d3295"
+    },
+    "validation_summary": {
+      "status": "PASS",
+      "total_checks": 1,
+      "failed_checks": 0
+    },
+    "data": {
+      "patient_info": {
+        "Order_ID": "5A825507-27A1-4F99-8261-0732D5306E5D",
+        "FileMaker_Record_Number": "20241121599-01",
+        "Patient_Address": "9444 N Millitary Trl ",
+        "Patient_City": "Palm Beach Gardens ",
+        "Patient_State": "FL",
+        "Patient_Zip": "33802.0",
+        "Patient_Injury_Date": "1/8/2014",
+        "Patient_Injury_Description": "L-Spine, LT hip",
+        "Patient_DOB": "10/13/1965",
+        "Patient_Last_Name": "Edwards",
+        "Patient_First_Name": "Shafiga",
+        "PatientName": "Shafiga Edwards",
+        "PatientPhone": "15613899511",
+        "Referring_Physician": null,
+        "Referring_Physician_NPI": null,
+        "Assigning_Company": "Publix",
+        "Assigning_Adjuster": "Evelyn Dowdy",
+        "Claim_Number": "WC2014305335 ",
+        "Order_Type": "Imaging",
+        "Jurisdiction_State": "FL",
+        "created_at": "2024-12-26 14:00:10",
+        "updated_at": "2024-12-26 14:00:10",
+        "is_active": 1,
+        "bundle_type": null,
+        "provider_id": "B3E168DD-C15C-4AC7-81FA-57485A40D79B",
+        "provider_name": "Rayus Radiology"
+      },
+      "provider_info": {
+        "Address 1 Full": "3601 PGA Boulevard \nPalm Beach Gardens, FL 33410",
+        "Billing Address 1": "PO BOX 745918",
+        "Billing Address 2": null,
+        "Billing Address City": "LOS ANGELES",
+        "Billing Address Postal Code": "90074-5918",
+        "Billing Address State": "CA",
+        "Billing Name": "RAYUS RADIOLOGY",
+        "DBA Name Billing Name": "Rayus Radiology",
+        "Latitude": "26.8454473",
+        "Location": null,
+        "Need OTA": "No",
+        "Provider Network": "Out of Network",
+        "Provider Status": "Research Phase",
+        "Provider Type": "Imaging",
+        "TIN": "65-0378614",
+        "NPI": "1730125261",
+        "PrimaryKey": "B3E168DD-C15C-4AC7-81FA-57485A40D79B"
+      },
+      "date_of_service": "2024-11-27",
+      "line_items": [
+        {
+          "date_of_service": "2024-11-27",
+          "cpt": "72148",
+          "modifier": null,
+          "units": 1,
+          "charge": "2547.00",
+          "validated_rate": 250.0
+        }
+      ],
+      "comparison_details": {
+        "hcfa_codes": [
+          "72148"
+        ],
+        "order_codes": [
+          "73721",
+          "72148"
+        ],
+        "hcfa_categories": {
+          "72148": "MRI w/o"
+        },
+        "order_categories": {
+          "72148": "MRI w/o",
+          "73721": "MRI w/o"
+        }
+      }
+    }
+  },
+  {
+    "file_info": {
+      "file_name": "C:\\Users\\ChristopherCato\\OneDrive - clarity-dx.com\\Documents\\Bill_Review_INTERNAL\\scripts\\VAILIDATION\\data\\extracts\\valid\\mapped\\staging\\20250112_1052.json",
+      "order_id": "A810292B-7C3E-46A7-8A2A-ED63D1AE02EA",
+      "timestamp": "2025-03-13T11:22:46.278861",
+      "validation_session_id": "1a09e030-8d09-42d1-8dd0-4f3bd90d3295"
+    },
+    "validation_summary": {
+      "status": "PASS",
+      "total_checks": 1,
+      "failed_checks": 0
+    },
+    "data": {
+      "patient_info": {
+        "Order_ID": "A810292B-7C3E-46A7-8A2A-ED63D1AE02EA",
+        "FileMaker_Record_Number": "20241221917-01",
+        "Patient_Address": " 7800 Point Meadows Drive\u00a0 Apt 1435 ",
+        "Patient_City": "Jacksonville",
+        "Patient_State": "Fl",
+        "Patient_Zip": "32256.0",
+        "Patient_Injury_Date": "11/19/2024",
+        "Patient_Injury_Description": "RT Knee",
+        "Patient_DOB": "6/29/1975",
+        "Patient_Last_Name": "Mundo",
+        "Patient_First_Name": "Luis",
+        "PatientName": "Luis Mundo",
+        "PatientPhone": "19049932351",
+        "Referring_Physician": null,
+        "Referring_Physician_NPI": null,
+        "Assigning_Company": "Midwestern Insurance Alliance LLC",
+        "Assigning_Adjuster": "Ashley  Simmons",
+        "Claim_Number": "MP-20241121001",
+        "Order_Type": "Imaging",
+        "Jurisdiction_State": "FL",
+        "created_at": "2024-12-26 14:00:10",
+        "updated_at": "2024-12-26 14:00:10",
+        "is_active": 1,
+        "bundle_type": null,
+        "provider_id": "62D183B3-35C0-4A78-A133-643E8B19A8BE",
+        "provider_name": "Precision Imaging Centers"
+      },
+      "provider_info": {
+        "Address 1 Full": "7860 Gate Parkway Suite 123\nJacksonville, Fl 32256",
+        "Billing Address 1": "7860 Gate Pkwy",
+        "Billing Address 2": null,
+        "Billing Address City": "Jacksonville",
+        "Billing Address Postal Code": "322567286",
+        "Billing Address State": "FL",
+        "Billing Name": "Medical Imaging Partnership",
+        "DBA Name Billing Name": "Precision Imaging Centers",
+        "Latitude": "30.2353788",
+        "Location": null,
+        "Need OTA": null,
+        "Provider Network": "In Network",
+        "Provider Status": "Contract Complete",
+        "Provider Type": "Imaging",
+        "TIN": "20-5147377",
+        "NPI": "1104849280",
+        "PrimaryKey": "62D183B3-35C0-4A78-A133-643E8B19A8BE"
+      },
+      "date_of_service": "2024-12-09",
+      "line_items": [
+        {
+          "date_of_service": "2024-12-09",
+          "cpt": "73721",
+          "modifier": "RT",
+          "units": 1,
+          "charge": "1262.63",
+          "validated_rate": 275.0
+        }
+      ],
+      "comparison_details": {}
+    }
+  },
+  {
+    "file_info": {
+      "file_name": "C:\\Users\\ChristopherCato\\OneDrive - clarity-dx.com\\Documents\\Bill_Review_INTERNAL\\scripts\\VAILIDATION\\data\\extracts\\valid\\mapped\\staging\\20250114_1019.json",
+      "order_id": "34BD4D32-F5F0-4EBB-809F-E285F741503E",
+      "timestamp": "2025-03-13T11:22:46.278937",
+      "validation_session_id": "1a09e030-8d09-42d1-8dd0-4f3bd90d3295"
+    },
+    "validation_summary": {
+      "status": "PASS",
+      "total_checks": 1,
+      "failed_checks": 0
+    },
+    "data": {
+      "patient_info": {
+        "Order_ID": "34BD4D32-F5F0-4EBB-809F-E285F741503E",
+        "FileMaker_Record_Number": "2024618616-01",
+        "Patient_Address": "1775 Honey Ln #10 ",
+        "Patient_City": "Greenwood",
+        "Patient_State": "IN",
+        "Patient_Zip": "46143.0",
+        "Patient_Injury_Date": "6/14/2023",
+        "Patient_Injury_Description": "LT Ankle",
+        "Patient_DOB": "10/5/1991",
+        "Patient_Last_Name": "Daniels",
+        "Patient_First_Name": "Mintrecia",
+        "PatientName": "Mintrecia Daniels",
+        "PatientPhone": "13345382316",
+        "Referring_Physician": "Kevin Julian",
+        "Referring_Physician_NPI": "1992700488",
+        "Assigning_Company": "Benchmark Administrators",
+        "Assigning_Adjuster": "Shelby  Wright",
+        "Claim_Number": "20230004042",
+        "Order_Type": "Imaging",
+        "Jurisdiction_State": "FL",
+        "created_at": "2024-12-26 14:00:10",
+        "updated_at": "2024-12-26 14:00:10",
+        "is_active": 1,
+        "bundle_type": null,
+        "provider_id": "851076D3-95DE-43B6-9E27-8B0735E2473F",
+        "provider_name": "Rayus Radiology - Greenwood"
+      },
+      "provider_info": {
+        "Address 1 Full": "521 E County Line Rd  #D\nGreenwood, IN 46143",
+        "Billing Address 1": "PO BOX 2303",
+        "Billing Address 2": "DEPT 163",
+        "Billing Address City": "INDIANAPOLIS",
+        "Billing Address Postal Code": "46206-2303",
+        "Billing Address State": "IN",
+        "Billing Name": "RAYUS RADIOLOGY",
+        "DBA Name Billing Name": "Rayus Radiology - Greenwood",
+        "Latitude": "39.6352752",
+        "Location": null,
+        "Need OTA": "Yes",
+        "Provider Network": "In Network",
+        "Provider Status": "Research Phase",
+        "Provider Type": "Imaging",
+        "TIN": "41-1410766",
+        "NPI": "1396712725",
+        "PrimaryKey": "851076D3-95DE-43B6-9E27-8B0735E2473F"
+      },
+      "date_of_service": "2024-07-08",
+      "line_items": [
+        {
+          "date_of_service": "2024-07-08",
+          "cpt": "73721",
+          "modifier": "LT",
+          "units": 1,
+          "charge": "2368.00",
+          "validated_rate": 400.0
+        }
+      ],
+      "comparison_details": {}
+    }
+  },
+  {
+    "file_info": {
+      "file_name": "C:\\Users\\ChristopherCato\\OneDrive - clarity-dx.com\\Documents\\Bill_Review_INTERNAL\\scripts\\VAILIDATION\\data\\extracts\\valid\\mapped\\staging\\20250114_1038.json",
+      "order_id": "03EDD4E6-3944-48EF-98BD-DE4BE11E263D",
+      "timestamp": "2025-03-13T11:22:46.278995",
+      "validation_session_id": "1a09e030-8d09-42d1-8dd0-4f3bd90d3295"
+    },
+    "validation_summary": {
+      "status": "PASS",
+      "total_checks": 1,
+      "failed_checks": 0
+    },
+    "data": {
+      "patient_info": {
+        "Order_ID": "03EDD4E6-3944-48EF-98BD-DE4BE11E263D",
+        "FileMaker_Record_Number": "20241222398-01",
+        "Patient_Address": "6217 Lottie Street ",
+        "Patient_City": "Jacksonville",
+        "Patient_State": "FL",
+        "Patient_Zip": "32216.0",
+        "Patient_Injury_Date": "2024-12-18 00:00:00",
+        "Patient_Injury_Description": "Lumbar Spine",
+        "Patient_DOB": "1972-12-25 00:00:00",
+        "Patient_Last_Name": "Keenan",
+        "Patient_First_Name": "Robert",
+        "PatientName": "Robert Keenan",
+        "PatientPhone": "19044779994.0",
+        "Referring_Physician": null,
+        "Referring_Physician_NPI": null,
+        "Assigning_Company": "Publix",
+        "Assigning_Adjuster": "Madyson Rice",
+        "Claim_Number": "WC2024642312 ",
+        "Order_Type": "Imaging",
+        "Jurisdiction_State": "FL",
+        "created_at": "2024-12-26 14:27:15",
+        "updated_at": "2024-12-26 14:27:15",
+        "is_active": 1,
+        "bundle_type": null,
+        "provider_id": "CFAF01E0-789D-40A1-9A48-46116F7B7FF8",
+        "provider_name": "SimonMed Imaging - Jacksonville"
+      },
+      "provider_info": {
+        "Address 1 Full": "6138 Kennerly Road STE 100 \nJacksonville, FL 32216",
+        "Billing Address 1": "PO BOX 203573",
+        "Billing Address 2": null,
+        "Billing Address City": "DALLAS",
+        "Billing Address Postal Code": "753203573",
+        "Billing Address State": "TX",
+        "Billing Name": "SIMONMED IMAGING FLORIDA LLC",
+        "DBA Name Billing Name": "SimonMed Imaging - Jacksonville",
+        "Latitude": "30.2833673",
+        "Location": null,
+        "Need OTA": null,
+        "Provider Network": "In Network",
+        "Provider Status": "Contract Complete",
+        "Provider Type": "Imaging",
+        "TIN": "45-3727094",
+        "NPI": "1477123446",
+        "PrimaryKey": "CFAF01E0-789D-40A1-9A48-46116F7B7FF8"
+      },
+      "date_of_service": "2024-12-27",
+      "line_items": [
+        {
+          "date_of_service": "2024-12-27",
+          "cpt": "72148",
+          "modifier": null,
+          "units": 1,
+          "charge": "1529.00",
+          "validated_rate": 250.0
+        }
+      ],
+      "comparison_details": {}
+    }
+  },
+  {
+    "file_info": {
+      "file_name": "C:\\Users\\ChristopherCato\\OneDrive - clarity-dx.com\\Documents\\Bill_Review_INTERNAL\\scripts\\VAILIDATION\\data\\extracts\\valid\\mapped\\staging\\20250114_1045.json",
+      "order_id": "C85D92DC-F292-4C5F-9422-DB13FE885188",
+      "timestamp": "2025-03-13T11:22:46.279033",
+      "validation_session_id": "1a09e030-8d09-42d1-8dd0-4f3bd90d3295"
+    },
+    "validation_summary": {
+      "status": "PASS",
+      "total_checks": 1,
+      "failed_checks": 0
+    },
+    "data": {
+      "patient_info": {
+        "Order_ID": "C85D92DC-F292-4C5F-9422-DB13FE885188",
+        "FileMaker_Record_Number": "20241222235-01",
+        "Patient_Address": "2301 SE 26th St ",
+        "Patient_City": "Ocala",
+        "Patient_State": "FL",
+        "Patient_Zip": "34471.0",
+        "Patient_Injury_Date": "2024-12-13 00:00:00",
+        "Patient_Injury_Description": "RT Knee",
+        "Patient_DOB": "1972-09-15 00:00:00",
+        "Patient_Last_Name": "Moody",
+        "Patient_First_Name": "Tracy G.",
+        "PatientName": "Tracy G. Moody",
+        "PatientPhone": "13525725939.0",
+        "Referring_Physician": null,
+        "Referring_Physician_NPI": null,
+        "Assigning_Company": "Davies",
+        "Assigning_Adjuster": "Kass Bassette",
+        "Claim_Number": "1298281 ",
+        "Order_Type": "Imaging",
+        "Jurisdiction_State": "FL",
+        "created_at": "2024-12-26 14:27:15",
+        "updated_at": "2024-12-26 14:27:15",
+        "is_active": 1,
+        "bundle_type": null,
+        "provider_id": "BB290DD4-A7D2-4A88-B0C4-42D7FE59D02C",
+        "provider_name": "Care First Imaging"
+      },
+      "provider_info": {
+        "Address 1 Full": "1714 SW 17TH ST \nOCALA, FL 34471",
+        "Billing Address 1": "PO BOX 631520",
+        "Billing Address 2": null,
+        "Billing Address City": "CINCINNATI",
+        "Billing Address Postal Code": "452631520",
+        "Billing Address State": "OH",
+        "Billing Name": "RADIOLOGY IMAGIN SPECIALISTS LLC",
+        "DBA Name Billing Name": "Care First Imaging",
+        "Latitude": "29.1701874",
+        "Location": null,
+        "Need OTA": null,
+        "Provider Network": "Out of Network",
+        "Provider Status": "Contact Initiated",
+        "Provider Type": "Imaging",
+        "TIN": "81-1981130",
+        "NPI": "1952763971",
+        "PrimaryKey": "BB290DD4-A7D2-4A88-B0C4-42D7FE59D02C"
+      },
+      "date_of_service": "2024-12-20",
+      "line_items": [
+        {
+          "date_of_service": "2024-12-20",
+          "cpt": "73721",
+          "modifier": "RT",
+          "units": 1,
+          "charge": "1950.00",
+          "validated_rate": 250.0
+        }
+      ],
+      "comparison_details": {}
+    }
+  },
+  {
+    "file_info": {
+      "file_name": "C:\\Users\\ChristopherCato\\OneDrive - clarity-dx.com\\Documents\\Bill_Review_INTERNAL\\scripts\\VAILIDATION\\data\\extracts\\valid\\mapped\\staging\\20250125_1025.json",
+      "order_id": "9A8610B1-F4E3-49AA-BC0B-857D3DC18199",
+      "timestamp": "2025-03-13T11:22:46.279198",
+      "validation_session_id": "1a09e030-8d09-42d1-8dd0-4f3bd90d3295"
+    },
+    "validation_summary": {
+      "status": "PASS",
+      "total_checks": 1,
+      "failed_checks": 0
+    },
+    "data": {
+      "patient_info": {
+        "Order_ID": "9A8610B1-F4E3-49AA-BC0B-857D3DC18199",
+        "FileMaker_Record_Number": "2025122617",
+        "Patient_Address": "2540 Camden Park Cir ",
+        "Patient_City": "Davenport ",
+        "Patient_State": "FL",
+        "Patient_Zip": "33837.0",
+        "Patient_Injury_Date": "2022-07-11 00:00:00",
+        "Patient_Injury_Description": "Lumbar Spine",
+        "Patient_DOB": "1968-02-23 00:00:00",
+        "Patient_Last_Name": "Bentham",
+        "Patient_First_Name": "David ",
+        "PatientName": "David  Bentham",
+        "PatientPhone": "14079849483.0",
+        "Referring_Physician": "Steven E Weber ",
+        "Referring_Physician_NPI": "1528031606",
+        "Assigning_Company": "Commercial Risk Managment, Inc",
+        "Assigning_Adjuster": "Sarah Heinzen",
+        "Claim_Number": "50430188",
+        "Order_Type": "Imaging",
+        "Jurisdiction_State": "FL",
+        "created_at": "2025-01-18 15:48:00",
+        "updated_at": "2025-01-18 15:48:00",
+        "is_active": 1,
+        "bundle_type": null,
+        "provider_id": "313D4151-8AC2-4B03-BB39-90E68D3FA8F7",
+        "provider_name": "Rayus - Winter Park"
+      },
+      "provider_info": {
+        "Address 1 Full": "964 S Orlando Ave  \nWinter Park, FL 32789",
+        "Billing Address 1": "PO BOX 198207",
+        "Billing Address 2": null,
+        "Billing Address City": "ATLANTA",
+        "Billing Address Postal Code": "30384-8207",
+        "Billing Address State": "GA",
+        "Billing Name": "RAYUS RADIOLOGY",
+        "DBA Name Billing Name": "Rayus - Winter Park",
+        "Latitude": "28.5886231",
+        "Location": null,
+        "Need OTA": "Yes",
+        "Provider Network": "In Network",
+        "Provider Status": "Contract Complete",
+        "Provider Type": "Imaging",
+        "TIN": "41-1410766",
+        "NPI": "1871560201",
+        "PrimaryKey": "313D4151-8AC2-4B03-BB39-90E68D3FA8F7"
+      },
+      "date_of_service": "2025-01-10",
+      "line_items": [
+        {
+          "date_of_service": "2025-01-10",
+          "cpt": "72148",
+          "modifier": null,
+          "units": 1,
+          "charge": "2547.00",
+          "validated_rate": 250.0
+        }
+      ],
+      "comparison_details": {}
+    }
+  },
+  {
+    "file_info": {
+      "file_name": "C:\\Users\\ChristopherCato\\OneDrive - clarity-dx.com\\Documents\\Bill_Review_INTERNAL\\scripts\\VAILIDATION\\data\\extracts\\valid\\mapped\\staging\\20250125_1048.json",
+      "order_id": "A810292B-7C3E-46A7-8A2A-ED63D1AE02EA",
+      "timestamp": "2025-03-13T11:22:46.279283",
+      "validation_session_id": "1a09e030-8d09-42d1-8dd0-4f3bd90d3295"
+    },
+    "validation_summary": {
+      "status": "PASS",
+      "total_checks": 1,
+      "failed_checks": 0
+    },
+    "data": {
+      "patient_info": {
+        "Order_ID": "A810292B-7C3E-46A7-8A2A-ED63D1AE02EA",
+        "FileMaker_Record_Number": "20241221917-01",
+        "Patient_Address": " 7800 Point Meadows Drive\u00a0 Apt 1435 ",
+        "Patient_City": "Jacksonville",
+        "Patient_State": "Fl",
+        "Patient_Zip": "32256.0",
+        "Patient_Injury_Date": "11/19/2024",
+        "Patient_Injury_Description": "RT Knee",
+        "Patient_DOB": "6/29/1975",
+        "Patient_Last_Name": "Mundo",
+        "Patient_First_Name": "Luis",
+        "PatientName": "Luis Mundo",
+        "PatientPhone": "19049932351",
+        "Referring_Physician": null,
+        "Referring_Physician_NPI": null,
+        "Assigning_Company": "Midwestern Insurance Alliance LLC",
+        "Assigning_Adjuster": "Ashley  Simmons",
+        "Claim_Number": "MP-20241121001",
+        "Order_Type": "Imaging",
+        "Jurisdiction_State": "FL",
+        "created_at": "2024-12-26 14:00:10",
+        "updated_at": "2024-12-26 14:00:10",
+        "is_active": 1,
+        "bundle_type": null,
+        "provider_id": "62D183B3-35C0-4A78-A133-643E8B19A8BE",
+        "provider_name": "Precision Imaging Centers"
+      },
+      "provider_info": {
+        "Address 1 Full": "7860 Gate Parkway Suite 123\nJacksonville, Fl 32256",
+        "Billing Address 1": "7860 Gate Pkwy",
+        "Billing Address 2": null,
+        "Billing Address City": "Jacksonville",
+        "Billing Address Postal Code": "322567286",
+        "Billing Address State": "FL",
+        "Billing Name": "Medical Imaging Partnership",
+        "DBA Name Billing Name": "Precision Imaging Centers",
+        "Latitude": "30.2353788",
+        "Location": null,
+        "Need OTA": null,
+        "Provider Network": "In Network",
+        "Provider Status": "Contract Complete",
+        "Provider Type": "Imaging",
+        "TIN": "20-5147377",
+        "NPI": "1104849280",
+        "PrimaryKey": "62D183B3-35C0-4A78-A133-643E8B19A8BE"
+      },
+      "date_of_service": "2024-12-09",
+      "line_items": [
+        {
+          "date_of_service": "2024-12-09",
+          "cpt": "73721",
+          "modifier": "RT",
+          "units": 1,
+          "charge": "1262.63",
+          "validated_rate": 275.0
+        }
+      ],
+      "comparison_details": {}
+    }
+  },
+  {
+    "file_info": {
+      "file_name": "C:\\Users\\ChristopherCato\\OneDrive - clarity-dx.com\\Documents\\Bill_Review_INTERNAL\\scripts\\VAILIDATION\\data\\extracts\\valid\\mapped\\staging\\20250125_1060.json",
+      "order_id": "A810292B-7C3E-46A7-8A2A-ED63D1AE02EA",
+      "timestamp": "2025-03-13T11:22:46.279334",
+      "validation_session_id": "1a09e030-8d09-42d1-8dd0-4f3bd90d3295"
+    },
+    "validation_summary": {
+      "status": "PASS",
+      "total_checks": 1,
+      "failed_checks": 0
+    },
+    "data": {
+      "patient_info": {
+        "Order_ID": "A810292B-7C3E-46A7-8A2A-ED63D1AE02EA",
+        "FileMaker_Record_Number": "20241221917-01",
+        "Patient_Address": " 7800 Point Meadows Drive\u00a0 Apt 1435 ",
+        "Patient_City": "Jacksonville",
+        "Patient_State": "Fl",
+        "Patient_Zip": "32256.0",
+        "Patient_Injury_Date": "11/19/2024",
+        "Patient_Injury_Description": "RT Knee",
+        "Patient_DOB": "6/29/1975",
+        "Patient_Last_Name": "Mundo",
+        "Patient_First_Name": "Luis",
+        "PatientName": "Luis Mundo",
+        "PatientPhone": "19049932351",
+        "Referring_Physician": null,
+        "Referring_Physician_NPI": null,
+        "Assigning_Company": "Midwestern Insurance Alliance LLC",
+        "Assigning_Adjuster": "Ashley  Simmons",
+        "Claim_Number": "MP-20241121001",
+        "Order_Type": "Imaging",
+        "Jurisdiction_State": "FL",
+        "created_at": "2024-12-26 14:00:10",
+        "updated_at": "2024-12-26 14:00:10",
+        "is_active": 1,
+        "bundle_type": null,
+        "provider_id": "62D183B3-35C0-4A78-A133-643E8B19A8BE",
+        "provider_name": "Precision Imaging Centers"
+      },
+      "provider_info": {
+        "Address 1 Full": "7860 Gate Parkway Suite 123\nJacksonville, Fl 32256",
+        "Billing Address 1": "7860 Gate Pkwy",
+        "Billing Address 2": null,
+        "Billing Address City": "Jacksonville",
+        "Billing Address Postal Code": "322567286",
+        "Billing Address State": "FL",
+        "Billing Name": "Medical Imaging Partnership",
+        "DBA Name Billing Name": "Precision Imaging Centers",
+        "Latitude": "30.2353788",
+        "Location": null,
+        "Need OTA": null,
+        "Provider Network": "In Network",
+        "Provider Status": "Contract Complete",
+        "Provider Type": "Imaging",
+        "TIN": "20-5147377",
+        "NPI": "1104849280",
+        "PrimaryKey": "62D183B3-35C0-4A78-A133-643E8B19A8BE"
+      },
+      "date_of_service": "2024-12-09",
+      "line_items": [
+        {
+          "date_of_service": "2024-12-09",
+          "cpt": "73721",
+          "modifier": "RT",
+          "units": 1,
+          "charge": "1262.63",
+          "validated_rate": 275.0
+        }
+      ],
+      "comparison_details": {}
+    }
+  },
+  {
+    "file_info": {
+      "file_name": "C:\\Users\\ChristopherCato\\OneDrive - clarity-dx.com\\Documents\\Bill_Review_INTERNAL\\scripts\\VAILIDATION\\data\\extracts\\valid\\mapped\\staging\\20250129_1007.json",
+      "order_id": "1917CB21-BFC3-4898-8DE8-E7B8B7F34C95",
+      "timestamp": "2025-03-13T11:22:46.279379",
+      "validation_session_id": "1a09e030-8d09-42d1-8dd0-4f3bd90d3295"
+    },
+    "validation_summary": {
+      "status": "PASS",
+      "total_checks": 1,
+      "failed_checks": 0
+    },
+    "data": {
+      "patient_info": {
+        "Order_ID": "1917CB21-BFC3-4898-8DE8-E7B8B7F34C95",
+        "FileMaker_Record_Number": "20241222238-01",
+        "Patient_Address": "11803 85th St North ",
+        "Patient_City": "Largo",
+        "Patient_State": "Fl",
+        "Patient_Zip": "33773.0",
+        "Patient_Injury_Date": "2023-11-09 00:00:00",
+        "Patient_Injury_Description": "Lt Tibia",
+        "Patient_DOB": "1984-03-29 00:00:00",
+        "Patient_Last_Name": "Brito",
+        "Patient_First_Name": "Carlos P",
+        "PatientName": "Carlos P Brito",
+        "PatientPhone": "17274819326.0",
+        "Referring_Physician": null,
+        "Referring_Physician_NPI": null,
+        "Assigning_Company": "Commerical Risk Management",
+        "Assigning_Adjuster": "Jennifer Clark",
+        "Claim_Number": "16180066",
+        "Order_Type": "Imaging",
+        "Jurisdiction_State": "FL",
+        "created_at": "2024-12-26 14:27:15",
+        "updated_at": "2024-12-26 14:27:15",
+        "is_active": 1,
+        "bundle_type": null,
+        "provider_id": "5D4D5AD4-85BE-46F0-A02F-0A8FA9A61E4F",
+        "provider_name": "SimonMed Imaging - Pinellas Park"
+      },
+      "provider_info": {
+        "Address 1 Full": "4800 Pinellas Park \nPinellas Park, FL 33781",
+        "Billing Address 1": "PO BOX 203573",
+        "Billing Address 2": null,
+        "Billing Address City": "DALLAS",
+        "Billing Address Postal Code": "753203573",
+        "Billing Address State": "TX",
+        "Billing Name": "SIMONMED IMAGING FLORIDA LLC",
+        "DBA Name Billing Name": "SimonMed Imaging - Pinellas Park",
+        "Latitude": "27.8435655",
+        "Location": null,
+        "Need OTA": "No",
+        "Provider Network": "In Network",
+        "Provider Status": "Contract Complete",
+        "Provider Type": "Imaging",
+        "TIN": "45-3727094",
+        "NPI": "1538739479",
+        "PrimaryKey": "5D4D5AD4-85BE-46F0-A02F-0A8FA9A61E4F"
+      },
+      "date_of_service": "2025-01-02",
+      "line_items": [
+        {
+          "date_of_service": "2025-01-02",
+          "cpt": "73700",
+          "modifier": "LT",
+          "units": 1,
+          "charge": "921",
+          "validated_rate": 170.0
+        }
+      ],
+      "comparison_details": {}
+    }
+  },
+  {
+    "file_info": {
+      "file_name": "C:\\Users\\ChristopherCato\\OneDrive - clarity-dx.com\\Documents\\Bill_Review_INTERNAL\\scripts\\VAILIDATION\\data\\extracts\\valid\\mapped\\staging\\20250129_1021.json",
+      "order_id": "236A9553-FF11-4057-A305-670635D872D6",
+      "timestamp": "2025-03-13T11:22:46.279455",
+      "validation_session_id": "1a09e030-8d09-42d1-8dd0-4f3bd90d3295"
+    },
+    "validation_summary": {
+      "status": "PASS",
+      "total_checks": 1,
+      "failed_checks": 0
+    },
+    "data": {
+      "patient_info": {
+        "Order_ID": "236A9553-FF11-4057-A305-670635D872D6",
+        "FileMaker_Record_Number": "20241222383",
+        "Patient_Address": "18795 S. Haven Circle ",
+        "Patient_City": "Athens",
+        "Patient_State": "AL",
+        "Patient_Zip": "35613.0",
+        "Patient_Injury_Date": "1988-11-28 00:00:00",
+        "Patient_Injury_Description": "Cervical Spine",
+        "Patient_DOB": "1945-04-26 00:00:00",
+        "Patient_Last_Name": "Cotton",
+        "Patient_First_Name": "Cheryl",
+        "PatientName": "Cheryl Cotton",
+        "PatientPhone": "18505866408.0",
+        "Referring_Physician": "Michael A. Cosgrove",
+        "Referring_Physician_NPI": "1750459616.0",
+        "Assigning_Company": "Davies",
+        "Assigning_Adjuster": "Lauren Hagerty",
+        "Claim_Number": "1190237",
+        "Order_Type": "Imaging",
+        "Jurisdiction_State": "AL",
+        "created_at": "2024-12-26 14:27:15",
+        "updated_at": "2024-12-26 14:27:15",
+        "is_active": 1,
+        "bundle_type": null,
+        "provider_id": "8D98CC90-CC96-4C86-A9C6-8BC40566C33C",
+        "provider_name": "ODC of Athens"
+      },
+      "provider_info": {
+        "Address 1 Full": "22281 US Hwy 72 STE C \nAthens, AL 35613",
+        "Billing Address 1": "PO BOX 1000",
+        "Billing Address 2": "DEPT 447",
+        "Billing Address City": "Memphis",
+        "Billing Address Postal Code": "38148",
+        "Billing Address State": "TN",
+        "Billing Name": "Diagnostic Health MRI of GADS",
+        "DBA Name Billing Name": "ODC of Athens",
+        "Latitude": "34.7809125",
+        "Location": null,
+        "Need OTA": null,
+        "Provider Network": "In Network",
+        "Provider Status": "Contract Complete",
+        "Provider Type": "Imaging",
+        "TIN": "63-1280228",
+        "NPI": "1407247943",
+        "PrimaryKey": "8D98CC90-CC96-4C86-A9C6-8BC40566C33C"
+      },
+      "date_of_service": "2025-01-13",
+      "line_items": [
+        {
+          "date_of_service": "2025-01-13",
+          "cpt": "72125",
+          "modifier": null,
+          "units": 1,
+          "charge": "600.00",
+          "validated_rate": 175.0
+        }
+      ],
+      "comparison_details": {}
+    }
+  },
+  {
+    "file_info": {
+      "file_name": "C:\\Users\\ChristopherCato\\OneDrive - clarity-dx.com\\Documents\\Bill_Review_INTERNAL\\scripts\\VAILIDATION\\data\\extracts\\valid\\mapped\\staging\\20250129_1028.json",
+      "order_id": "75E5E810-551F-4204-9D2D-6B8EEB2A07EE",
+      "timestamp": "2025-03-13T11:22:46.279493",
+      "validation_session_id": "1a09e030-8d09-42d1-8dd0-4f3bd90d3295"
+    },
+    "validation_summary": {
+      "status": "PASS",
+      "total_checks": 1,
+      "failed_checks": 0
+    },
+    "data": {
+      "patient_info": {
+        "Order_ID": "75E5E810-551F-4204-9D2D-6B8EEB2A07EE",
+        "FileMaker_Record_Number": "2025122756-01",
+        "Patient_Address": "4 Jack Reynold Way ",
+        "Patient_City": "Glen MIlls",
+        "Patient_State": "PA",
+        "Patient_Zip": "19342.0",
+        "Patient_Injury_Date": "2024-12-05",
+        "Patient_Injury_Description": "Right Elbow",
+        "Patient_DOB": "2002-09-06 00:00:00",
+        "Patient_Last_Name": "Wharry",
+        "Patient_First_Name": "Jackson",
+        "PatientName": "Jackson Wharry",
+        "PatientPhone": "14849997526.0",
+        "Referring_Physician": "Christopher J. Mehallo",
+        "Referring_Physician_NPI": "1730103706.0",
+        "Assigning_Company": "Benchmark Administrators",
+        "Assigning_Adjuster": "Colleen Ford",
+        "Claim_Number": "20240005748",
+        "Order_Type": "Imaging",
+        "Jurisdiction_State": "PA",
+        "created_at": "2025-01-18 15:48:00",
+        "updated_at": "2025-02-09 15:03:21",
+        "is_active": 1,
+        "bundle_type": null,
+        "provider_id": "21A0F81B-F7F8-4AB8-B8AC-6540D3E63AB8",
+        "provider_name": "Atlantic Medical Imaging At Inspira"
+      },
+      "provider_info": {
+        "Address 1 Full": "40 Village Green Dr. \nWoolwich Twnshp, NJ 08085",
+        "Billing Address 1": "PO BOX 1564",
+        "Billing Address 2": null,
+        "Billing Address City": "INDIANAPOLIS",
+        "Billing Address Postal Code": "46206",
+        "Billing Address State": "IN",
+        "Billing Name": "ATLANTIC MEDICAL IMAGING",
+        "DBA Name Billing Name": "Atlantic Medical Imaging At Inspira",
+        "Latitude": "39.7375178",
+        "Location": null,
+        "Need OTA": null,
+        "Provider Network": "In Network",
+        "Provider Status": "Contract Complete",
+        "Provider Type": "Imaging",
+        "TIN": "22-2222502",
+        "NPI": "1396771556",
+        "PrimaryKey": "21A0F81B-F7F8-4AB8-B8AC-6540D3E63AB8"
+      },
+      "date_of_service": "2025-01-20",
+      "line_items": [
+        {
+          "date_of_service": "2025-01-20",
+          "cpt": "73221",
+          "modifier": "RT",
+          "units": 1,
+          "charge": "1435",
+          "validated_rate": 375.0
+        }
+      ],
+      "comparison_details": {}
+    }
+  },
+  {
+    "file_info": {
+      "file_name": "C:\\Users\\ChristopherCato\\OneDrive - clarity-dx.com\\Documents\\Bill_Review_INTERNAL\\scripts\\VAILIDATION\\data\\extracts\\valid\\mapped\\staging\\20250129_1061.json",
+      "order_id": "7E40B82D-9CC7-4643-91D4-C182B118AA10",
+      "timestamp": "2025-03-13T11:22:46.279572",
+      "validation_session_id": "1a09e030-8d09-42d1-8dd0-4f3bd90d3295"
+    },
+    "validation_summary": {
+      "status": "PASS",
+      "total_checks": 1,
+      "failed_checks": 0
+    },
+    "data": {
+      "patient_info": {
+        "Order_ID": "7E40B82D-9CC7-4643-91D4-C182B118AA10",
+        "FileMaker_Record_Number": "2024920099-01",
+        "Patient_Address": "703 Harris St ",
+        "Patient_City": "Morgan",
+        "Patient_State": "Texas",
+        "Patient_Zip": "76671.0",
+        "Patient_Injury_Date": "2024-08-26 00:00:00",
+        "Patient_Injury_Description": "RT knee",
+        "Patient_DOB": "1973-08-26 00:00:00",
+        "Patient_Last_Name": "Williams ",
+        "Patient_First_Name": "James",
+        "PatientName": "James Williams ",
+        "PatientPhone": "12543154889.0",
+        "Referring_Physician": "Lonniejay Latimer",
+        "Referring_Physician_NPI": "14374665562.0",
+        "Assigning_Company": "Benchmark",
+        "Assigning_Adjuster": "Edder Hernandez",
+        "Claim_Number": "202400004342",
+        "Order_Type": "Imaging",
+        "Jurisdiction_State": "TX",
+        "created_at": "2024-12-26 14:00:10",
+        "updated_at": "2025-01-09 13:39:37",
+        "is_active": 1,
+        "bundle_type": null,
+        "provider_id": "C505913E-EA34-4C63-9C54-A4FD98A65E16",
+        "provider_name": "Touchstone Imaging - Waco"
+      },
+      "provider_info": {
+        "Address 1 Full": "312 Richland West Cr                                              \nWaco, TX 76712-7919",
+        "Billing Address 1": "PO BOX 746003",
+        "Billing Address 2": null,
+        "Billing Address City": "ATLANTA",
+        "Billing Address Postal Code": "30374-6003",
+        "Billing Address State": "GA",
+        "Billing Name": "BTDI JV LLP",
+        "DBA Name Billing Name": "Touchstone Imaging - Waco",
+        "Latitude": "31.5142899",
+        "Location": null,
+        "Need OTA": "No",
+        "Provider Network": "In Network",
+        "Provider Status": "Contract Complete",
+        "Provider Type": "Imaging",
+        "TIN": "46-2908086",
+        "NPI": "1730543570",
+        "PrimaryKey": "C505913E-EA34-4C63-9C54-A4FD98A65E16"
+      },
+      "date_of_service": "2024-10-04",
+      "line_items": [
+        {
+          "date_of_service": "2024-10-04",
+          "cpt": "73721",
+          "modifier": "RT",
+          "units": 1,
+          "charge": "2119.00",
+          "validated_rate": 277.24
+        }
+      ],
+      "comparison_details": {}
+    }
+  },
+  {
+    "file_info": {
+      "file_name": "C:\\Users\\ChristopherCato\\OneDrive - clarity-dx.com\\Documents\\Bill_Review_INTERNAL\\scripts\\VAILIDATION\\data\\extracts\\valid\\mapped\\staging\\20250129_1062.json",
+      "order_id": "7E40B82D-9CC7-4643-91D4-C182B118AA10",
+      "timestamp": "2025-03-13T11:22:46.279604",
+      "validation_session_id": "1a09e030-8d09-42d1-8dd0-4f3bd90d3295"
+    },
+    "validation_summary": {
+      "status": "PASS",
+      "total_checks": 1,
+      "failed_checks": 0
+    },
+    "data": {
+      "patient_info": {
+        "Order_ID": "7E40B82D-9CC7-4643-91D4-C182B118AA10",
+        "FileMaker_Record_Number": "2024920099-01",
+        "Patient_Address": "703 Harris St ",
+        "Patient_City": "Morgan",
+        "Patient_State": "Texas",
+        "Patient_Zip": "76671.0",
+        "Patient_Injury_Date": "2024-08-26 00:00:00",
+        "Patient_Injury_Description": "RT knee",
+        "Patient_DOB": "1973-08-26 00:00:00",
+        "Patient_Last_Name": "Williams ",
+        "Patient_First_Name": "James",
+        "PatientName": "James Williams ",
+        "PatientPhone": "12543154889.0",
+        "Referring_Physician": "Lonniejay Latimer",
+        "Referring_Physician_NPI": "14374665562.0",
+        "Assigning_Company": "Benchmark",
+        "Assigning_Adjuster": "Edder Hernandez",
+        "Claim_Number": "202400004342",
+        "Order_Type": "Imaging",
+        "Jurisdiction_State": "TX",
+        "created_at": "2024-12-26 14:00:10",
+        "updated_at": "2025-01-09 13:39:37",
+        "is_active": 1,
+        "bundle_type": null,
+        "provider_id": "C505913E-EA34-4C63-9C54-A4FD98A65E16",
+        "provider_name": "Touchstone Imaging - Waco"
+      },
+      "provider_info": {
+        "Address 1 Full": "312 Richland West Cr                                              \nWaco, TX 76712-7919",
+        "Billing Address 1": "PO BOX 746003",
+        "Billing Address 2": null,
+        "Billing Address City": "ATLANTA",
+        "Billing Address Postal Code": "30374-6003",
+        "Billing Address State": "GA",
+        "Billing Name": "BTDI JV LLP",
+        "DBA Name Billing Name": "Touchstone Imaging - Waco",
+        "Latitude": "31.5142899",
+        "Location": null,
+        "Need OTA": "No",
+        "Provider Network": "In Network",
+        "Provider Status": "Contract Complete",
+        "Provider Type": "Imaging",
+        "TIN": "46-2908086",
+        "NPI": "1730543570",
+        "PrimaryKey": "C505913E-EA34-4C63-9C54-A4FD98A65E16"
+      },
+      "date_of_service": "2024-09-21",
+      "line_items": [
+        {
+          "date_of_service": "2024-09-21",
+          "cpt": "73721",
+          "modifier": "RT",
+          "units": 1,
+          "charge": "2119.00",
+          "validated_rate": 277.24
+        }
+      ],
+      "comparison_details": {}
+    }
+  },
+  {
+    "file_info": {
+      "file_name": "C:\\Users\\ChristopherCato\\OneDrive - clarity-dx.com\\Documents\\Bill_Review_INTERNAL\\scripts\\VAILIDATION\\data\\extracts\\valid\\mapped\\staging\\20250129_1063.json",
+      "order_id": "7E40B82D-9CC7-4643-91D4-C182B118AA10",
+      "timestamp": "2025-03-13T11:22:46.279636",
+      "validation_session_id": "1a09e030-8d09-42d1-8dd0-4f3bd90d3295"
+    },
+    "validation_summary": {
+      "status": "PASS",
+      "total_checks": 1,
+      "failed_checks": 0
+    },
+    "data": {
+      "patient_info": {
+        "Order_ID": "7E40B82D-9CC7-4643-91D4-C182B118AA10",
+        "FileMaker_Record_Number": "2024920099-01",
+        "Patient_Address": "703 Harris St ",
+        "Patient_City": "Morgan",
+        "Patient_State": "Texas",
+        "Patient_Zip": "76671.0",
+        "Patient_Injury_Date": "2024-08-26 00:00:00",
+        "Patient_Injury_Description": "RT knee",
+        "Patient_DOB": "1973-08-26 00:00:00",
+        "Patient_Last_Name": "Williams ",
+        "Patient_First_Name": "James",
+        "PatientName": "James Williams ",
+        "PatientPhone": "12543154889.0",
+        "Referring_Physician": "Lonniejay Latimer",
+        "Referring_Physician_NPI": "14374665562.0",
+        "Assigning_Company": "Benchmark",
+        "Assigning_Adjuster": "Edder Hernandez",
+        "Claim_Number": "202400004342",
+        "Order_Type": "Imaging",
+        "Jurisdiction_State": "TX",
+        "created_at": "2024-12-26 14:00:10",
+        "updated_at": "2025-01-09 13:39:37",
+        "is_active": 1,
+        "bundle_type": null,
+        "provider_id": "C505913E-EA34-4C63-9C54-A4FD98A65E16",
+        "provider_name": "Touchstone Imaging - Waco"
+      },
+      "provider_info": {
+        "Address 1 Full": "312 Richland West Cr                                              \nWaco, TX 76712-7919",
+        "Billing Address 1": "PO BOX 746003",
+        "Billing Address 2": null,
+        "Billing Address City": "ATLANTA",
+        "Billing Address Postal Code": "30374-6003",
+        "Billing Address State": "GA",
+        "Billing Name": "BTDI JV LLP",
+        "DBA Name Billing Name": "Touchstone Imaging - Waco",
+        "Latitude": "31.5142899",
+        "Location": null,
+        "Need OTA": "No",
+        "Provider Network": "In Network",
+        "Provider Status": "Contract Complete",
+        "Provider Type": "Imaging",
+        "TIN": "46-2908086",
+        "NPI": "1730543570",
+        "PrimaryKey": "C505913E-EA34-4C63-9C54-A4FD98A65E16"
+      },
+      "date_of_service": "2024-09-21",
+      "line_items": [
+        {
+          "date_of_service": "2024-09-21",
+          "cpt": "73721",
+          "modifier": "RT",
+          "units": 1,
+          "charge": "2119.00",
+          "validated_rate": 277.24
+        }
+      ],
+      "comparison_details": {}
+    }
+  },
+  {
+    "file_info": {
+      "file_name": "C:\\Users\\ChristopherCato\\OneDrive - clarity-dx.com\\Documents\\Bill_Review_INTERNAL\\scripts\\VAILIDATION\\data\\extracts\\valid\\mapped\\staging\\20250129_1064.json",
+      "order_id": "7E40B82D-9CC7-4643-91D4-C182B118AA10",
+      "timestamp": "2025-03-13T11:22:46.279667",
+      "validation_session_id": "1a09e030-8d09-42d1-8dd0-4f3bd90d3295"
+    },
+    "validation_summary": {
+      "status": "PASS",
+      "total_checks": 1,
+      "failed_checks": 0
+    },
+    "data": {
+      "patient_info": {
+        "Order_ID": "7E40B82D-9CC7-4643-91D4-C182B118AA10",
+        "FileMaker_Record_Number": "2024920099-01",
+        "Patient_Address": "703 Harris St ",
+        "Patient_City": "Morgan",
+        "Patient_State": "Texas",
+        "Patient_Zip": "76671.0",
+        "Patient_Injury_Date": "2024-08-26 00:00:00",
+        "Patient_Injury_Description": "RT knee",
+        "Patient_DOB": "1973-08-26 00:00:00",
+        "Patient_Last_Name": "Williams ",
+        "Patient_First_Name": "James",
+        "PatientName": "James Williams ",
+        "PatientPhone": "12543154889.0",
+        "Referring_Physician": "Lonniejay Latimer",
+        "Referring_Physician_NPI": "14374665562.0",
+        "Assigning_Company": "Benchmark",
+        "Assigning_Adjuster": "Edder Hernandez",
+        "Claim_Number": "202400004342",
+        "Order_Type": "Imaging",
+        "Jurisdiction_State": "TX",
+        "created_at": "2024-12-26 14:00:10",
+        "updated_at": "2025-01-09 13:39:37",
+        "is_active": 1,
+        "bundle_type": null,
+        "provider_id": "C505913E-EA34-4C63-9C54-A4FD98A65E16",
+        "provider_name": "Touchstone Imaging - Waco"
+      },
+      "provider_info": {
+        "Address 1 Full": "312 Richland West Cr                                              \nWaco, TX 76712-7919",
+        "Billing Address 1": "PO BOX 746003",
+        "Billing Address 2": null,
+        "Billing Address City": "ATLANTA",
+        "Billing Address Postal Code": "30374-6003",
+        "Billing Address State": "GA",
+        "Billing Name": "BTDI JV LLP",
+        "DBA Name Billing Name": "Touchstone Imaging - Waco",
+        "Latitude": "31.5142899",
+        "Location": null,
+        "Need OTA": "No",
+        "Provider Network": "In Network",
+        "Provider Status": "Contract Complete",
+        "Provider Type": "Imaging",
+        "TIN": "46-2908086",
+        "NPI": "1730543570",
+        "PrimaryKey": "C505913E-EA34-4C63-9C54-A4FD98A65E16"
+      },
+      "date_of_service": "2024-10-04",
+      "line_items": [
+        {
+          "date_of_service": "2024-10-04",
+          "cpt": "73721",
+          "modifier": "RT",
+          "units": 1,
+          "charge": "2119.00",
+          "validated_rate": 277.24
+        }
+      ],
+      "comparison_details": {}
+    }
+  },
+  {
+    "file_info": {
+      "file_name": "C:\\Users\\ChristopherCato\\OneDrive - clarity-dx.com\\Documents\\Bill_Review_INTERNAL\\scripts\\VAILIDATION\\data\\extracts\\valid\\mapped\\staging\\20250129_1098.json",
+      "order_id": "03177EAC-B404-465A-A693-8FC45904F3FF",
+      "timestamp": "2025-03-13T11:22:46.279777",
+      "validation_session_id": "1a09e030-8d09-42d1-8dd0-4f3bd90d3295"
+    },
+    "validation_summary": {
+      "status": "PASS",
+      "total_checks": 3,
+      "failed_checks": 0
+    },
+    "data": {
+      "patient_info": {
+        "Order_ID": "03177EAC-B404-465A-A693-8FC45904F3FF",
+        "FileMaker_Record_Number": "2025122607-01",
+        "Patient_Address": "15835 Hummingbird Lane ",
+        "Patient_City": "West Lake ",
+        "Patient_State": "FL",
+        "Patient_Zip": "33470.0",
+        "Patient_Injury_Date": "2024-10-28 00:00:00",
+        "Patient_Injury_Description": "Brain",
+        "Patient_DOB": "1988-05-01 00:00:00",
+        "Patient_Last_Name": "Wint",
+        "Patient_First_Name": "Kimberley",
+        "PatientName": "Kimberley Wint",
+        "PatientPhone": "19177045143.0",
+        "Referring_Physician": null,
+        "Referring_Physician_NPI": null,
+        "Assigning_Company": "Davies",
+        "Assigning_Adjuster": "Jonica Najarian",
+        "Claim_Number": "1294180",
+        "Order_Type": "Imaging",
+        "Jurisdiction_State": "FL",
+        "created_at": "2025-01-18 15:48:00",
+        "updated_at": "2025-01-18 15:48:00",
+        "is_active": 1,
+        "bundle_type": null,
+        "provider_id": "798B0CE6-BA89-49DB-BF97-0D38C2C7DE85",
+        "provider_name": "Rayus Radiology - Wellington"
+      },
+      "provider_info": {
+        "Address 1 Full": "2565 S State Rd 7 \nWellington, FL 33414",
+        "Billing Address 1": "PO BOX 745918",
+        "Billing Address 2": "",
+        "Billing Address City": "LOS ANGELES",
+        "Billing Address Postal Code": "90074-5918",
+        "Billing Address State": "CA",
+        "Billing Name": "RAYUS RADIOLOGY",
+        "DBA Name Billing Name": "Rayus Radiology - Wellington",
+        "Latitude": "26.6426755",
+        "Location": null,
+        "Need OTA": null,
+        "Provider Network": "In Network",
+        "Provider Status": "Contract Complete",
+        "Provider Type": "Imaging",
+        "TIN": "65-0378614",
+        "NPI": "1730125261",
+        "PrimaryKey": "798B0CE6-BA89-49DB-BF97-0D38C2C7DE85"
+      },
+      "date_of_service": "2025-01-14",
+      "line_items": [
+        {
+          "date_of_service": "2025-01-14",
+          "cpt": "70553",
+          "modifier": null,
+          "units": 1,
+          "charge": "3879.00",
+          "validated_rate": 400.0
+        },
+        {
+          "date_of_service": "2025-01-14",
+          "cpt": "A9575",
+          "modifier": null,
+          "units": 164,
+          "charge": "557.60",
+          "validated_rate": 0.0
+        },
+        {
+          "date_of_service": "2025-01-14",
+          "cpt": "A9575",
+          "modifier": "JW",
+          "units": 36,
+          "charge": "122.40",
+          "validated_rate": 0.0
+        }
+      ],
+      "comparison_details": {
+        "hcfa_codes": [
+          "A9575",
+          "70553"
+        ],
+        "order_codes": [
+          "70553"
+        ],
+        "hcfa_categories": {
+          "70553": "MRI w/&w/o",
+          "A9575": "ancillary"
+        },
+        "order_categories": {
+          "70553": "MRI w/&w/o"
+        }
+      }
+    }
+  },
+  {
+    "file_info": {
+      "file_name": "C:\\Users\\ChristopherCato\\OneDrive - clarity-dx.com\\Documents\\Bill_Review_INTERNAL\\scripts\\VAILIDATION\\data\\extracts\\valid\\mapped\\staging\\20250201_1004.json",
+      "order_id": "0989D05B-1F64-4B2D-9E98-ED50D143DE65",
+      "timestamp": "2025-03-13T11:22:46.279885",
+      "validation_session_id": "1a09e030-8d09-42d1-8dd0-4f3bd90d3295"
+    },
+    "validation_summary": {
+      "status": "PASS",
+      "total_checks": 1,
+      "failed_checks": 0
+    },
+    "data": {
+      "patient_info": {
+        "Order_ID": "0989D05B-1F64-4B2D-9E98-ED50D143DE65",
+        "FileMaker_Record_Number": "2025122660-01",
+        "Patient_Address": "201 Wisteria Gardens Cir  ",
+        "Patient_City": "Newnan",
+        "Patient_State": "GA",
+        "Patient_Zip": "30265.0",
+        "Patient_Injury_Date": "2024-12-30 00:00:00",
+        "Patient_Injury_Description": "Lumbosacral Spine",
+        "Patient_DOB": "1965-05-24 00:00:00",
+        "Patient_Last_Name": "Dawson",
+        "Patient_First_Name": "Dereice",
+        "PatientName": "Dereice Dawson",
+        "PatientPhone": "16786518737.0",
+        "Referring_Physician": "Wanda Guy Craft",
+        "Referring_Physician_NPI": "1598958894",
+        "Assigning_Company": "CCMSI",
+        "Assigning_Adjuster": "Sheila Louis",
+        "Claim_Number": "24C97M509783",
+        "Order_Type": "Imaging",
+        "Jurisdiction_State": "GA",
+        "created_at": "2025-01-18 15:48:00",
+        "updated_at": "2025-01-18 15:48:00",
+        "is_active": 1,
+        "bundle_type": null,
+        "provider_id": "ADD7BDF9-6034-4A91-9F28-50E92B4D54DE",
+        "provider_name": "American Health Imaging of Newnan"
+      },
+      "provider_info": {
+        "Address 1 Full": "10 Mercantile Drive \nNewnan, GA 30265-1325",
+        "Billing Address 1": "PO BOX 745973",
+        "Billing Address 2": null,
+        "Billing Address City": "ATLANTA",
+        "Billing Address Postal Code": "30374",
+        "Billing Address State": "GA",
+        "Billing Name": "AMERICAN HEALTH IMAGING OF GEORGIA LLC",
+        "DBA Name Billing Name": "American Health Imaging of Newnan",
+        "Latitude": "33.3988979",
+        "Location": null,
+        "Need OTA": "No",
+        "Provider Network": "In Network",
+        "Provider Status": "Contract Complete",
+        "Provider Type": "Imaging",
+        "TIN": "58-2388975",
+        "NPI": "1144206764",
+        "PrimaryKey": "ADD7BDF9-6034-4A91-9F28-50E92B4D54DE"
+      },
+      "date_of_service": "2025-01-14",
+      "line_items": [
+        {
+          "date_of_service": "2025-01-14",
+          "cpt": "72148",
+          "modifier": null,
+          "units": 1,
+          "charge": "2370.00",
+          "validated_rate": 402.22
+        }
+      ],
+      "comparison_details": {}
+    }
+  },
+  {
+    "file_info": {
+      "file_name": "C:\\Users\\ChristopherCato\\OneDrive - clarity-dx.com\\Documents\\Bill_Review_INTERNAL\\scripts\\VAILIDATION\\data\\extracts\\valid\\mapped\\staging\\20250204_1026.json",
+      "order_id": "8164D86C-4729-4B1A-86CC-569A57D7A634",
+      "timestamp": "2025-03-13T11:22:46.279976",
+      "validation_session_id": "1a09e030-8d09-42d1-8dd0-4f3bd90d3295"
+    },
+    "validation_summary": {
+      "status": "PASS",
+      "total_checks": 1,
+      "failed_checks": 0
+    },
+    "data": {
+      "patient_info": {
+        "Order_ID": "8164D86C-4729-4B1A-86CC-569A57D7A634",
+        "FileMaker_Record_Number": "2025122950-01",
+        "Patient_Address": "50 Forrestal Cir S ",
+        "Patient_City": "Jacksonville ",
+        "Patient_State": "Fl",
+        "Patient_Zip": "32233.0",
+        "Patient_Injury_Date": "2024-12-26",
+        "Patient_Injury_Description": "LT Knee ",
+        "Patient_DOB": "1984-07-06 00:00:00",
+        "Patient_Last_Name": "Clark",
+        "Patient_First_Name": "Nicole ",
+        "PatientName": "Nicole  Clark",
+        "PatientPhone": "13522841111.0",
+        "Referring_Physician": "Robert Stapleton",
+        "Referring_Physician_NPI": "1295154623.0",
+        "Assigning_Company": "City of Jacksonville",
+        "Assigning_Adjuster": "Jasko Kucukovic",
+        "Claim_Number": "2510 00069",
+        "Order_Type": "Imaging",
+        "Jurisdiction_State": "FL",
+        "created_at": "2025-02-09 15:03:21",
+        "updated_at": "2025-02-09 15:03:21",
+        "is_active": null,
+        "bundle_type": null,
+        "provider_id": "62D183B3-35C0-4A78-A133-643E8B19A8BE",
+        "provider_name": "Precision Imaging Centers"
+      },
+      "provider_info": {
+        "Address 1 Full": "7860 Gate Parkway Suite 123\nJacksonville, Fl 32256",
+        "Billing Address 1": "7860 Gate Pkwy",
+        "Billing Address 2": null,
+        "Billing Address City": "Jacksonville",
+        "Billing Address Postal Code": "322567286",
+        "Billing Address State": "FL",
+        "Billing Name": "Medical Imaging Partnership",
+        "DBA Name Billing Name": "Precision Imaging Centers",
+        "Latitude": "30.2353788",
+        "Location": null,
+        "Need OTA": null,
+        "Provider Network": "In Network",
+        "Provider Status": "Contract Complete",
+        "Provider Type": "Imaging",
+        "TIN": "20-5147377",
+        "NPI": "1104849280",
+        "PrimaryKey": "62D183B3-35C0-4A78-A133-643E8B19A8BE"
+      },
+      "date_of_service": "2025-01-27",
+      "line_items": [
+        {
+          "date_of_service": "2025-01-27",
+          "cpt": "73721",
+          "modifier": "LT",
+          "units": 1,
+          "charge": "1262.63",
+          "validated_rate": 275.0
+        }
+      ],
+      "comparison_details": {}
+    }
+  },
+  {
+    "file_info": {
+      "file_name": "C:\\Users\\ChristopherCato\\OneDrive - clarity-dx.com\\Documents\\Bill_Review_INTERNAL\\scripts\\VAILIDATION\\data\\extracts\\valid\\mapped\\staging\\20250204_1056.json",
+      "order_id": "B646201B-46BE-4B33-AE38-840A48C1121A",
+      "timestamp": "2025-03-13T11:22:46.280060",
+      "validation_session_id": "1a09e030-8d09-42d1-8dd0-4f3bd90d3295"
+    },
+    "validation_summary": {
+      "status": "PASS",
+      "total_checks": 1,
+      "failed_checks": 0
+    },
+    "data": {
+      "patient_info": {
+        "Order_ID": "B646201B-46BE-4B33-AE38-840A48C1121A",
+        "FileMaker_Record_Number": "20241121839-01",
+        "Patient_Address": "4343 SE 40th Ln ",
+        "Patient_City": "Ocala",
+        "Patient_State": "FL",
+        "Patient_Zip": "34480.0",
+        "Patient_Injury_Date": "10/25/2021",
+        "Patient_Injury_Description": "Cervical Spine",
+        "Patient_DOB": "3/30/1969",
+        "Patient_Last_Name": "Runyon",
+        "Patient_First_Name": "Felicia",
+        "PatientName": "Felicia Runyon",
+        "PatientPhone": "13527898046.0",
+        "Referring_Physician": null,
+        "Referring_Physician_NPI": null,
+        "Assigning_Company": "Davies",
+        "Assigning_Adjuster": "Kass Bassette",
+        "Claim_Number": "1065443",
+        "Order_Type": "Imaging",
+        "Jurisdiction_State": "FL",
+        "created_at": "2024-12-26 14:00:10",
+        "updated_at": "2024-12-26 14:00:10",
+        "is_active": 1,
+        "bundle_type": null,
+        "provider_id": "BB290DD4-A7D2-4A88-B0C4-42D7FE59D02C",
+        "provider_name": "Care First Imaging"
+      },
+      "provider_info": {
+        "Address 1 Full": "1714 SW 17TH ST \nOCALA, FL 34471",
+        "Billing Address 1": "PO BOX 631520",
+        "Billing Address 2": null,
+        "Billing Address City": "CINCINNATI",
+        "Billing Address Postal Code": "452631520",
+        "Billing Address State": "OH",
+        "Billing Name": "RADIOLOGY IMAGIN SPECIALISTS LLC",
+        "DBA Name Billing Name": "Care First Imaging",
+        "Latitude": "29.1701874",
+        "Location": null,
+        "Need OTA": null,
+        "Provider Network": "Out of Network",
+        "Provider Status": "Contact Initiated",
+        "Provider Type": "Imaging",
+        "TIN": "81-1981130",
+        "NPI": "1952763971",
+        "PrimaryKey": "BB290DD4-A7D2-4A88-B0C4-42D7FE59D02C"
+      },
+      "date_of_service": "2025-01-02",
+      "line_items": [
+        {
+          "date_of_service": "2025-01-02",
+          "cpt": "72141",
+          "modifier": null,
+          "units": 1,
+          "charge": "2250.00",
+          "validated_rate": 250.0
+        }
+      ],
+      "comparison_details": {}
+    }
+  },
+  {
+    "file_info": {
+      "file_name": "C:\\Users\\ChristopherCato\\OneDrive - clarity-dx.com\\Documents\\Bill_Review_INTERNAL\\scripts\\VAILIDATION\\data\\extracts\\valid\\mapped\\staging\\20250204_1064.json",
+      "order_id": "FF8AF874-9101-4848-9C6A-5D4D31F11235",
+      "timestamp": "2025-03-13T11:22:46.280105",
+      "validation_session_id": "1a09e030-8d09-42d1-8dd0-4f3bd90d3295"
+    },
+    "validation_summary": {
+      "status": "PASS",
+      "total_checks": 1,
+      "failed_checks": 0
+    },
+    "data": {
+      "patient_info": {
+        "Order_ID": "FF8AF874-9101-4848-9C6A-5D4D31F11235",
+        "FileMaker_Record_Number": "20241222287-01",
+        "Patient_Address": " 1200 NEWNAN CROSSING BLVD E APT 621 ",
+        "Patient_City": "Newnan",
+        "Patient_State": "GA",
+        "Patient_Zip": "30265.0",
+        "Patient_Injury_Date": "2024-11-01 00:00:00",
+        "Patient_Injury_Description": "L-Spine",
+        "Patient_DOB": "1979-08-21 00:00:00",
+        "Patient_Last_Name": "Petrarca",
+        "Patient_First_Name": "David ",
+        "PatientName": "David  Petrarca",
+        "PatientPhone": "17726344592.0",
+        "Referring_Physician": null,
+        "Referring_Physician_NPI": null,
+        "Assigning_Company": "Publix",
+        "Assigning_Adjuster": "Madyson Rice",
+        "Claim_Number": "WC2024639526",
+        "Order_Type": "Imaging",
+        "Jurisdiction_State": "GA",
+        "created_at": "2024-12-26 14:27:15",
+        "updated_at": "2024-12-26 14:27:15",
+        "is_active": 1,
+        "bundle_type": null,
+        "provider_id": "ADD7BDF9-6034-4A91-9F28-50E92B4D54DE",
+        "provider_name": "American Health Imaging of Newnan"
+      },
+      "provider_info": {
+        "Address 1 Full": "10 Mercantile Drive \nNewnan, GA 30265-1325",
+        "Billing Address 1": "PO BOX 745973",
+        "Billing Address 2": null,
+        "Billing Address City": "ATLANTA",
+        "Billing Address Postal Code": "30374",
+        "Billing Address State": "GA",
+        "Billing Name": "AMERICAN HEALTH IMAGING OF GEORGIA LLC",
+        "DBA Name Billing Name": "American Health Imaging of Newnan",
+        "Latitude": "33.3988979",
+        "Location": null,
+        "Need OTA": "No",
+        "Provider Network": "In Network",
+        "Provider Status": "Contract Complete",
+        "Provider Type": "Imaging",
+        "TIN": "58-2388975",
+        "NPI": "1144206764",
+        "PrimaryKey": "ADD7BDF9-6034-4A91-9F28-50E92B4D54DE"
+      },
+      "date_of_service": "2024-12-23",
+      "line_items": [
+        {
+          "date_of_service": "2024-12-23",
+          "cpt": "72148",
+          "modifier": null,
+          "units": 1,
+          "charge": "2370.00",
+          "validated_rate": 402.22
+        }
+      ],
+      "comparison_details": {}
+    }
+  },
+  {
+    "file_info": {
+      "file_name": "C:\\Users\\ChristopherCato\\OneDrive - clarity-dx.com\\Documents\\Bill_Review_INTERNAL\\scripts\\VAILIDATION\\data\\extracts\\valid\\mapped\\staging\\20250204_1073.json",
+      "order_id": "6C1B7008-1A98-465F-A33E-A17446F4290E",
+      "timestamp": "2025-03-13T11:22:46.280156",
+      "validation_session_id": "1a09e030-8d09-42d1-8dd0-4f3bd90d3295"
+    },
+    "validation_summary": {
+      "status": "PASS",
+      "total_checks": 1,
+      "failed_checks": 0
+    },
+    "data": {
+      "patient_info": {
+        "Order_ID": "6C1B7008-1A98-465F-A33E-A17446F4290E",
+        "FileMaker_Record_Number": "2025122857-01",
+        "Patient_Address": "6742 Canary Palm Circle ",
+        "Patient_City": "Boca Raton",
+        "Patient_State": "FL",
+        "Patient_Zip": "33433.0",
+        "Patient_Injury_Date": "2025-01-08",
+        "Patient_Injury_Description": "Right Wrist",
+        "Patient_DOB": "1950-01-28 00:00:00",
+        "Patient_Last_Name": "Varela",
+        "Patient_First_Name": "Gloria J.",
+        "PatientName": "Gloria J. Varela",
+        "PatientPhone": "15613892142.0",
+        "Referring_Physician": "Theodore A. Pantaridis ",
+        "Referring_Physician_NPI": "1376783548.0",
+        "Assigning_Company": "Davies",
+        "Assigning_Adjuster": "Stephanie Foster",
+        "Claim_Number": "1299489",
+        "Order_Type": "Imaging",
+        "Jurisdiction_State": "FL",
+        "created_at": "2025-02-09 15:03:21",
+        "updated_at": "2025-02-09 15:03:21",
+        "is_active": null,
+        "bundle_type": null,
+        "provider_id": "DFB53306-FD81-4F91-8E5F-6A5EE7ECC555",
+        "provider_name": "Rayus Radiology Boca Raton"
+      },
+      "provider_info": {
+        "Address 1 Full": "8142 Glades Road \nBoca Raton, FL 33434",
+        "Billing Address 1": "PO BOX 745918",
+        "Billing Address 2": null,
+        "Billing Address City": "LOS ANGELES",
+        "Billing Address Postal Code": "90074-5918",
+        "Billing Address State": "CA",
+        "Billing Name": "RAYUS RADIOLOGY",
+        "DBA Name Billing Name": "Rayus Radiology Boca Raton",
+        "Latitude": "26.3672022",
+        "Location": null,
+        "Need OTA": "Yes",
+        "Provider Network": "Out of Network",
+        "Provider Status": "Research Phase",
+        "Provider Type": "Imaging",
+        "TIN": "65-0378614",
+        "NPI": "1730125261",
+        "PrimaryKey": "DFB53306-FD81-4F91-8E5F-6A5EE7ECC555"
+      },
+      "date_of_service": "2025-01-21",
+      "line_items": [
+        {
+          "date_of_service": "2025-01-21",
+          "cpt": "73221",
+          "modifier": "RT",
+          "units": 1,
+          "charge": "2439.00",
+          "validated_rate": 250.0
+        }
+      ],
+      "comparison_details": {}
+    }
+  },
+  {
+    "file_info": {
+      "file_name": "C:\\Users\\ChristopherCato\\OneDrive - clarity-dx.com\\Documents\\Bill_Review_INTERNAL\\scripts\\VAILIDATION\\data\\extracts\\valid\\mapped\\staging\\20250204_1107.json",
+      "order_id": "2034821F-6FF5-482C-ACF2-6D2024EF5561",
+      "timestamp": "2025-03-13T11:22:46.280250",
+      "validation_session_id": "1a09e030-8d09-42d1-8dd0-4f3bd90d3295"
+    },
+    "validation_summary": {
+      "status": "PASS",
+      "total_checks": 1,
+      "failed_checks": 0
+    },
+    "data": {
+      "patient_info": {
+        "Order_ID": "2034821F-6FF5-482C-ACF2-6D2024EF5561",
+        "FileMaker_Record_Number": "2025122772",
+        "Patient_Address": "94 Littlewood Rd. ",
+        "Patient_City": "Ponte Vedra Beach",
+        "Patient_State": "FL",
+        "Patient_Zip": "32801.0",
+        "Patient_Injury_Date": "2023-12-06 00:00:00",
+        "Patient_Injury_Description": "Right Hip",
+        "Patient_DOB": "1970-10-05 00:00:00",
+        "Patient_Last_Name": "Mays",
+        "Patient_First_Name": "Charles",
+        "PatientName": "Charles Mays",
+        "PatientPhone": "19046263444.0",
+        "Referring_Physician": "Catherine Abigail Schaffer",
+        "Referring_Physician_NPI": "1851025993",
+        "Assigning_Company": "City of Jacksonville",
+        "Assigning_Adjuster": "Leroy Gordon",
+        "Claim_Number": "231001727",
+        "Order_Type": "Imaging",
+        "Jurisdiction_State": "FL",
+        "created_at": "2025-01-18 15:48:00",
+        "updated_at": "2025-01-18 15:48:00",
+        "is_active": 1,
+        "bundle_type": null,
+        "provider_id": "62D183B3-35C0-4A78-A133-643E8B19A8BE",
+        "provider_name": "Precision Imaging Centers"
+      },
+      "provider_info": {
+        "Address 1 Full": "7860 Gate Parkway Suite 123\nJacksonville, Fl 32256",
+        "Billing Address 1": "7860 Gate Pkwy",
+        "Billing Address 2": null,
+        "Billing Address City": "Jacksonville",
+        "Billing Address Postal Code": "322567286",
+        "Billing Address State": "FL",
+        "Billing Name": "Medical Imaging Partnership",
+        "DBA Name Billing Name": "Precision Imaging Centers",
+        "Latitude": "30.2353788",
+        "Location": null,
+        "Need OTA": null,
+        "Provider Network": "In Network",
+        "Provider Status": "Contract Complete",
+        "Provider Type": "Imaging",
+        "TIN": "20-5147377",
+        "NPI": "1104849280",
+        "PrimaryKey": "62D183B3-35C0-4A78-A133-643E8B19A8BE"
+      },
+      "date_of_service": "2025-01-24",
+      "line_items": [
+        {
+          "date_of_service": "2025-01-24",
+          "cpt": "73718",
+          "modifier": "RT",
+          "units": 1,
+          "charge": "1261.73",
+          "validated_rate": 275.0
+        }
+      ],
+      "comparison_details": {}
+    }
+  },
+  {
+    "file_info": {
+      "file_name": "C:\\Users\\ChristopherCato\\OneDrive - clarity-dx.com\\Documents\\Bill_Review_INTERNAL\\scripts\\VAILIDATION\\data\\extracts\\valid\\mapped\\staging\\20250204_1140.json",
+      "order_id": "1953675B-3261-4DF2-9313-2A78624AE403",
+      "timestamp": "2025-03-13T11:22:46.280366",
+      "validation_session_id": "1a09e030-8d09-42d1-8dd0-4f3bd90d3295"
+    },
+    "validation_summary": {
+      "status": "PASS",
+      "total_checks": 2,
+      "failed_checks": 0
+    },
+    "data": {
+      "patient_info": {
+        "Order_ID": "1953675B-3261-4DF2-9313-2A78624AE403",
+        "FileMaker_Record_Number": "2025122654",
+        "Patient_Address": "10243 SW 38th Ave ",
+        "Patient_City": "Ocala",
+        "Patient_State": "FL",
+        "Patient_Zip": "34476.0",
+        "Patient_Injury_Date": "2024-10-24 00:00:00",
+        "Patient_Injury_Description": "Right Shoulder & Left Knee",
+        "Patient_DOB": "1973-04-28 00:00:00",
+        "Patient_Last_Name": "Bachmaier",
+        "Patient_First_Name": "Jennifer",
+        "PatientName": "Jennifer Bachmaier",
+        "PatientPhone": "13524109105.0",
+        "Referring_Physician": "James Desalvio",
+        "Referring_Physician_NPI": "1063539674 ",
+        "Assigning_Company": "Davies",
+        "Assigning_Adjuster": "Kass Bassette",
+        "Claim_Number": "12941032",
+        "Order_Type": "Imaging",
+        "Jurisdiction_State": "FL",
+        "created_at": "2025-01-18 15:48:00",
+        "updated_at": "2025-01-18 15:48:00",
+        "is_active": 1,
+        "bundle_type": null,
+        "provider_id": "BB290DD4-A7D2-4A88-B0C4-42D7FE59D02C",
+        "provider_name": "Care First Imaging"
+      },
+      "provider_info": {
+        "Address 1 Full": "1714 SW 17TH ST \nOCALA, FL 34471",
+        "Billing Address 1": "PO BOX 631520",
+        "Billing Address 2": null,
+        "Billing Address City": "CINCINNATI",
+        "Billing Address Postal Code": "452631520",
+        "Billing Address State": "OH",
+        "Billing Name": "RADIOLOGY IMAGIN SPECIALISTS LLC",
+        "DBA Name Billing Name": "Care First Imaging",
+        "Latitude": "29.1701874",
+        "Location": null,
+        "Need OTA": null,
+        "Provider Network": "Out of Network",
+        "Provider Status": "Contact Initiated",
+        "Provider Type": "Imaging",
+        "TIN": "81-1981130",
+        "NPI": "1952763971",
+        "PrimaryKey": "BB290DD4-A7D2-4A88-B0C4-42D7FE59D02C"
+      },
+      "date_of_service": "2025-01-18",
+      "line_items": [
+        {
+          "date_of_service": "2025-01-18",
+          "cpt": "73721",
+          "modifier": "LT",
+          "units": 1,
+          "charge": "2250.00",
+          "validated_rate": 250.0
+        },
+        {
+          "date_of_service": "2025-01-18",
+          "cpt": "73221",
+          "modifier": "RT",
+          "units": 1,
+          "charge": "2250.00",
+          "validated_rate": 250.0
+        }
+      ],
+      "comparison_details": {}
+    }
+  },
+  {
+    "file_info": {
+      "file_name": "C:\\Users\\ChristopherCato\\OneDrive - clarity-dx.com\\Documents\\Bill_Review_INTERNAL\\scripts\\VAILIDATION\\data\\extracts\\valid\\mapped\\staging\\20250208_1000.json",
+      "order_id": "CD9B3424-2033-4968-938C-215753104D29",
+      "timestamp": "2025-03-13T11:22:46.280472",
+      "validation_session_id": "1a09e030-8d09-42d1-8dd0-4f3bd90d3295"
+    },
+    "validation_summary": {
+      "status": "PASS",
+      "total_checks": 1,
+      "failed_checks": 0
+    },
+    "data": {
+      "patient_info": {
+        "Order_ID": "CD9B3424-2033-4968-938C-215753104D29",
+        "FileMaker_Record_Number": "2024920509-01",
+        "Patient_Address": "232 Mystic Castle Drive ",
+        "Patient_City": "St.Augustine",
+        "Patient_State": "Fl",
+        "Patient_Zip": "32086.0",
+        "Patient_Injury_Date": "8/26/2024",
+        "Patient_Injury_Description": "L-Spine ",
+        "Patient_DOB": "6/11/1959",
+        "Patient_Last_Name": "Deluca",
+        "Patient_First_Name": "Margaret",
+        "PatientName": "Margaret Deluca",
+        "PatientPhone": "16316037960",
+        "Referring_Physician": "Richard Todd Owens ",
+        "Referring_Physician_NPI": "1639330467.0",
+        "Assigning_Company": "Benchmark",
+        "Assigning_Adjuster": "Trenicia  Talley",
+        "Claim_Number": "20240004761",
+        "Order_Type": "Imaging",
+        "Jurisdiction_State": "FL",
+        "created_at": "2024-12-26 14:00:10",
+        "updated_at": "2024-12-26 14:00:10",
+        "is_active": 1,
+        "bundle_type": null,
+        "provider_id": "546B0436-0B44-422D-83A0-2727A830FC07",
+        "provider_name": "Precision Imaging - St. Augustine"
+      },
+      "provider_info": {
+        "Address 1 Full": "1000 Plantation Island Dr S STE 1\nSt. Augustine, FL 32080",
+        "Billing Address 1": "PO BOX 1565",
+        "Billing Address 2": null,
+        "Billing Address City": "COLUMBUS",
+        "Billing Address Postal Code": "31902",
+        "Billing Address State": "GA",
+        "Billing Name": "PRECISION IMAGING ST AUGUSTINE LLC",
+        "DBA Name Billing Name": "Precision Imaging - St. Augustine",
+        "Latitude": "29.863738",
+        "Location": null,
+        "Need OTA": "No",
+        "Provider Network": "In Network",
+        "Provider Status": "Contract Complete",
+        "Provider Type": "Imaging",
+        "TIN": "45-4396200",
+        "NPI": "1700130010",
+        "PrimaryKey": "546B0436-0B44-422D-83A0-2727A830FC07"
+      },
+      "date_of_service": "2024-10-02",
+      "line_items": [
+        {
+          "date_of_service": "2024-10-02",
+          "cpt": "72148",
+          "modifier": null,
+          "units": 1,
+          "charge": "1302.19",
+          "validated_rate": 275.0
+        }
+      ],
+      "comparison_details": {}
+    }
+  },
+  {
+    "file_info": {
+      "file_name": "C:\\Users\\ChristopherCato\\OneDrive - clarity-dx.com\\Documents\\Bill_Review_INTERNAL\\scripts\\VAILIDATION\\data\\extracts\\valid\\mapped\\staging\\20250208_1005.json",
+      "order_id": "836CB7AC-5544-4F3A-A8B2-779BEC70CC69",
+      "timestamp": "2025-03-13T11:22:46.280510",
+      "validation_session_id": "1a09e030-8d09-42d1-8dd0-4f3bd90d3295"
+    },
+    "validation_summary": {
+      "status": "PASS",
+      "total_checks": 1,
+      "failed_checks": 0
+    },
+    "data": {
+      "patient_info": {
+        "Order_ID": "836CB7AC-5544-4F3A-A8B2-779BEC70CC69",
+        "FileMaker_Record_Number": "2025123051",
+        "Patient_Address": "9251 Sanborn St ",
+        "Patient_City": "Spring Hill",
+        "Patient_State": "FL",
+        "Patient_Zip": "34608.0",
+        "Patient_Injury_Date": "2024-01-07",
+        "Patient_Injury_Description": "Lumbar Spine",
+        "Patient_DOB": "1988-11-11 00:00:00",
+        "Patient_Last_Name": "Rudell",
+        "Patient_First_Name": "Alexander",
+        "PatientName": "Alexander Rudell",
+        "PatientPhone": "13527016345.0",
+        "Referring_Physician": "Sarah Cornwell",
+        "Referring_Physician_NPI": "1821649021.0",
+        "Assigning_Company": "Publix",
+        "Assigning_Adjuster": "Bee Peterson",
+        "Claim_Number": "WC2025643332",
+        "Order_Type": "Imaging",
+        "Jurisdiction_State": "FL",
+        "created_at": "2025-02-09 15:03:21",
+        "updated_at": "2025-02-09 15:03:21",
+        "is_active": null,
+        "bundle_type": null,
+        "provider_id": "F1488DC0-5B31-4923-980B-FB56B5E4CD75",
+        "provider_name": "Advanced Imaging Concepts"
+      },
+      "provider_info": {
+        "Address 1 Full": "13470 Taft Street \nBrooksville, FL 34613",
+        "Billing Address 1": "13470 TAFT ST",
+        "Billing Address 2": null,
+        "Billing Address City": "BROOKSVILLE",
+        "Billing Address Postal Code": "34613",
+        "Billing Address State": "FL",
+        "Billing Name": "ADVANCED IMAGING CONCEPTS PL",
+        "DBA Name Billing Name": "Advanced Imaging Concepts",
+        "Latitude": "28.5403436",
+        "Location": null,
+        "Need OTA": "No",
+        "Provider Network": "In Network",
+        "Provider Status": "Contract Complete",
+        "Provider Type": "Imaging",
+        "TIN": "86-1108735",
+        "NPI": "1215991815",
+        "PrimaryKey": "F1488DC0-5B31-4923-980B-FB56B5E4CD75"
+      },
+      "date_of_service": "2025-01-30",
+      "line_items": [
+        {
+          "date_of_service": "2025-01-30",
+          "cpt": "72148",
+          "modifier": null,
+          "units": 1,
+          "charge": "1700.00",
+          "validated_rate": 275.0
+        }
+      ],
+      "comparison_details": {}
+    }
+  },
+  {
+    "file_info": {
+      "file_name": "C:\\Users\\ChristopherCato\\OneDrive - clarity-dx.com\\Documents\\Bill_Review_INTERNAL\\scripts\\VAILIDATION\\data\\extracts\\valid\\mapped\\staging\\20250208_1019.json",
+      "order_id": "380D6B76-32F3-4BCE-B9F3-3D906F1FAC2D",
+      "timestamp": "2025-03-13T11:22:46.280573",
+      "validation_session_id": "1a09e030-8d09-42d1-8dd0-4f3bd90d3295"
+    },
+    "validation_summary": {
+      "status": "PASS",
+      "total_checks": 3,
+      "failed_checks": 0
+    },
+    "data": {
+      "patient_info": {
+        "Order_ID": "380D6B76-32F3-4BCE-B9F3-3D906F1FAC2D",
+        "FileMaker_Record_Number": "2025122658-01",
+        "Patient_Address": "2282 Tierra Humeda Dr ",
+        "Patient_City": "EL Paso",
+        "Patient_State": "TX",
+        "Patient_Zip": "79938.0",
+        "Patient_Injury_Date": "2024-12-04 00:00:00",
+        "Patient_Injury_Description": "Cervical & Lumbar Spine, Left Ankle",
+        "Patient_DOB": "1971-07-16 00:00:00",
+        "Patient_Last_Name": "Castillo",
+        "Patient_First_Name": "Carmen",
+        "PatientName": "Carmen Castillo",
+        "PatientPhone": "19153830997.0",
+        "Referring_Physician": null,
+        "Referring_Physician_NPI": null,
+        "Assigning_Company": "Midwestern Insurance Alliance LLC",
+        "Assigning_Adjuster": "Lorna Marucut",
+        "Claim_Number": "CE 700354",
+        "Order_Type": "Imaging",
+        "Jurisdiction_State": "TX",
+        "created_at": "2025-01-18 15:48:00",
+        "updated_at": "2025-01-18 15:48:00",
+        "is_active": 1,
+        "bundle_type": null,
+        "provider_id": "E2796E13-670C-4E73-8A3B-4B48BBADFA14",
+        "provider_name": "Akumin Imaging Texas, LLC dba Southwest X-Ray"
+      },
+      "provider_info": {
+        "Address 1 Full": "10501 Gateway Blvd W, Ste 140 \nEl Paso, TX 79925",
+        "Billing Address 1": "PO BOX 737483",
+        "Billing Address 2": "",
+        "Billing Address City": "DALLAS",
+        "Billing Address Postal Code": "75373-7483",
+        "Billing Address State": "TX",
+        "Billing Name": "AKUMIN IMAGING TEXAS, LLC",
+        "DBA Name Billing Name": "Akumin Imaging Texas, LLC dba Southwest X-Ray",
+        "Latitude": "31.7563979",
+        "Location": null,
+        "Need OTA": null,
+        "Provider Network": "In Network",
+        "Provider Status": "Contract Complete",
+        "Provider Type": "Imaging",
+        "TIN": "364793204",
+        "NPI": "1235771205",
+        "PrimaryKey": "E2796E13-670C-4E73-8A3B-4B48BBADFA14"
+      },
+      "date_of_service": "2025-01-13",
+      "line_items": [
+        {
+          "date_of_service": "2025-01-13",
+          "cpt": "72148",
+          "modifier": null,
+          "units": 1,
+          "charge": "1950.00",
+          "validated_rate": 285.0
+        },
+        {
+          "date_of_service": "2025-01-13",
+          "cpt": "72141",
+          "modifier": null,
+          "units": 1,
+          "charge": "1950.00",
+          "validated_rate": 285.0
+        },
+        {
+          "date_of_service": "2025-01-13",
+          "cpt": "73721",
+          "modifier": "LT",
+          "units": 1,
+          "charge": "1950.00",
+          "validated_rate": 285.0
+        }
+      ],
+      "comparison_details": {}
+    }
+  },
+  {
+    "file_info": {
+      "file_name": "C:\\Users\\ChristopherCato\\OneDrive - clarity-dx.com\\Documents\\Bill_Review_INTERNAL\\scripts\\VAILIDATION\\data\\extracts\\valid\\mapped\\staging\\20250208_1021.json",
+      "order_id": "7564C584-3861-4795-92DC-536438E08828",
+      "timestamp": "2025-03-13T11:22:46.280604",
+      "validation_session_id": "1a09e030-8d09-42d1-8dd0-4f3bd90d3295"
+    },
+    "validation_summary": {
+      "status": "PASS",
+      "total_checks": 1,
+      "failed_checks": 0
+    },
+    "data": {
+      "patient_info": {
+        "Order_ID": "7564C584-3861-4795-92DC-536438E08828",
+        "FileMaker_Record_Number": "20241121279",
+        "Patient_Address": "3118 County Road 172 Apt 4208",
+        "Patient_City": "Round Rock",
+        "Patient_State": "TX",
+        "Patient_Zip": "78681.0",
+        "Patient_Injury_Date": "8/27/2024",
+        "Patient_Injury_Description": "Pelvis",
+        "Patient_DOB": "6/22/1969",
+        "Patient_Last_Name": "Garcia",
+        "Patient_First_Name": "Ruben",
+        "PatientName": "Ruben Garcia",
+        "PatientPhone": "19152086950",
+        "Referring_Physician": "Rafael Ibarra  ",
+        "Referring_Physician_NPI": "1740441104.0",
+        "Assigning_Company": "CCMSI",
+        "Assigning_Adjuster": "Carol Carnevale-Shaw",
+        "Claim_Number": "24D55M353323",
+        "Order_Type": "Imaging",
+        "Jurisdiction_State": "TX",
+        "created_at": "2024-12-26 14:00:10",
+        "updated_at": "2024-12-26 14:00:10",
+        "is_active": 1,
+        "bundle_type": null,
+        "provider_id": "DF74E459-8283-426C-AEAE-75DD6D4952DA",
+        "provider_name": "Preferred Imaging of Austin, LLC"
+      },
+      "provider_info": {
+        "Address 1 Full": "711 W 38th St Ste B-1\nAustin, TX 78705",
+        "Billing Address 1": "PO Box 674343",
+        "Billing Address 2": null,
+        "Billing Address City": "Dallas",
+        "Billing Address Postal Code": "752674232",
+        "Billing Address State": "TX",
+        "Billing Name": "Preferred Imaging of Austin, LLC",
+        "DBA Name Billing Name": "Preferred Imaging of Austin, LLC",
+        "Latitude": "30.3035898",
+        "Location": null,
+        "Need OTA": null,
+        "Provider Network": "In Network",
+        "Provider Status": "Contract Complete",
+        "Provider Type": "Imaging",
+        "TIN": "46-4425686",
+        "NPI": "1437542818",
+        "PrimaryKey": "DF74E459-8283-426C-AEAE-75DD6D4952DA"
+      },
+      "date_of_service": "2024-11-21",
+      "line_items": [
+        {
+          "date_of_service": "2024-11-21",
+          "cpt": "72195",
+          "modifier": null,
+          "units": 1,
+          "charge": "1950.00",
+          "validated_rate": 285.0
+        }
+      ],
+      "comparison_details": {}
+    }
+  },
+  {
+    "file_info": {
+      "file_name": "C:\\Users\\ChristopherCato\\OneDrive - clarity-dx.com\\Documents\\Bill_Review_INTERNAL\\scripts\\VAILIDATION\\data\\extracts\\valid\\mapped\\staging\\20250212_1005.json",
+      "order_id": "A89047BD-05A3-42B9-8AB7-0F841B22A5CF",
+      "timestamp": "2025-03-13T11:22:46.280643",
+      "validation_session_id": "1a09e030-8d09-42d1-8dd0-4f3bd90d3295"
+    },
+    "validation_summary": {
+      "status": "PASS",
+      "total_checks": 1,
+      "failed_checks": 0
+    },
+    "data": {
+      "patient_info": {
+        "Order_ID": "A89047BD-05A3-42B9-8AB7-0F841B22A5CF",
+        "FileMaker_Record_Number": "2025122668-01",
+        "Patient_Address": "5167 Sterling Manor Dr ",
+        "Patient_City": "Tampa",
+        "Patient_State": "FL",
+        "Patient_Zip": "33647.0",
+        "Patient_Injury_Date": "2024-12-09 00:00:00",
+        "Patient_Injury_Description": "Lumbar Spine",
+        "Patient_DOB": "1964-06-08 00:00:00",
+        "Patient_Last_Name": "Moore Contreras",
+        "Patient_First_Name": "Denise C.",
+        "PatientName": "Denise C. Moore Contreras",
+        "PatientPhone": "18133568739.0",
+        "Referring_Physician": null,
+        "Referring_Physician_NPI": null,
+        "Assigning_Company": "Commercial Risk Management, Inc.",
+        "Assigning_Adjuster": "Ann Marie Knight",
+        "Claim_Number": "B7360153",
+        "Order_Type": "Imaging",
+        "Jurisdiction_State": "FL",
+        "created_at": "2025-01-18 15:48:00",
+        "updated_at": "2025-01-18 15:48:00",
+        "is_active": 1,
+        "bundle_type": null,
+        "provider_id": "F46C6BF4-3A51-46B7-B91A-D8C875999E0F",
+        "provider_name": "University Diagnostic Institute"
+      },
+      "provider_info": {
+        "Address 1 Full": "3301 USF Alumni Drive \nTampa, FL 33612",
+        "Billing Address 1": "3301 USF ALUMNI DR",
+        "Billing Address 2": "",
+        "Billing Address City": "TAMPA",
+        "Billing Address Postal Code": "33612-9413",
+        "Billing Address State": "FL",
+        "Billing Name": "UNIVERSITY DIAGNOSTIC INSTITUTE",
+        "DBA Name Billing Name": "University Diagnostic Institute",
+        "Latitude": "28.0572096",
+        "Location": null,
+        "Need OTA": null,
+        "Provider Network": "In Network",
+        "Provider Status": "Contract Complete",
+        "Provider Type": "Imaging",
+        "TIN": "59-2469164",
+        "NPI": "1326021346",
+        "PrimaryKey": "F46C6BF4-3A51-46B7-B91A-D8C875999E0F"
+      },
+      "date_of_service": "2025-02-04",
+      "line_items": [
+        {
+          "date_of_service": "2025-02-04",
+          "cpt": "72148",
+          "modifier": null,
+          "units": 1,
+          "charge": "890.00",
+          "validated_rate": 350.0
+        }
+      ],
+      "comparison_details": {}
+    }
+  },
+  {
+    "file_info": {
+      "file_name": "C:\\Users\\ChristopherCato\\OneDrive - clarity-dx.com\\Documents\\Bill_Review_INTERNAL\\scripts\\VAILIDATION\\data\\extracts\\valid\\mapped\\staging\\20250212_1040.json",
+      "order_id": "85A6BDCC-3FFE-4B27-A751-E7408B2A6873",
+      "timestamp": "2025-03-13T11:22:46.280744",
+      "validation_session_id": "1a09e030-8d09-42d1-8dd0-4f3bd90d3295"
+    },
+    "validation_summary": {
+      "status": "PASS",
+      "total_checks": 1,
+      "failed_checks": 0
+    },
+    "data": {
+      "patient_info": {
+        "Order_ID": "85A6BDCC-3FFE-4B27-A751-E7408B2A6873",
+        "FileMaker_Record_Number": "2025122614-01",
+        "Patient_Address": "6832 Ebans Bend ",
+        "Patient_City": "Orlando",
+        "Patient_State": "FL",
+        "Patient_Zip": "32807.0",
+        "Patient_Injury_Date": "2024-12-07 00:00:00",
+        "Patient_Injury_Description": "Lumbar Spine",
+        "Patient_DOB": "1965-03-08 00:00:00",
+        "Patient_Last_Name": "Suarez",
+        "Patient_First_Name": "Maribel",
+        "PatientName": "Maribel Suarez",
+        "PatientPhone": "13052829471.0",
+        "Referring_Physician": null,
+        "Referring_Physician_NPI": null,
+        "Assigning_Company": "Publix",
+        "Assigning_Adjuster": "Christine Lanigan",
+        "Claim_Number": "WC2024642225",
+        "Order_Type": "Imaging",
+        "Jurisdiction_State": "FL",
+        "created_at": "2025-01-18 15:48:00",
+        "updated_at": "2025-01-18 15:48:00",
+        "is_active": 1,
+        "bundle_type": null,
+        "provider_id": "495FE1A6-9A20-4F88-82D4-5A8A1C151E55",
+        "provider_name": "SimonMed Imaging - Underhill"
+      },
+      "provider_info": {
+        "Address 1 Full": "7806 Lake Underhill Rd Suite 101\nOrlando, FL 32822",
+        "Billing Address 1": "PO BOX 203573",
+        "Billing Address 2": null,
+        "Billing Address City": "DALLAS",
+        "Billing Address Postal Code": "753203573",
+        "Billing Address State": "TX",
+        "Billing Name": "SIMONMED IMAGING FLORIDA LLC",
+        "DBA Name Billing Name": "SimonMed Imaging - Underhill",
+        "Latitude": "28.5385698",
+        "Location": null,
+        "Need OTA": "No",
+        "Provider Network": "In Network",
+        "Provider Status": "Contract Complete",
+        "Provider Type": "Imaging",
+        "TIN": "45-3727094",
+        "NPI": "1255900445",
+        "PrimaryKey": "495FE1A6-9A20-4F88-82D4-5A8A1C151E55"
+      },
+      "date_of_service": "2025-01-24",
+      "line_items": [
+        {
+          "date_of_service": "2025-01-24",
+          "cpt": "72148",
+          "modifier": null,
+          "units": 1,
+          "charge": "1529.00",
+          "validated_rate": 250.0
+        }
+      ],
+      "comparison_details": {}
+    }
+  },
+  {
+    "file_info": {
+      "file_name": "C:\\Users\\ChristopherCato\\OneDrive - clarity-dx.com\\Documents\\Bill_Review_INTERNAL\\scripts\\VAILIDATION\\data\\extracts\\valid\\mapped\\staging\\20250212_1041.json",
+      "order_id": "6B04F7AD-40AF-4D04-8085-8A2D1B5DC8AF",
+      "timestamp": "2025-03-13T11:22:46.280777",
+      "validation_session_id": "1a09e030-8d09-42d1-8dd0-4f3bd90d3295"
+    },
+    "validation_summary": {
+      "status": "PASS",
+      "total_checks": 2,
+      "failed_checks": 0
+    },
+    "data": {
+      "patient_info": {
+        "Order_ID": "6B04F7AD-40AF-4D04-8085-8A2D1B5DC8AF",
+        "FileMaker_Record_Number": "2025122986-01",
+        "Patient_Address": "3512 Beau Chene Dr ",
+        "Patient_City": "Kissimmee",
+        "Patient_State": "FL",
+        "Patient_Zip": "34746.0",
+        "Patient_Injury_Date": "2025-01-16",
+        "Patient_Injury_Description": "Left Shoulder & Left Arm",
+        "Patient_DOB": "1957-09-21 00:00:00",
+        "Patient_Last_Name": "Santos",
+        "Patient_First_Name": "Luz",
+        "PatientName": "Luz Santos",
+        "PatientPhone": "14078377964.0",
+        "Referring_Physician": "Anielka Escoto",
+        "Referring_Physician_NPI": "1942713797.0",
+        "Assigning_Company": "Davies",
+        "Assigning_Adjuster": "Michelle Robinson",
+        "Claim_Number": "1300128",
+        "Order_Type": "Imaging",
+        "Jurisdiction_State": "FL",
+        "created_at": "2025-02-09 15:03:21",
+        "updated_at": "2025-02-09 15:03:21",
+        "is_active": null,
+        "bundle_type": null,
+        "provider_id": "4175605E-1853-4B0C-BFA6-2F8FA765FA32",
+        "provider_name": "Simonmed Imaging - Poinciana"
+      },
+      "provider_info": {
+        "Address 1 Full": "875 Cypress Pkwy. \nPoinciana, FL 34759-3408",
+        "Billing Address 1": "PO Box 203573",
+        "Billing Address 2": null,
+        "Billing Address City": "Dallas",
+        "Billing Address Postal Code": "753203573",
+        "Billing Address State": "TX",
+        "Billing Name": "SimonMed Imaging FL LLC",
+        "DBA Name Billing Name": "Simonmed Imaging - Poinciana",
+        "Latitude": "28.1482728",
+        "Location": null,
+        "Need OTA": null,
+        "Provider Network": "In Network",
+        "Provider Status": "Contract Complete",
+        "Provider Type": "Imaging",
+        "TIN": "45-3727094",
+        "NPI": "1477830818",
+        "PrimaryKey": "4175605E-1853-4B0C-BFA6-2F8FA765FA32"
+      },
+      "date_of_service": "2025-01-27",
+      "line_items": [
+        {
+          "date_of_service": "2025-01-27",
+          "cpt": "73218",
+          "modifier": "LT",
+          "units": 1,
+          "charge": "1871.00",
+          "validated_rate": 250.0
+        },
+        {
+          "date_of_service": "2025-01-27",
+          "cpt": "73221",
+          "modifier": "LT",
+          "units": "1",
+          "charge": "1193.00",
+          "validated_rate": 250.0
+        }
+      ],
+      "comparison_details": {}
+    }
+  },
+  {
+    "file_info": {
+      "file_name": "C:\\Users\\ChristopherCato\\OneDrive - clarity-dx.com\\Documents\\Bill_Review_INTERNAL\\scripts\\VAILIDATION\\data\\extracts\\valid\\mapped\\staging\\20250213_1001.json",
+      "order_id": "C9B51DF5-4A0D-479C-97EB-C00EA5223087",
+      "timestamp": "2025-03-13T11:22:46.280821",
+      "validation_session_id": "1a09e030-8d09-42d1-8dd0-4f3bd90d3295"
+    },
+    "validation_summary": {
+      "status": "PASS",
+      "total_checks": 1,
+      "failed_checks": 0
+    },
+    "data": {
+      "patient_info": {
+        "Order_ID": "C9B51DF5-4A0D-479C-97EB-C00EA5223087",
+        "FileMaker_Record_Number": "2025223199",
+        "Patient_Address": "100 Boucle Jeanne Circle Apt 460",
+        "Patient_City": "Maitland",
+        "Patient_State": "FL",
+        "Patient_Zip": "32751.0",
+        "Patient_Injury_Date": "2024-01-26",
+        "Patient_Injury_Description": "Lt Shoulder ",
+        "Patient_DOB": "1963-08-03 00:00:00",
+        "Patient_Last_Name": "Dobson",
+        "Patient_First_Name": "Razna",
+        "PatientName": "Razna Dobson",
+        "PatientPhone": "14079514957.0",
+        "Referring_Physician": "Eugene Gernier",
+        "Referring_Physician_NPI": "1558414706.0",
+        "Assigning_Company": "Publix",
+        "Assigning_Adjuster": "Kourtney Smith",
+        "Claim_Number": "WC2024623035",
+        "Order_Type": "Imaging",
+        "Jurisdiction_State": "FL",
+        "created_at": "2025-02-09 15:03:21",
+        "updated_at": "2025-02-09 15:03:21",
+        "is_active": null,
+        "bundle_type": null,
+        "provider_id": "313D4151-8AC2-4B03-BB39-90E68D3FA8F7",
+        "provider_name": "Rayus - Winter Park"
+      },
+      "provider_info": {
+        "Address 1 Full": "964 S Orlando Ave  \nWinter Park, FL 32789",
+        "Billing Address 1": "PO BOX 198207",
+        "Billing Address 2": null,
+        "Billing Address City": "ATLANTA",
+        "Billing Address Postal Code": "30384-8207",
+        "Billing Address State": "GA",
+        "Billing Name": "RAYUS RADIOLOGY",
+        "DBA Name Billing Name": "Rayus - Winter Park",
+        "Latitude": "28.5886231",
+        "Location": null,
+        "Need OTA": "Yes",
+        "Provider Network": "In Network",
+        "Provider Status": "Contract Complete",
+        "Provider Type": "Imaging",
+        "TIN": "41-1410766",
+        "NPI": "1871560201",
+        "PrimaryKey": "313D4151-8AC2-4B03-BB39-90E68D3FA8F7"
+      },
+      "date_of_service": "2025-02-07",
+      "line_items": [
+        {
+          "date_of_service": "2025-02-07",
+          "cpt": "73221",
+          "modifier": "LT",
+          "units": 1,
+          "charge": "2438.00",
+          "validated_rate": 250.0
+        }
+      ],
+      "comparison_details": {}
+    }
+  },
+  {
+    "file_info": {
+      "file_name": "C:\\Users\\ChristopherCato\\OneDrive - clarity-dx.com\\Documents\\Bill_Review_INTERNAL\\scripts\\VAILIDATION\\data\\extracts\\valid\\mapped\\staging\\20250213_1003.json",
+      "order_id": "236FB065-DF75-0347-8509-294EE92AC152",
+      "timestamp": "2025-03-13T11:22:46.280853",
+      "validation_session_id": "1a09e030-8d09-42d1-8dd0-4f3bd90d3295"
+    },
+    "validation_summary": {
+      "status": "PASS",
+      "total_checks": 2,
+      "failed_checks": 0
+    },
+    "data": {
+      "patient_info": {
+        "Order_ID": "236FB065-DF75-0347-8509-294EE92AC152",
+        "FileMaker_Record_Number": "20241222215",
+        "Patient_Address": "1370 Camden Ct. ",
+        "Patient_City": "Clermont",
+        "Patient_State": "FL",
+        "Patient_Zip": "34711.0",
+        "Patient_Injury_Date": "2023-10-26 00:00:00",
+        "Patient_Injury_Description": "Left Shoulder",
+        "Patient_DOB": "1963-12-19 00:00:00",
+        "Patient_Last_Name": "Kubera",
+        "Patient_First_Name": "Donna",
+        "PatientName": "Donna Kubera",
+        "PatientPhone": "17164306857.0",
+        "Referring_Physician": "Christopher Warrell ",
+        "Referring_Physician_NPI": "1336434596.0",
+        "Assigning_Company": "CCMSI",
+        "Assigning_Adjuster": "Porsha Ellis",
+        "Claim_Number": "23D91K913041",
+        "Order_Type": "Imaging",
+        "Jurisdiction_State": "FL",
+        "created_at": "2024-12-26 14:27:15",
+        "updated_at": "2024-12-26 14:27:15",
+        "is_active": 1,
+        "bundle_type": null,
+        "provider_id": "CE847088-6CE4-4B7B-BDC9-FF60AF4AE845",
+        "provider_name": "NSI Orlando"
+      },
+      "provider_info": {
+        "Address 1 Full": "1315 South Orange Ave STE 1B\nOrlando, FL 32806",
+        "Billing Address 1": "PO BOX 400",
+        "Billing Address 2": null,
+        "Billing Address City": "MELBOURNE",
+        "Billing Address Postal Code": "32902",
+        "Billing Address State": "FL",
+        "Billing Name": "NSI MELBOURNE",
+        "DBA Name Billing Name": "NSI Orlando",
+        "Latitude": "28.5259941",
+        "Location": null,
+        "Need OTA": null,
+        "Provider Network": "In Network",
+        "Provider Status": "Contract Complete",
+        "Provider Type": "Imaging",
+        "TIN": "80-0110465",
+        "NPI": "1922092279",
+        "PrimaryKey": "CE847088-6CE4-4B7B-BDC9-FF60AF4AE845"
+      },
+      "date_of_service": "2024-12-09",
+      "line_items": [
+        {
+          "date_of_service": "2024-12-09",
+          "cpt": "23350",
+          "modifier": "LT",
+          "units": 1,
+          "charge": "750.00",
+          "validated_rate": 83.2
+        },
+        {
+          "date_of_service": "2024-12-09",
+          "cpt": "77002",
+          "modifier": "LT",
+          "units": 1,
+          "charge": "250.00",
+          "validated_rate": 166.11
+        }
+      ],
+      "comparison_details": {}
+    }
+  },
+  {
+    "file_info": {
+      "file_name": "C:\\Users\\ChristopherCato\\OneDrive - clarity-dx.com\\Documents\\Bill_Review_INTERNAL\\scripts\\VAILIDATION\\data\\extracts\\valid\\mapped\\staging\\20250213_1024.json",
+      "order_id": "19F07120-E3EE-4BDF-A444-C00AEFB90B47",
+      "timestamp": "2025-03-13T11:22:46.280914",
+      "validation_session_id": "1a09e030-8d09-42d1-8dd0-4f3bd90d3295"
+    },
+    "validation_summary": {
+      "status": "PASS",
+      "total_checks": 2,
+      "failed_checks": 0
+    },
+    "data": {
+      "patient_info": {
+        "Order_ID": "19F07120-E3EE-4BDF-A444-C00AEFB90B47",
+        "FileMaker_Record_Number": "2025123021",
+        "Patient_Address": "2028 E Cesar Chavez Ave ",
+        "Patient_City": "Los Angeles",
+        "Patient_State": "CA",
+        "Patient_Zip": "90033.0",
+        "Patient_Injury_Date": "2024-10-06",
+        "Patient_Injury_Description": "Bilateral Wrists",
+        "Patient_DOB": "1992-02-26 00:00:00",
+        "Patient_Last_Name": "Bohorquez",
+        "Patient_First_Name": "Mariana",
+        "PatientName": "Mariana Bohorquez",
+        "PatientPhone": "16267537712.0",
+        "Referring_Physician": "Job Mendez",
+        "Referring_Physician_NPI": "1730877432.0",
+        "Assigning_Company": "Sentry Insurance",
+        "Assigning_Adjuster": "April Borski",
+        "Claim_Number": "55C855863 ",
+        "Order_Type": "Imaging",
+        "Jurisdiction_State": "CA",
+        "created_at": "2025-02-09 15:03:21",
+        "updated_at": "2025-02-09 15:03:21",
+        "is_active": null,
+        "bundle_type": null,
+        "provider_id": "B30FEB18-11FF-4D8A-B709-234D092E678D",
+        "provider_name": "EZ Diagnosis Center, LLC"
+      },
+      "provider_info": {
+        "Address 1 Full": "520 S Virgil Ave Suite 104\nLos Angeles, CA 90020",
+        "Billing Address 1": "520 S Virgil Ave",
+        "Billing Address 2": "Suite 104",
+        "Billing Address City": "Los Angeles",
+        "Billing Address Postal Code": "90020",
+        "Billing Address State": "CA",
+        "Billing Name": "EZ DIAGNOSIS CENTER, LLC",
+        "DBA Name Billing Name": "EZ Diagnosis Center, LLC",
+        "Latitude": "34.064489",
+        "Location": null,
+        "Need OTA": null,
+        "Provider Network": "In Network",
+        "Provider Status": "Contract Complete",
+        "Provider Type": "Imaging",
+        "TIN": "26-0484379",
+        "NPI": "1225238769",
+        "PrimaryKey": "B30FEB18-11FF-4D8A-B709-234D092E678D"
+      },
+      "date_of_service": "2025-02-03",
+      "line_items": [
+        {
+          "date_of_service": "2025-02-03",
+          "cpt": "73221",
+          "modifier": null,
+          "units": 1,
+          "charge": "1250.00",
+          "validated_rate": 275.0
+        },
+        {
+          "date_of_service": "2025-02-03",
+          "cpt": "73221",
+          "modifier": null,
+          "units": "1",
+          "charge": "1250.00",
+          "validated_rate": 275.0
+        }
+      ],
+      "comparison_details": {}
+    }
+  },
+  {
+    "file_info": {
+      "file_name": "C:\\Users\\ChristopherCato\\OneDrive - clarity-dx.com\\Documents\\Bill_Review_INTERNAL\\scripts\\VAILIDATION\\data\\extracts\\valid\\mapped\\staging\\20250213_1029.json",
+      "order_id": "315EA8B0-EF3F-7040-8671-BE7FB87ED4AD",
+      "timestamp": "2025-03-13T11:22:46.280953",
+      "validation_session_id": "1a09e030-8d09-42d1-8dd0-4f3bd90d3295"
+    },
+    "validation_summary": {
+      "status": "PASS",
+      "total_checks": 1,
+      "failed_checks": 0
+    },
+    "data": {
+      "patient_info": {
+        "Order_ID": "315EA8B0-EF3F-7040-8671-BE7FB87ED4AD",
+        "FileMaker_Record_Number": "2025223209",
+        "Patient_Address": "1314 East Street ",
+        "Patient_City": "Green Cove Springs",
+        "Patient_State": "FL",
+        "Patient_Zip": "32043.0",
+        "Patient_Injury_Date": "2025-01-25",
+        "Patient_Injury_Description": "Bilateral Knees",
+        "Patient_DOB": "1976-04-08 00:00:00",
+        "Patient_Last_Name": "Kumm",
+        "Patient_First_Name": "Alan H.",
+        "PatientName": "Alan H. Kumm",
+        "PatientPhone": "19042377250.0",
+        "Referring_Physician": "James Walker",
+        "Referring_Physician_NPI": "1952094856.0",
+        "Assigning_Company": "Davies",
+        "Assigning_Adjuster": "Heidy Perez",
+        "Claim_Number": "2510 00093",
+        "Order_Type": "Imaging",
+        "Jurisdiction_State": "FL",
+        "created_at": "2025-02-09 15:03:21",
+        "updated_at": "2025-02-09 15:03:21",
+        "is_active": null,
+        "bundle_type": null,
+        "provider_id": "6228A2AB-6533-43C9-8BEF-4E2B6F351A4D",
+        "provider_name": "Precision Imaging Centers - Orange Park"
+      },
+      "provider_info": {
+        "Address 1 Full": "1540 Business Center Drive Unit B\nOrange Park, FL 32003",
+        "Billing Address 1": "PO BOX 1565",
+        "Billing Address 2": null,
+        "Billing Address City": "COLUMBUS",
+        "Billing Address Postal Code": "31902",
+        "Billing Address State": "GA",
+        "Billing Name": "PRECISION IMAGING ST AUGUSTINE LLC",
+        "DBA Name Billing Name": "Precision Imaging Centers - Orange Park",
+        "Latitude": "30.1034117",
+        "Location": null,
+        "Need OTA": "No",
+        "Provider Network": "In Network",
+        "Provider Status": "Contract Complete",
+        "Provider Type": "Imaging",
+        "TIN": "45-4396200",
+        "NPI": "1104849280",
+        "PrimaryKey": "6228A2AB-6533-43C9-8BEF-4E2B6F351A4D"
+      },
+      "date_of_service": "2025-01-31",
+      "line_items": [
+        {
+          "date_of_service": "2025-01-31",
+          "cpt": "73721",
+          "modifier": "RT",
+          "units": 1,
+          "charge": "1262.63",
+          "validated_rate": 275.0
+        }
+      ],
+      "comparison_details": {}
+    }
+  },
+  {
+    "file_info": {
+      "file_name": "C:\\Users\\ChristopherCato\\OneDrive - clarity-dx.com\\Documents\\Bill_Review_INTERNAL\\scripts\\VAILIDATION\\data\\extracts\\valid\\mapped\\staging\\20250224_1002.json",
+      "order_id": "662C50BE-A1FE-4DD2-9403-1F16816E935A",
+      "timestamp": "2025-03-13T11:22:46.281003",
+      "validation_session_id": "1a09e030-8d09-42d1-8dd0-4f3bd90d3295"
+    },
+    "validation_summary": {
+      "status": "PASS",
+      "total_checks": 1,
+      "failed_checks": 0
+    },
+    "data": {
+      "patient_info": {
+        "Order_ID": "662C50BE-A1FE-4DD2-9403-1F16816E935A",
+        "FileMaker_Record_Number": "2025123117-01",
+        "Patient_Address": "3540 Royal Palm Ave ",
+        "Patient_City": "Fort Myers",
+        "Patient_State": "FL",
+        "Patient_Zip": "33901.0",
+        "Patient_Injury_Date": "2025-01-18",
+        "Patient_Injury_Description": "Right Knee",
+        "Patient_DOB": "1969-05-08 00:00:00",
+        "Patient_Last_Name": "Joseph",
+        "Patient_First_Name": "Ste. Heleine",
+        "PatientName": "Ste. Heleine Joseph",
+        "PatientPhone": "12396455747.0",
+        "Referring_Physician": "Megan Haggard",
+        "Referring_Physician_NPI": "1962992388.0",
+        "Assigning_Company": "Premier Group Insurance",
+        "Assigning_Adjuster": "Shaun Hackelberg-Rock",
+        "Claim_Number": "WC46532025034342",
+        "Order_Type": "Imaging",
+        "Jurisdiction_State": "FL",
+        "created_at": "2025-02-09 15:03:21",
+        "updated_at": "2025-02-09 15:03:21",
+        "is_active": null,
+        "bundle_type": null,
+        "provider_id": "DB079FBA-ADC5-443D-B957-3312F55D6342",
+        "provider_name": "Care First Imaging"
+      },
+      "provider_info": {
+        "Address 1 Full": "1203 SE 8th Ave \nCape Coral, FL 33990",
+        "Billing Address 1": "PO BOX 31125",
+        "Billing Address 2": "",
+        "Billing Address City": "TAMPA",
+        "Billing Address Postal Code": "336313125",
+        "Billing Address State": "FL",
+        "Billing Name": "RADIOLOGY IMAGING SPECIALISTS LLC",
+        "DBA Name Billing Name": "Care First Imaging",
+        "Latitude": "26.6294602",
+        "Location": null,
+        "Need OTA": null,
+        "Provider Network": "Out of Network",
+        "Provider Status": "Research Phase",
+        "Provider Type": "Imaging",
+        "TIN": "81-1981130",
+        "NPI": "1376182923",
+        "PrimaryKey": "DB079FBA-ADC5-443D-B957-3312F55D6342"
+      },
+      "date_of_service": "2025-02-04",
+      "line_items": [
+        {
+          "date_of_service": "2025-02-04",
+          "cpt": "73721",
+          "modifier": "RT",
+          "units": 1,
+          "charge": "2250.00",
+          "validated_rate": 250.0
+        }
+      ],
+      "comparison_details": {}
+    }
+  },
+  {
+    "file_info": {
+      "file_name": "C:\\Users\\ChristopherCato\\OneDrive - clarity-dx.com\\Documents\\Bill_Review_INTERNAL\\scripts\\VAILIDATION\\data\\extracts\\valid\\mapped\\staging\\20250224_1003.json",
+      "order_id": "B13695A9-840B-4CF2-A499-60F5F3FA5526",
+      "timestamp": "2025-03-13T11:22:46.281035",
+      "validation_session_id": "1a09e030-8d09-42d1-8dd0-4f3bd90d3295"
+    },
+    "validation_summary": {
+      "status": "PASS",
+      "total_checks": 1,
+      "failed_checks": 0
+    },
+    "data": {
+      "patient_info": {
+        "Order_ID": "B13695A9-840B-4CF2-A499-60F5F3FA5526",
+        "FileMaker_Record_Number": "20241222023-01",
+        "Patient_Address": "1927 NW 27th St,  ",
+        "Patient_City": "Cape Coral",
+        "Patient_State": "FL",
+        "Patient_Zip": "33993.0",
+        "Patient_Injury_Date": "12/1/2024",
+        "Patient_Injury_Description": "Right Ankle",
+        "Patient_DOB": "6/12/1989",
+        "Patient_Last_Name": "Cano",
+        "Patient_First_Name": "Geraldo",
+        "PatientName": "Geraldo Cano",
+        "PatientPhone": "13059344571",
+        "Referring_Physician": null,
+        "Referring_Physician_NPI": null,
+        "Assigning_Company": "Publix",
+        "Assigning_Adjuster": "Cori Contreras",
+        "Claim_Number": "WC2024641159",
+        "Order_Type": "Imaging",
+        "Jurisdiction_State": "FL",
+        "created_at": "2024-12-26 14:00:10",
+        "updated_at": "2024-12-26 14:00:10",
+        "is_active": 1,
+        "bundle_type": null,
+        "provider_id": "DB079FBA-ADC5-443D-B957-3312F55D6342",
+        "provider_name": "Care First Imaging"
+      },
+      "provider_info": {
+        "Address 1 Full": "1203 SE 8th Ave \nCape Coral, FL 33990",
+        "Billing Address 1": "PO BOX 31125",
+        "Billing Address 2": "",
+        "Billing Address City": "TAMPA",
+        "Billing Address Postal Code": "336313125",
+        "Billing Address State": "FL",
+        "Billing Name": "RADIOLOGY IMAGING SPECIALISTS LLC",
+        "DBA Name Billing Name": "Care First Imaging",
+        "Latitude": "26.6294602",
+        "Location": null,
+        "Need OTA": null,
+        "Provider Network": "Out of Network",
+        "Provider Status": "Research Phase",
+        "Provider Type": "Imaging",
+        "TIN": "81-1981130",
+        "NPI": "1376182923",
+        "PrimaryKey": "DB079FBA-ADC5-443D-B957-3312F55D6342"
+      },
+      "date_of_service": "2024-12-09",
+      "line_items": [
+        {
+          "date_of_service": "2024-12-09",
+          "cpt": "73721",
+          "modifier": "RT",
+          "units": 1,
+          "charge": "1950.00",
+          "validated_rate": 250.0
+        }
+      ],
+      "comparison_details": {}
+    }
+  },
+  {
+    "file_info": {
+      "file_name": "C:\\Users\\ChristopherCato\\OneDrive - clarity-dx.com\\Documents\\Bill_Review_INTERNAL\\scripts\\VAILIDATION\\data\\extracts\\valid\\mapped\\staging\\20250224_1007.json",
+      "order_id": "2584B953-BE75-492C-BF9F-82C2FBF329F2",
+      "timestamp": "2025-03-13T11:22:46.281067",
+      "validation_session_id": "1a09e030-8d09-42d1-8dd0-4f3bd90d3295"
+    },
+    "validation_summary": {
+      "status": "PASS",
+      "total_checks": 1,
+      "failed_checks": 0
+    },
+    "data": {
+      "patient_info": {
+        "Order_ID": "2584B953-BE75-492C-BF9F-82C2FBF329F2",
+        "FileMaker_Record_Number": "20241021117-01",
+        "Patient_Address": "PO Box 869 ",
+        "Patient_City": "Groveland ",
+        "Patient_State": "FL",
+        "Patient_Zip": "34736.0",
+        "Patient_Injury_Date": "10/1/2024",
+        "Patient_Injury_Description": "C-Spine",
+        "Patient_DOB": "5/3/1979",
+        "Patient_Last_Name": "Thornton",
+        "Patient_First_Name": "Danielle",
+        "PatientName": "Danielle Thornton",
+        "PatientPhone": "14075586821",
+        "Referring_Physician": "Cassandra Balwant",
+        "Referring_Physician_NPI": "1982039491.0",
+        "Assigning_Company": "CCMSI",
+        "Assigning_Adjuster": "Denyce Askew",
+        "Claim_Number": "24D91M389870",
+        "Order_Type": "Imaging",
+        "Jurisdiction_State": "FL",
+        "created_at": "2024-12-26 14:00:10",
+        "updated_at": "2024-12-26 14:00:10",
+        "is_active": 1,
+        "bundle_type": null,
+        "provider_id": "A89B4094-6102-4B2F-936D-D1328221C3A7",
+        "provider_name": "SimonMed Imaging - Clermont"
+      },
+      "provider_info": {
+        "Address 1 Full": "265 Citrus Tower Blvd, Suite 100\nClermont, FL 34711",
+        "Billing Address 1": "PO Box 203573",
+        "Billing Address 2": "STE 700",
+        "Billing Address City": "Dallas",
+        "Billing Address Postal Code": "753203573",
+        "Billing Address State": "TX",
+        "Billing Name": "SimonMed Imaging FL LLC",
+        "DBA Name Billing Name": "SimonMed Imaging - Clermont",
+        "Latitude": "28.5634774",
+        "Location": null,
+        "Need OTA": null,
+        "Provider Network": "In Network",
+        "Provider Status": "Contract Complete",
+        "Provider Type": "Imaging",
+        "TIN": "45-3727094",
+        "NPI": "1477830818",
+        "PrimaryKey": "A89B4094-6102-4B2F-936D-D1328221C3A7"
+      },
+      "date_of_service": "2024-11-07",
+      "line_items": [
+        {
+          "date_of_service": "2024-11-07",
+          "cpt": "73721",
+          "modifier": "RT",
+          "units": 1,
+          "charge": "1193.00",
+          "validated_rate": 250.0
+        }
+      ],
+      "comparison_details": {
+        "hcfa_codes": [
+          "73721"
+        ],
+        "order_codes": [
+          "72141"
+        ],
+        "hcfa_categories": {
+          "73721": "MRI w/o"
+        },
+        "order_categories": {
+          "72141": "MRI w/o"
+        }
+      }
+    }
+  },
+  {
+    "file_info": {
+      "file_name": "C:\\Users\\ChristopherCato\\OneDrive - clarity-dx.com\\Documents\\Bill_Review_INTERNAL\\scripts\\VAILIDATION\\data\\extracts\\valid\\mapped\\staging\\20250224_1016.json",
+      "order_id": "5334A9C1-A0CA-47C7-BAC6-E5304AA1A1A7",
+      "timestamp": "2025-03-13T11:22:46.281111",
+      "validation_session_id": "1a09e030-8d09-42d1-8dd0-4f3bd90d3295"
+    },
+    "validation_summary": {
+      "status": "PASS",
+      "total_checks": 2,
+      "failed_checks": 0
+    },
+    "data": {
+      "patient_info": {
+        "Order_ID": "5334A9C1-A0CA-47C7-BAC6-E5304AA1A1A7",
+        "FileMaker_Record_Number": "2024517300-06",
+        "Patient_Address": "1276 E 113th Ave Apt 109",
+        "Patient_City": "Tampa",
+        "Patient_State": "FL",
+        "Patient_Zip": "33612.0",
+        "Patient_Injury_Date": "7/19/2024",
+        "Patient_Injury_Description": "LT shoulder Sprain",
+        "Patient_DOB": "10/5/1983",
+        "Patient_Last_Name": "Stanley",
+        "Patient_First_Name": "Ahmad",
+        "PatientName": "Ahmad Stanley",
+        "PatientPhone": "18138634296",
+        "Referring_Physician": "Preeth Jayaram ",
+        "Referring_Physician_NPI": "1124559646",
+        "Assigning_Company": "CBCS",
+        "Assigning_Adjuster": "Brittany Kellnhofer",
+        "Claim_Number": "CBF24022132",
+        "Order_Type": "Imaging",
+        "Jurisdiction_State": "FL",
+        "created_at": "2024-12-26 14:00:10",
+        "updated_at": "2024-12-26 14:00:10",
+        "is_active": 1,
+        "bundle_type": null,
+        "provider_id": "5FC4B4F0-28A9-442F-859F-D4FA9115C0CD",
+        "provider_name": "Simonmed Imaging - Tampa"
+      },
+      "provider_info": {
+        "Address 1 Full": "14302 Bruce B Downs Blvd. \nTampa, FL 33613-2601",
+        "Billing Address 1": "PO Box 203573",
+        "Billing Address 2": null,
+        "Billing Address City": "Dallas",
+        "Billing Address Postal Code": "753203573",
+        "Billing Address State": "TX",
+        "Billing Name": "SimonMed Imaging FL LLC",
+        "DBA Name Billing Name": "Simonmed Imaging - Tampa",
+        "Latitude": "28.0769106",
+        "Location": null,
+        "Need OTA": null,
+        "Provider Network": "In Network",
+        "Provider Status": "Contract Complete",
+        "Provider Type": "Imaging",
+        "TIN": "45-3727094",
+        "NPI": "1477830818",
+        "PrimaryKey": "5FC4B4F0-28A9-442F-859F-D4FA9115C0CD"
+      },
+      "date_of_service": "2024-08-06",
+      "line_items": [
+        {
+          "date_of_service": "2024-08-06",
+          "cpt": "73221",
+          "modifier": "59,LT",
+          "units": 1,
+          "charge": "1193.00",
+          "validated_rate": 250.0
+        },
+        {
+          "date_of_service": "2024-08-06",
+          "cpt": "73221",
+          "modifier": "LT",
+          "units": "1",
+          "charge": "1193.00",
+          "validated_rate": 250.0
+        }
+      ],
+      "comparison_details": {}
+    }
+  },
+  {
+    "file_info": {
+      "file_name": "C:\\Users\\ChristopherCato\\OneDrive - clarity-dx.com\\Documents\\Bill_Review_INTERNAL\\scripts\\VAILIDATION\\data\\extracts\\valid\\mapped\\staging\\20250224_1029.json",
+      "order_id": "51F68EF2-3E6E-4B5B-BB1E-EE8540F3E89A",
+      "timestamp": "2025-03-13T11:22:46.281170",
+      "validation_session_id": "1a09e030-8d09-42d1-8dd0-4f3bd90d3295"
+    },
+    "validation_summary": {
+      "status": "PASS",
+      "total_checks": 2,
+      "failed_checks": 0
+    },
+    "data": {
+      "patient_info": {
+        "Order_ID": "51F68EF2-3E6E-4B5B-BB1E-EE8540F3E89A",
+        "FileMaker_Record_Number": "20241020996-01",
+        "Patient_Address": "2031 Piedmont Lane ",
+        "Patient_City": "Kissimmee",
+        "Patient_State": "FL",
+        "Patient_Zip": "34744.0",
+        "Patient_Injury_Date": "12/3/2015",
+        "Patient_Injury_Description": "Lumbar Spine",
+        "Patient_DOB": "5/24/1977",
+        "Patient_Last_Name": "Gatewood",
+        "Patient_First_Name": "Jonathan",
+        "PatientName": "Jonathan Gatewood",
+        "PatientPhone": "16143272356",
+        "Referring_Physician": "Lisa Cunningham",
+        "Referring_Physician_NPI": "1265491898.0",
+        "Assigning_Company": "Davies",
+        "Assigning_Adjuster": "Michelle Robinson",
+        "Claim_Number": "720102",
+        "Order_Type": "Imaging",
+        "Jurisdiction_State": "FL",
+        "created_at": "2024-12-26 14:00:10",
+        "updated_at": "2024-12-26 14:00:10",
+        "is_active": 1,
+        "bundle_type": null,
+        "provider_id": "33DFD780-434F-4649-B749-DF99D8ED15DB",
+        "provider_name": "Simonmed Imaging - Kissimmee"
+      },
+      "provider_info": {
+        "Address 1 Full": "208 West Oak St. \nKissimmee, FL 34741-4420",
+        "Billing Address 1": "PO Box 203573",
+        "Billing Address 2": null,
+        "Billing Address City": "Dallas",
+        "Billing Address Postal Code": "753203573",
+        "Billing Address State": "TX",
+        "Billing Name": "SimonMed Imaging FL LLC",
+        "DBA Name Billing Name": "Simonmed Imaging - Kissimmee",
+        "Latitude": "28.3002321",
+        "Location": null,
+        "Need OTA": null,
+        "Provider Network": "In Network",
+        "Provider Status": "Contract Complete",
+        "Provider Type": "Imaging",
+        "TIN": "45-3727094",
+        "NPI": "1477830818",
+        "PrimaryKey": "33DFD780-434F-4649-B749-DF99D8ED15DB"
+      },
+      "date_of_service": "2024-11-05",
+      "line_items": [
+        {
+          "date_of_service": "2024-11-05",
+          "cpt": "72158",
+          "modifier": "",
+          "units": 1,
+          "charge": "2241.00",
+          "validated_rate": 400.0
+        },
+        {
+          "date_of_service": "2024-11-05",
+          "cpt": "A9575",
+          "modifier": null,
+          "units": "1",
+          "charge": "150.00",
+          "validated_rate": 0.0
+        }
+      ],
+      "comparison_details": {
+        "hcfa_codes": [
+          "72158",
+          "A9575"
+        ],
+        "order_codes": [
+          "72158"
+        ],
+        "hcfa_categories": {
+          "72158": "MRI w/&w/o",
+          "A9575": "ancillary"
+        },
+        "order_categories": {
+          "72158": "MRI w/&w/o"
+        }
+      }
+    }
+  },
+  {
+    "file_info": {
+      "file_name": "C:\\Users\\ChristopherCato\\OneDrive - clarity-dx.com\\Documents\\Bill_Review_INTERNAL\\scripts\\VAILIDATION\\data\\extracts\\valid\\mapped\\staging\\20250224_1047.json",
+      "order_id": "ED3D25ED-37D3-479A-834A-E0755753AEC5",
+      "timestamp": "2025-03-13T11:22:46.281224",
+      "validation_session_id": "1a09e030-8d09-42d1-8dd0-4f3bd90d3295"
+    },
+    "validation_summary": {
+      "status": "PASS",
+      "total_checks": 1,
+      "failed_checks": 0
+    },
+    "data": {
+      "patient_info": {
+        "Order_ID": "ED3D25ED-37D3-479A-834A-E0755753AEC5",
+        "FileMaker_Record_Number": "2025223248-01",
+        "Patient_Address": "101 Rederick St ",
+        "Patient_City": "Hogansville",
+        "Patient_State": "GA",
+        "Patient_Zip": "30230.0",
+        "Patient_Injury_Date": "2025-01-12",
+        "Patient_Injury_Description": "RT Shoulder",
+        "Patient_DOB": "1966-06-07 00:00:00",
+        "Patient_Last_Name": "Leich",
+        "Patient_First_Name": "Erik ",
+        "PatientName": "Erik  Leich",
+        "PatientPhone": "17064024289.0",
+        "Referring_Physician": null,
+        "Referring_Physician_NPI": null,
+        "Assigning_Company": "Midwestern Insurance Alliance LLC",
+        "Assigning_Adjuster": "Ashley  Simmons",
+        "Claim_Number": "BH- 20250114102",
+        "Order_Type": "Imaging",
+        "Jurisdiction_State": "GA",
+        "created_at": "2025-02-09 15:03:21",
+        "updated_at": "2025-02-09 15:03:21",
+        "is_active": null,
+        "bundle_type": null,
+        "provider_id": "ADD7BDF9-6034-4A91-9F28-50E92B4D54DE",
+        "provider_name": "American Health Imaging of Newnan"
+      },
+      "provider_info": {
+        "Address 1 Full": "10 Mercantile Drive \nNewnan, GA 30265-1325",
+        "Billing Address 1": "PO BOX 745973",
+        "Billing Address 2": null,
+        "Billing Address City": "ATLANTA",
+        "Billing Address Postal Code": "30374",
+        "Billing Address State": "GA",
+        "Billing Name": "AMERICAN HEALTH IMAGING OF GEORGIA LLC",
+        "DBA Name Billing Name": "American Health Imaging of Newnan",
+        "Latitude": "33.3988979",
+        "Location": null,
+        "Need OTA": "No",
+        "Provider Network": "In Network",
+        "Provider Status": "Contract Complete",
+        "Provider Type": "Imaging",
+        "TIN": "58-2388975",
+        "NPI": "1144206764",
+        "PrimaryKey": "ADD7BDF9-6034-4A91-9F28-50E92B4D54DE"
+      },
+      "date_of_service": "2025-02-10",
+      "line_items": [
+        {
+          "date_of_service": "2025-02-10",
+          "cpt": "73221",
+          "modifier": "RT",
+          "units": 1,
+          "charge": "2225.00",
+          "validated_rate": 402.22
+        }
+      ],
+      "comparison_details": {}
+    }
+  },
+  {
+    "file_info": {
+      "file_name": "C:\\Users\\ChristopherCato\\OneDrive - clarity-dx.com\\Documents\\Bill_Review_INTERNAL\\scripts\\VAILIDATION\\data\\extracts\\valid\\mapped\\staging\\20250224_1056.json",
+      "order_id": "8164D86C-4729-4B1A-86CC-569A57D7A634",
+      "timestamp": "2025-03-13T11:22:46.281281",
+      "validation_session_id": "1a09e030-8d09-42d1-8dd0-4f3bd90d3295"
+    },
+    "validation_summary": {
+      "status": "PASS",
+      "total_checks": 1,
+      "failed_checks": 0
+    },
+    "data": {
+      "patient_info": {
+        "Order_ID": "8164D86C-4729-4B1A-86CC-569A57D7A634",
+        "FileMaker_Record_Number": "2025122950-01",
+        "Patient_Address": "50 Forrestal Cir S ",
+        "Patient_City": "Jacksonville ",
+        "Patient_State": "Fl",
+        "Patient_Zip": "32233.0",
+        "Patient_Injury_Date": "2024-12-26",
+        "Patient_Injury_Description": "LT Knee ",
+        "Patient_DOB": "1984-07-06 00:00:00",
+        "Patient_Last_Name": "Clark",
+        "Patient_First_Name": "Nicole ",
+        "PatientName": "Nicole  Clark",
+        "PatientPhone": "13522841111.0",
+        "Referring_Physician": "Robert Stapleton",
+        "Referring_Physician_NPI": "1295154623.0",
+        "Assigning_Company": "City of Jacksonville",
+        "Assigning_Adjuster": "Jasko Kucukovic",
+        "Claim_Number": "2510 00069",
+        "Order_Type": "Imaging",
+        "Jurisdiction_State": "FL",
+        "created_at": "2025-02-09 15:03:21",
+        "updated_at": "2025-02-09 15:03:21",
+        "is_active": null,
+        "bundle_type": null,
+        "provider_id": "62D183B3-35C0-4A78-A133-643E8B19A8BE",
+        "provider_name": "Precision Imaging Centers"
+      },
+      "provider_info": {
+        "Address 1 Full": "7860 Gate Parkway Suite 123\nJacksonville, Fl 32256",
+        "Billing Address 1": "7860 Gate Pkwy",
+        "Billing Address 2": null,
+        "Billing Address City": "Jacksonville",
+        "Billing Address Postal Code": "322567286",
+        "Billing Address State": "FL",
+        "Billing Name": "Medical Imaging Partnership",
+        "DBA Name Billing Name": "Precision Imaging Centers",
+        "Latitude": "30.2353788",
+        "Location": null,
+        "Need OTA": null,
+        "Provider Network": "In Network",
+        "Provider Status": "Contract Complete",
+        "Provider Type": "Imaging",
+        "TIN": "20-5147377",
+        "NPI": "1104849280",
+        "PrimaryKey": "62D183B3-35C0-4A78-A133-643E8B19A8BE"
+      },
+      "date_of_service": "2025-02-03",
+      "line_items": [
+        {
+          "date_of_service": "2025-02-03",
+          "cpt": "72141",
+          "modifier": null,
+          "units": 1,
+          "charge": "2639.23",
+          "validated_rate": 275.0
+        }
+      ],
+      "comparison_details": {
+        "hcfa_codes": [
+          "72141"
+        ],
+        "order_codes": [
+          "73721"
+        ],
+        "hcfa_categories": {
+          "72141": "MRI w/o"
+        },
+        "order_categories": {
+          "73721": "MRI w/o"
+        }
+      }
+    }
+  },
+  {
+    "file_info": {
+      "file_name": "C:\\Users\\ChristopherCato\\OneDrive - clarity-dx.com\\Documents\\Bill_Review_INTERNAL\\scripts\\VAILIDATION\\data\\extracts\\valid\\mapped\\staging\\20250224_1068.json",
+      "order_id": "100F6C90-3C0D-C448-895A-3CBB5CAC1D4B",
+      "timestamp": "2025-03-13T11:22:46.281339",
+      "validation_session_id": "1a09e030-8d09-42d1-8dd0-4f3bd90d3295"
+    },
+    "validation_summary": {
+      "status": "PASS",
+      "total_checks": 1,
+      "failed_checks": 0
+    },
+    "data": {
+      "patient_info": {
+        "Order_ID": "100F6C90-3C0D-C448-895A-3CBB5CAC1D4B",
+        "FileMaker_Record_Number": "2025223422",
+        "Patient_Address": "706 Camel Ct ",
+        "Patient_City": "Kissimmee",
+        "Patient_State": "Fl",
+        "Patient_Zip": "34759.0",
+        "Patient_Injury_Date": "2024-09-27 00:00:00",
+        "Patient_Injury_Description": "RT Shoulder, C-Spine",
+        "Patient_DOB": "1966-02-09 00:00:00",
+        "Patient_Last_Name": "Scott",
+        "Patient_First_Name": "Gail L",
+        "PatientName": "Gail L Scott",
+        "PatientPhone": "13058340041.0",
+        "Referring_Physician": "Alan Christensen ",
+        "Referring_Physician_NPI": "1649241597",
+        "Assigning_Company": "Publix",
+        "Assigning_Adjuster": "Kourtney Smith",
+        "Claim_Number": " WC2024637670",
+        "Order_Type": "Imaging",
+        "Jurisdiction_State": "FL",
+        "created_at": "2025-02-24 21:31:46",
+        "updated_at": "2025-02-24 21:31:46",
+        "is_active": null,
+        "bundle_type": null,
+        "provider_id": "313D4151-8AC2-4B03-BB39-90E68D3FA8F7",
+        "provider_name": "Rayus - Winter Park"
+      },
+      "provider_info": {
+        "Address 1 Full": "964 S Orlando Ave  \nWinter Park, FL 32789",
+        "Billing Address 1": "PO BOX 198207",
+        "Billing Address 2": null,
+        "Billing Address City": "ATLANTA",
+        "Billing Address Postal Code": "30384-8207",
+        "Billing Address State": "GA",
+        "Billing Name": "RAYUS RADIOLOGY",
+        "DBA Name Billing Name": "Rayus - Winter Park",
+        "Latitude": "28.5886231",
+        "Location": null,
+        "Need OTA": "Yes",
+        "Provider Network": "In Network",
+        "Provider Status": "Contract Complete",
+        "Provider Type": "Imaging",
+        "TIN": "41-1410766",
+        "NPI": "1871560201",
+        "PrimaryKey": "313D4151-8AC2-4B03-BB39-90E68D3FA8F7"
+      },
+      "date_of_service": "2025-02-11",
+      "line_items": [
+        {
+          "date_of_service": "2025-02-11",
+          "cpt": "A9575",
+          "modifier": "JW",
+          "units": 49,
+          "charge": "166.60",
+          "validated_rate": 0.0
+        }
+      ],
+      "comparison_details": {
+        "hcfa_codes": [
+          "A9575"
+        ],
+        "order_codes": [
+          "72141.0",
+          "23350",
+          "77002"
+        ],
+        "hcfa_categories": {
+          "A9575": "ancillary"
+        },
+        "order_categories": {
+          "23350": "0",
+          "77002": "0"
+        }
+      }
+    }
+  },
+  {
+    "file_info": {
+      "file_name": "C:\\Users\\ChristopherCato\\OneDrive - clarity-dx.com\\Documents\\Bill_Review_INTERNAL\\scripts\\VAILIDATION\\data\\extracts\\valid\\mapped\\staging\\20250224_1088.json",
+      "order_id": "8EF0CD77-846C-4176-9F38-99974B5B63FB",
+      "timestamp": "2025-03-13T11:22:46.281423",
+      "validation_session_id": "1a09e030-8d09-42d1-8dd0-4f3bd90d3295"
+    },
+    "validation_summary": {
+      "status": "PASS",
+      "total_checks": 1,
+      "failed_checks": 0
+    },
+    "data": {
+      "patient_info": {
+        "Order_ID": "8EF0CD77-846C-4176-9F38-99974B5B63FB",
+        "FileMaker_Record_Number": "2025223250-01",
+        "Patient_Address": "380 Burbank Ave ",
+        "Patient_City": "Ponte Vedra",
+        "Patient_State": "Fl",
+        "Patient_Zip": "32081.0",
+        "Patient_Injury_Date": "2025-01-13",
+        "Patient_Injury_Description": "RT knee",
+        "Patient_DOB": "2001-10-15 00:00:00",
+        "Patient_Last_Name": "Devincentis",
+        "Patient_First_Name": "John ",
+        "PatientName": "John  Devincentis",
+        "PatientPhone": "19048747780.0",
+        "Referring_Physician": null,
+        "Referring_Physician_NPI": null,
+        "Assigning_Company": "Publix",
+        "Assigning_Adjuster": "Bee Peterson",
+        "Claim_Number": "WC2025643915",
+        "Order_Type": "Imaging",
+        "Jurisdiction_State": "FL",
+        "created_at": "2025-02-09 15:03:21",
+        "updated_at": "2025-02-09 15:03:21",
+        "is_active": null,
+        "bundle_type": null,
+        "provider_id": "62D183B3-35C0-4A78-A133-643E8B19A8BE",
+        "provider_name": "Precision Imaging Centers"
+      },
+      "provider_info": {
+        "Address 1 Full": "7860 Gate Parkway Suite 123\nJacksonville, Fl 32256",
+        "Billing Address 1": "7860 Gate Pkwy",
+        "Billing Address 2": null,
+        "Billing Address City": "Jacksonville",
+        "Billing Address Postal Code": "322567286",
+        "Billing Address State": "FL",
+        "Billing Name": "Medical Imaging Partnership",
+        "DBA Name Billing Name": "Precision Imaging Centers",
+        "Latitude": "30.2353788",
+        "Location": null,
+        "Need OTA": null,
+        "Provider Network": "In Network",
+        "Provider Status": "Contract Complete",
+        "Provider Type": "Imaging",
+        "TIN": "20-5147377",
+        "NPI": "1104849280",
+        "PrimaryKey": "62D183B3-35C0-4A78-A133-643E8B19A8BE"
+      },
+      "date_of_service": "2025-02-10",
+      "line_items": [
+        {
+          "date_of_service": "2025-02-10",
+          "cpt": "73721",
+          "modifier": "RT",
+          "units": 1,
+          "charge": "1262.63",
+          "validated_rate": 275.0
+        }
+      ],
+      "comparison_details": {}
+    }
+  },
+  {
+    "file_info": {
+      "file_name": "C:\\Users\\ChristopherCato\\OneDrive - clarity-dx.com\\Documents\\Bill_Review_INTERNAL\\scripts\\VAILIDATION\\data\\extracts\\valid\\mapped\\staging\\20250225_1008.json",
+      "order_id": "4C817EB4-18E5-41B5-83FB-C88FC7B56E53",
+      "timestamp": "2025-03-13T11:22:46.281548",
+      "validation_session_id": "1a09e030-8d09-42d1-8dd0-4f3bd90d3295"
+    },
+    "validation_summary": {
+      "status": "PASS",
+      "total_checks": 2,
+      "failed_checks": 0
+    },
+    "data": {
+      "patient_info": {
+        "Order_ID": "4C817EB4-18E5-41B5-83FB-C88FC7B56E53",
+        "FileMaker_Record_Number": "2024819421-01",
+        "Patient_Address": "3207 W Sam Allen Rd ",
+        "Patient_City": "Plant City",
+        "Patient_State": "FL",
+        "Patient_Zip": "33565",
+        "Patient_Injury_Date": "7/12/2024",
+        "Patient_Injury_Description": "Sinus & Skull Base",
+        "Patient_DOB": "2/19/1965",
+        "Patient_Last_Name": "Huff",
+        "Patient_First_Name": "Kathy",
+        "PatientName": "Kathy Huff",
+        "PatientPhone": "18635293572",
+        "Referring_Physician": "Stephen L. Yavelow",
+        "Referring_Physician_NPI": "1184690737",
+        "Assigning_Company": "Publix Super Markets, Inc.",
+        "Assigning_Adjuster": "Madyson Rice",
+        "Claim_Number": "WC2024632661",
+        "Order_Type": "Imaging",
+        "Jurisdiction_State": "FL",
+        "created_at": "2024-12-26 14:00:10",
+        "updated_at": "2024-12-26 14:00:10",
+        "is_active": 1,
+        "bundle_type": null,
+        "provider_id": "A82EEA22-3A3E-474E-80E7-811E001CA0A2",
+        "provider_name": "Tgh Imaging - Parsons"
+      },
+      "provider_info": {
+        "Address 1 Full": "427 S Parsons Ave STE 100\nBrandon, FL 33511",
+        "Billing Address 1": "PO Box 31249",
+        "Billing Address 2": null,
+        "Billing Address City": "Tampa",
+        "Billing Address Postal Code": "336313249",
+        "Billing Address State": "FL",
+        "Billing Name": "Tower Imaging LLC",
+        "DBA Name Billing Name": "Tgh Imaging - Parsons",
+        "Latitude": "27.932061",
+        "Location": null,
+        "Need OTA": null,
+        "Provider Network": "In Network",
+        "Provider Status": "Contract Complete",
+        "Provider Type": "Imaging",
+        "TIN": "59-1433551",
+        "NPI": "1942652474",
+        "PrimaryKey": "A82EEA22-3A3E-474E-80E7-811E001CA0A2"
+      },
+      "date_of_service": "2024-08-27",
+      "line_items": [
+        {
+          "date_of_service": "2024-08-27",
+          "cpt": "70553",
+          "modifier": "",
+          "units": 1,
+          "charge": "1743.00",
+          "validated_rate": 400.0
+        },
+        {
+          "date_of_service": "2024-08-27",
+          "cpt": "A9573",
+          "modifier": "JZ",
+          "units": "8",
+          "charge": "96.00",
+          "validated_rate": 0.0
+        }
+      ],
+      "comparison_details": {
+        "hcfa_codes": [
+          "A9573",
+          "70553"
+        ],
+        "order_codes": [
+          "70553"
+        ],
+        "hcfa_categories": {
+          "70553": "MRI w/&w/o",
+          "A9573": "ancillary"
+        },
+        "order_categories": {
+          "70553": "MRI w/&w/o"
+        }
+      }
+    }
+  },
+  {
+    "file_info": {
+      "file_name": "C:\\Users\\ChristopherCato\\OneDrive - clarity-dx.com\\Documents\\Bill_Review_INTERNAL\\scripts\\VAILIDATION\\data\\extracts\\valid\\mapped\\staging\\20250225_1010.json",
+      "order_id": "85D09F38-3224-490E-BC4B-36E1AA983AD7",
+      "timestamp": "2025-03-13T11:22:46.281587",
+      "validation_session_id": "1a09e030-8d09-42d1-8dd0-4f3bd90d3295"
+    },
+    "validation_summary": {
+      "status": "PASS",
+      "total_checks": 2,
+      "failed_checks": 0
+    },
+    "data": {
+      "patient_info": {
+        "Order_ID": "85D09F38-3224-490E-BC4B-36E1AA983AD7",
+        "FileMaker_Record_Number": "2025122894-01",
+        "Patient_Address": "5027 Cicero Dr ",
+        "Patient_City": "New Port Richey",
+        "Patient_State": "FL",
+        "Patient_Zip": "34652.0",
+        "Patient_Injury_Date": "2025-01-18",
+        "Patient_Injury_Description": "Left Knee",
+        "Patient_DOB": "1965-06-16 00:00:00",
+        "Patient_Last_Name": "Slaight",
+        "Patient_First_Name": "Katherine",
+        "PatientName": "Katherine Slaight",
+        "PatientPhone": "13522285334.0",
+        "Referring_Physician": "Jillian Murray",
+        "Referring_Physician_NPI": "1093572331.0",
+        "Assigning_Company": "Publix",
+        "Assigning_Adjuster": "Bee Peterson",
+        "Claim_Number": "WC2025643987",
+        "Order_Type": "Imaging",
+        "Jurisdiction_State": "FL",
+        "created_at": "2025-02-09 15:03:21",
+        "updated_at": "2025-02-09 15:03:21",
+        "is_active": null,
+        "bundle_type": null,
+        "provider_id": "A8C37F45-B650-4DD4-BD57-7136D5E2EBFD",
+        "provider_name": "Tower Radiology - Habana"
+      },
+      "provider_info": {
+        "Address 1 Full": "4719 North Habana Ave \nTampa, FL 33614",
+        "Billing Address 1": "PO Box 31249",
+        "Billing Address 2": null,
+        "Billing Address City": "Tampa",
+        "Billing Address Postal Code": "336313249",
+        "Billing Address State": "FL",
+        "Billing Name": "Tower Imaging LLC",
+        "DBA Name Billing Name": "Tower Radiology - Habana",
+        "Latitude": "27.9873062",
+        "Location": null,
+        "Need OTA": null,
+        "Provider Network": "In Network",
+        "Provider Status": "Contract Complete",
+        "Provider Type": "Imaging",
+        "TIN": "59-1433551",
+        "NPI": "1396707063",
+        "PrimaryKey": "A8C37F45-B650-4DD4-BD57-7136D5E2EBFD"
+      },
+      "date_of_service": "2025-02-03",
+      "line_items": [
+        {
+          "date_of_service": "2025-02-03",
+          "cpt": "73722",
+          "modifier": "LT",
+          "units": 1,
+          "charge": "3885.00",
+          "validated_rate": 350.0
+        },
+        {
+          "date_of_service": "2025-02-03",
+          "cpt": "A9573",
+          "modifier": "JZ",
+          "units": "8",
+          "charge": "96.00",
+          "validated_rate": 0.0
+        }
+      ],
+      "comparison_details": {
+        "hcfa_codes": [
+          "73722",
+          "A9573"
+        ],
+        "order_codes": [
+          "73723"
+        ],
+        "hcfa_categories": {
+          "73722": "MRI w/",
+          "A9573": "ancillary"
+        },
+        "order_categories": {
+          "73723": "MRI w/"
+        }
+      }
+    }
+  },
+  {
+    "file_info": {
+      "file_name": "C:\\Users\\ChristopherCato\\OneDrive - clarity-dx.com\\Documents\\Bill_Review_INTERNAL\\scripts\\VAILIDATION\\data\\extracts\\valid\\mapped\\staging\\20250225_1029.json",
+      "order_id": "E811A473-56B6-4F8E-995B-C6D936E9E882",
+      "timestamp": "2025-03-13T11:22:46.281640",
+      "validation_session_id": "1a09e030-8d09-42d1-8dd0-4f3bd90d3295"
+    },
+    "validation_summary": {
+      "status": "PASS",
+      "total_checks": 1,
+      "failed_checks": 0
+    },
+    "data": {
+      "patient_info": {
+        "Order_ID": "E811A473-56B6-4F8E-995B-C6D936E9E882",
+        "FileMaker_Record_Number": "2025123017-01",
+        "Patient_Address": "15571 SW 34th Court Rd ",
+        "Patient_City": "Ocala",
+        "Patient_State": "FL",
+        "Patient_Zip": "34473.0",
+        "Patient_Injury_Date": "2024-12-19",
+        "Patient_Injury_Description": "Left Hand",
+        "Patient_DOB": "1968-01-06 00:00:00",
+        "Patient_Last_Name": "Munoz",
+        "Patient_First_Name": "Nigsa",
+        "PatientName": "Nigsa Munoz",
+        "PatientPhone": "13525019574.0",
+        "Referring_Physician": "James Curnayn",
+        "Referring_Physician_NPI": "1366960049.0",
+        "Assigning_Company": "Davies",
+        "Assigning_Adjuster": "Kass Bassette",
+        "Claim_Number": "1299446",
+        "Order_Type": "Imaging",
+        "Jurisdiction_State": "FL",
+        "created_at": "2025-02-09 15:03:21",
+        "updated_at": "2025-02-09 15:03:21",
+        "is_active": null,
+        "bundle_type": null,
+        "provider_id": "BB290DD4-A7D2-4A88-B0C4-42D7FE59D02C",
+        "provider_name": "Care First Imaging"
+      },
+      "provider_info": {
+        "Address 1 Full": "1714 SW 17TH ST \nOCALA, FL 34471",
+        "Billing Address 1": "PO BOX 631520",
+        "Billing Address 2": null,
+        "Billing Address City": "CINCINNATI",
+        "Billing Address Postal Code": "452631520",
+        "Billing Address State": "OH",
+        "Billing Name": "RADIOLOGY IMAGIN SPECIALISTS LLC",
+        "DBA Name Billing Name": "Care First Imaging",
+        "Latitude": "29.1701874",
+        "Location": null,
+        "Need OTA": null,
+        "Provider Network": "Out of Network",
+        "Provider Status": "Contact Initiated",
+        "Provider Type": "Imaging",
+        "TIN": "81-1981130",
+        "NPI": "1952763971",
+        "PrimaryKey": "BB290DD4-A7D2-4A88-B0C4-42D7FE59D02C"
+      },
+      "date_of_service": "2025-01-29",
+      "line_items": [
+        {
+          "date_of_service": "2025-01-29",
+          "cpt": "73218",
+          "modifier": "LT",
+          "units": 1,
+          "charge": "2250.00",
+          "validated_rate": 250.0
+        }
+      ],
+      "comparison_details": {}
+    }
+  },
+  {
+    "file_info": {
+      "file_name": "C:\\Users\\ChristopherCato\\OneDrive - clarity-dx.com\\Documents\\Bill_Review_INTERNAL\\scripts\\VAILIDATION\\data\\extracts\\valid\\mapped\\staging\\20250225_1030.json",
+      "order_id": "2FB4EF63-964C-4290-A2F5-CFF66D82E9EF",
+      "timestamp": "2025-03-13T11:22:46.281672",
+      "validation_session_id": "1a09e030-8d09-42d1-8dd0-4f3bd90d3295"
+    },
+    "validation_summary": {
+      "status": "PASS",
+      "total_checks": 1,
+      "failed_checks": 0
+    },
+    "data": {
+      "patient_info": {
+        "Order_ID": "2FB4EF63-964C-4290-A2F5-CFF66D82E9EF",
+        "FileMaker_Record_Number": "2025122903",
+        "Patient_Address": "6127 SW 74th Ct ",
+        "Patient_City": "Ocala",
+        "Patient_State": "FL",
+        "Patient_Zip": "34474.0",
+        "Patient_Injury_Date": "2024-11-07",
+        "Patient_Injury_Description": "Brain",
+        "Patient_DOB": "1965-11-26 00:00:00",
+        "Patient_Last_Name": "Isaacs",
+        "Patient_First_Name": "Anne F",
+        "PatientName": "Anne F Isaacs",
+        "PatientPhone": "16316053534.0",
+        "Referring_Physician": "Anthony Shydohub ",
+        "Referring_Physician_NPI": "1275569899.0",
+        "Assigning_Company": "Davies",
+        "Assigning_Adjuster": "Kass Bassette",
+        "Claim_Number": "1295222",
+        "Order_Type": "Imaging",
+        "Jurisdiction_State": "FL",
+        "created_at": "2025-02-09 15:03:21",
+        "updated_at": "2025-02-09 15:03:21",
+        "is_active": null,
+        "bundle_type": null,
+        "provider_id": "BB290DD4-A7D2-4A88-B0C4-42D7FE59D02C",
+        "provider_name": "Care First Imaging"
+      },
+      "provider_info": {
+        "Address 1 Full": "1714 SW 17TH ST \nOCALA, FL 34471",
+        "Billing Address 1": "PO BOX 631520",
+        "Billing Address 2": null,
+        "Billing Address City": "CINCINNATI",
+        "Billing Address Postal Code": "452631520",
+        "Billing Address State": "OH",
+        "Billing Name": "RADIOLOGY IMAGIN SPECIALISTS LLC",
+        "DBA Name Billing Name": "Care First Imaging",
+        "Latitude": "29.1701874",
+        "Location": null,
+        "Need OTA": null,
+        "Provider Network": "Out of Network",
+        "Provider Status": "Contact Initiated",
+        "Provider Type": "Imaging",
+        "TIN": "81-1981130",
+        "NPI": "1952763971",
+        "PrimaryKey": "BB290DD4-A7D2-4A88-B0C4-42D7FE59D02C"
+      },
+      "date_of_service": "2025-01-27",
+      "line_items": [
+        {
+          "date_of_service": "2025-01-27",
+          "cpt": "70551",
+          "modifier": "AB",
+          "units": 1,
+          "charge": "2250.00",
+          "validated_rate": 250.0
+        }
+      ],
+      "comparison_details": {}
+    }
+  },
+  {
+    "file_info": {
+      "file_name": "C:\\Users\\ChristopherCato\\OneDrive - clarity-dx.com\\Documents\\Bill_Review_INTERNAL\\scripts\\VAILIDATION\\data\\extracts\\valid\\mapped\\staging\\20250225_1031.json",
+      "order_id": "5CD6B35C-85A1-44E3-A732-EB3E1B8BAEBC",
+      "timestamp": "2025-03-13T11:22:46.281704",
+      "validation_session_id": "1a09e030-8d09-42d1-8dd0-4f3bd90d3295"
+    },
+    "validation_summary": {
+      "status": "PASS",
+      "total_checks": 1,
+      "failed_checks": 0
+    },
+    "data": {
+      "patient_info": {
+        "Order_ID": "5CD6B35C-85A1-44E3-A732-EB3E1B8BAEBC",
+        "FileMaker_Record_Number": "2025122851-01",
+        "Patient_Address": "2212 NE 45th Ave ",
+        "Patient_City": "Ocala",
+        "Patient_State": "FL",
+        "Patient_Zip": "34470.0",
+        "Patient_Injury_Date": "2024-11-22",
+        "Patient_Injury_Description": "Right Shoulder",
+        "Patient_DOB": "1969-03-14 00:00:00",
+        "Patient_Last_Name": "Davis",
+        "Patient_First_Name": "Elizabeth I.",
+        "PatientName": "Elizabeth I. Davis",
+        "PatientPhone": "14043140469.0",
+        "Referring_Physician": "Nirav Gupta ",
+        "Referring_Physician_NPI": "1134146855.0",
+        "Assigning_Company": "Davies",
+        "Assigning_Adjuster": "Kass Bassette",
+        "Claim_Number": "1296697",
+        "Order_Type": "Imaging",
+        "Jurisdiction_State": "FL",
+        "created_at": "2025-02-09 15:03:21",
+        "updated_at": "2025-02-09 15:03:21",
+        "is_active": null,
+        "bundle_type": null,
+        "provider_id": "BB290DD4-A7D2-4A88-B0C4-42D7FE59D02C",
+        "provider_name": "Care First Imaging"
+      },
+      "provider_info": {
+        "Address 1 Full": "1714 SW 17TH ST \nOCALA, FL 34471",
+        "Billing Address 1": "PO BOX 631520",
+        "Billing Address 2": null,
+        "Billing Address City": "CINCINNATI",
+        "Billing Address Postal Code": "452631520",
+        "Billing Address State": "OH",
+        "Billing Name": "RADIOLOGY IMAGIN SPECIALISTS LLC",
+        "DBA Name Billing Name": "Care First Imaging",
+        "Latitude": "29.1701874",
+        "Location": null,
+        "Need OTA": null,
+        "Provider Network": "Out of Network",
+        "Provider Status": "Contact Initiated",
+        "Provider Type": "Imaging",
+        "TIN": "81-1981130",
+        "NPI": "1952763971",
+        "PrimaryKey": "BB290DD4-A7D2-4A88-B0C4-42D7FE59D02C"
+      },
+      "date_of_service": "2025-01-28",
+      "line_items": [
+        {
+          "date_of_service": "2025-01-28",
+          "cpt": "73221",
+          "modifier": "RT",
+          "units": 1,
+          "charge": "2250.00",
+          "validated_rate": 250.0
+        }
+      ],
+      "comparison_details": {}
+    }
+  }
+]
