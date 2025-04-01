@@ -1,7 +1,6 @@
 import os
 from pathlib import Path
 from docx import Document
-from docx2pdf import convert
 from datetime import datetime
 from config.settings import WORD_TEMPLATE, ACCEPTABLE_MODIFIERS, ACCEPTABLE_POS
 
@@ -64,7 +63,7 @@ def populate_placeholders(doc, mapping):
                         cell.text = cell.text.replace(placeholder, value)
 
 def generate_document(record, eobr_data, output_folders):
-    """Generate Word and PDF documents for an EOBR record"""
+    """Generate Word document for an EOBR record"""
     # Get the data object from the record
     data = record.get("data", {})
     
@@ -97,14 +96,6 @@ def generate_document(record, eobr_data, output_folders):
     # Save document
     eobr_file_name = f"EOBR_{eobr_data['EOBR Number']}"
     docx_output = os.path.join(output_folders['docs'], f"{eobr_file_name}.docx")
-    pdf_output = os.path.join(output_folders['pdf'], f"{eobr_file_name}.pdf")
     
     doc.save(docx_output)
-    
-    # Convert to PDF
-    try:
-        convert(docx_output, pdf_output)
-    except Exception as e:
-        print(f"Error converting to PDF: {e}")
-        
-    return docx_output, pdf_output
+    return docx_output, None  # Return None for pdf_path since we're not generating PDFs

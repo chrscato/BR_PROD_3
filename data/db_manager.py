@@ -4,31 +4,28 @@ from pathlib import Path
 from config.settings import DB_PATH
 
 def initialize_database():
-    """Initialize SQLite database if it doesn't exist"""
+    """Initialize SQLite database connection"""
     if not Path(DB_PATH).exists():
-        # Create the directory if it doesn't exist
-        Path(DB_PATH).parent.mkdir(parents=True, exist_ok=True)
-        
-        # Connect to database and create tables
+        print(f"Error: Database file not found at {DB_PATH}")
+        return False
+    
+    # Just make sure the database is accessible
+    try:
         conn = sqlite3.connect(DB_PATH)
         cursor = conn.cursor()
         
-        # Create table for tracking paid items
-        cursor.execute('''
-        CREATE TABLE IF NOT EXISTS paid_items (
-            line_item_id INTEGER,
-            order_id TEXT,
-            BR_paid TEXT,
-            BR_rate REAL,
-            EOBR_doc_no TEXT,
-            HCFA_doc_no TEXT,
-            BR_date_processed TEXT,
-            PRIMARY KEY (line_item_id, order_id)
-        )
-        ''')
-        
-        conn.commit()
+        # Check if the line_items table exists
+        cursor.execute("SELECT name FROM sqlite_master WHERE type='table' AND name='line_items'")
+        if not cursor.fetchone():
+            print("Warning: line_items table not found in database")
+            conn.close()
+            return False
+            
         conn.close()
+        return True
+    except Exception as e:
+        print(f"Error connecting to database: {e}")
+        return False
 
 def check_if_item_paid(line_item_id, order_id):
     """
@@ -44,14 +41,15 @@ def check_if_item_paid(line_item_id, order_id):
     if not line_item_id or not order_id:
         return False
     
-    initialize_database()
+    if not initialize_database():
+        return False
     
     conn = sqlite3.connect(DB_PATH)
     cursor = conn.cursor()
     
     # Check if the line item exists and has been paid
     cursor.execute(
-        'SELECT BR_paid FROM paid_items WHERE line_item_id = ? AND order_id = ? AND BR_paid IS NOT NULL',
+        'SELECT BR_paid FROM line_items WHERE id = ? AND Order_ID = ? AND BR_paid IS NOT NULL',
         (line_item_id, order_id)
     )
     
@@ -72,21 +70,66 @@ def update_payment_info(line_item_id, order_id, br_paid, br_rate, eobr_doc_no, h
         eobr_doc_no (str): The EOBR document number
         hcfa_doc_no (str): The HCFA document number
         br_date_processed (str): The date the payment was processed
+        
+    Returns:
+        bool: True if update was successful, False otherwise
     """
     if not line_item_id or not order_id:
-        return
+        return False
     
-    initialize_database()
+    if not initialize_database():
+        return False
     
     conn = sqlite3.connect(DB_PATH)
     cursor = conn.cursor()
     
-    # Insert or update the payment information
-    cursor.execute('''
-    INSERT OR REPLACE INTO paid_items (
-        line_item_id, order_id, BR_paid, BR_rate, EOBR_doc_no, HCFA_doc_no, BR_date_processed
-    ) VALUES (?, ?, ?, ?, ?, ?, ?)
-    ''', (line_item_id, order_id, br_paid, br_rate, eobr_doc_no, hcfa_doc_no, br_date_processed))
+    try:
+        # Update the line_items table
+        cursor.execute('''
+        UPDATE line_items SET 
+            BR_paid = ?,
+            BR_rate = ?,
+            EOBR_doc_no = ?,
+            HCFA_doc_no = ?,
+            BR_date_processed = ?,
+            updated_at = CURRENT_TIMESTAMP
+        WHERE id = ? AND Order_ID = ?
+        ''', (br_paid, br_rate, eobr_doc_no, hcfa_doc_no, br_date_processed, line_item_id, order_id))
+        
+        rows_affected = cursor.rowcount
+        conn.commit()
+        
+        print(f"Updated payment info for line item {line_item_id}, order {order_id}: {rows_affected} row(s) affected")
+        return rows_affected > 0
+        
+    except Exception as e:
+        print(f"Error updating payment info: {e}")
+        conn.rollback()
+        return False
+    finally:
+        conn.close()
+
+def list_line_items(order_id=None):
+    """List line items in the database, optionally filtered by order_id"""
+    if not initialize_database():
+        return
     
-    conn.commit()
-    conn.close() 
+    conn = sqlite3.connect(DB_PATH)
+    cursor = conn.cursor()
+    
+    try:
+        if order_id:
+            cursor.execute('SELECT id, Order_ID, CPT, BR_paid, BR_rate, EOBR_doc_no FROM line_items WHERE Order_ID = ?', (order_id,))
+        else:
+            cursor.execute('SELECT id, Order_ID, CPT, BR_paid, BR_rate, EOBR_doc_no FROM line_items LIMIT 10')
+        
+        rows = cursor.fetchall()
+        
+        print(f"Found {len(rows)} line items:")
+        for row in rows:
+            print(f"  ID: {row[0]}, Order: {row[1]}, CPT: {row[2]}, Paid: {row[3]}, Rate: {row[4]}, EOBR: {row[5]}")
+            
+    except Exception as e:
+        print(f"Error listing line items: {e}")
+    finally:
+        conn.close() 

@@ -4,8 +4,8 @@ from pathlib import Path
 # Base paths
 BASE_PATH = r"C:\Users\ChristopherCato\OneDrive - clarity-dx.com\Documents\Bill_Review_INTERNAL\EOBR"
 INPUT_JSON_PATH = r"C:\Users\ChristopherCato\OneDrive - clarity-dx.com\Documents\Bill_Review_INTERNAL\validation logs\validation_passes_20250323_171406.json"
-JSON_DIR_PATH = r"C:\Users\ChristopherCato\OneDrive - clarity-dx.com\Documents\Bill_Review_INTERNAL\validation logs\json_files"
-DB_PATH = os.path.join(BASE_PATH, "database", "eobr_records.db")
+JSON_DIR_PATH = r"C:\Users\ChristopherCato\OneDrive - clarity-dx.com\Documents\Bill_Review_INTERNAL\scripts\VAILIDATION\data\extracts\valid\mapped\staging\success\test"
+DB_PATH = r"C:\Users\ChristopherCato\OneDrive - clarity-dx.com\Documents\Bill_Review_INTERNAL\reference_tables\orders2.db"
 WORD_TEMPLATE = os.path.join(BASE_PATH, "EOBR Template.docx")
 HISTORICAL_EXCEL_PATH = os.path.join(BASE_PATH, "Historical_EOBR_Data.xlsx")
 

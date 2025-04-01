@@ -39,12 +39,12 @@ def collect_additional_eobr_data(record, mapping, historical_duplicates, process
     eobr_number = f"{control_number}-{eobr_serial}"
     processed_control_numbers[control_number] = eobr_serial
     
-    # Format address
-    mailing_address = f"{record.get('data', {}).get('provider_info', {}).get('Billing Address 1', 'N/A')}, " \
-                      f"{record.get('data', {}).get('provider_info', {}).get('Billing Address City', 'N/A')}, " \
-                      f"{record.get('data', {}).get('provider_info', {}).get('Billing Address State', 'N/A')} " \
-                      f"{record.get('data', {}).get('provider_info', {}).get('Billing Address Postal Code', 'N/A')}"
-    
+    provider_info = record.get('data', {}).get('provider_info', {})
+    billing_address = provider_info.get('Billing_Address', {})
+    mailing_address = f"{billing_address.get('Address', 'N/A')}, " \
+                    f"{billing_address.get('City', 'N/A')}, " \
+                    f"{billing_address.get('State', 'N/A')} " \
+                    f"{billing_address.get('Postal_Code', 'N/A')}"
     # Get CPT codes and check for duplicates
     cpt_list = [line.get('cpt') for line in record.get('data', {}).get('line_items', []) if line.get('cpt')]
     duplicate_key = f"{control_number}|{','.join(cpt_list)}"
@@ -60,7 +60,7 @@ def collect_additional_eobr_data(record, mapping, historical_duplicates, process
         "EOBR Number": eobr_number, 
         "Bill Date": formatted_bill_date, 
         "Due Date": due_date.strftime("%m.%d.%Y"),
-        "Vendor": record.get('data', {}).get('provider_info', {}).get('Billing Name', 'N/A'), 
+        "Vendor": provider_info.get('Billing_Name', 'N/A'), 
         "Input File": base_filename,
         "Mailing Address": mailing_address, 
         "Description": description,

@@ -3,6 +3,7 @@ import json
 import glob
 from pathlib import Path
 from datetime import datetime
+import pandas as pd
 
 # Import from modules
 from config.settings import BASE_PATH, JSON_DIR_PATH, HISTORICAL_EXCEL_PATH
@@ -10,7 +11,7 @@ from utils.validators import validate_record
 from data.excel_manager import initialize_excel_file, load_historical_duplicates, append_to_excel
 from processors.document_processor import generate_document
 from processors.eobr_processor import collect_additional_eobr_data
-from data.db_manager import check_if_item_paid, update_payment_info
+from data.db_manager import check_if_item_paid, update_payment_info, list_line_items
 
 def setup_folder_structure():
     """Create folder structure for current run"""
@@ -28,6 +29,7 @@ def setup_folder_structure():
         Path(path).mkdir(parents=True, exist_ok=True)
         
     folder_structure['current_excel'] = os.path.join(folder_structure['excel'], f"EOBR_Data_{current_date}.xlsx")
+    folder_structure['db_updates_excel'] = os.path.join(folder_structure['excel'], f"Database_Updates_{current_date}.xlsx")
     return folder_structure
 
 def adapt_record_format(record, filename):
@@ -76,6 +78,10 @@ def process_json_directory(json_dir_path):
     
     processed_count = 0
     skipped_count = 0
+    processed_order_ids = set()  # Track processed order IDs
+    
+    # Track database updates
+    db_updates = []
     
     for json_file_path in json_files:
         filename = os.path.basename(json_file_path)
@@ -132,8 +138,13 @@ def process_json_directory(json_dir_path):
                 processed_count += 1
                 print(f"Generated EOBR {eobr_data['EOBR Number']}")
                 
-                # Update database with payment information
-                update_database_with_payment(record, eobr_data)
+                # Update database with payment information and track updates
+                updated_items = update_database_with_payment(record, eobr_data)
+                if updated_items:
+                    db_updates.extend(updated_items)
+                
+                # Track processed order ID
+                processed_order_ids.add(order_id)
                 
             except Exception as e:
                 print(f"Error generating documents for {filename}: {e}")
@@ -144,6 +155,17 @@ def process_json_directory(json_dir_path):
             skipped_count += 1
     
     print(f"Processing complete. Processed: {processed_count}, Skipped: {skipped_count}")
+    
+    # Save database updates to Excel
+    if db_updates:
+        df = pd.DataFrame(db_updates)
+        df.to_excel(folders['db_updates_excel'], index=False)
+        print(f"\nSaved database updates to: {folders['db_updates_excel']}")
+    
+    # Verify database updates
+    print("\nVerifying database updates:")
+    for order_id in processed_order_ids:
+        list_line_items(order_id)
 
 def update_database_with_payment(record, eobr_data):
     """Update database with payment information for each line item"""
@@ -152,12 +174,13 @@ def update_database_with_payment(record, eobr_data):
     total_paid = eobr_data.get("Total").replace("$", "").replace(",", "")
     processed_date = datetime.now().strftime("%Y-%m-%d")
     
+    updated_items = []
     for line in record.get("service_lines", []):
         payment_id = line.get("payment_id", {})
         line_item_id = payment_id.get("line_item_id")
         
         if line_item_id and order_id:
-            update_payment_info(
+            success = update_payment_info(
                 line_item_id=line_item_id,
                 order_id=order_id,
                 br_paid=str(line.get("assigned_rate", 0)),
@@ -166,6 +189,19 @@ def update_database_with_payment(record, eobr_data):
                 hcfa_doc_no=eobr_number,
                 br_date_processed=processed_date
             )
+            
+            if success:
+                updated_items.append({
+                    'Line_Item_ID': line_item_id,
+                    'Order_ID': order_id,
+                    'CPT': line.get('cpt_code'),
+                    'BR_Paid': line.get("assigned_rate", 0),
+                    'BR_Rate': line.get("assigned_rate", 0),
+                    'EOBR_Doc_No': eobr_number,
+                    'Date_Processed': processed_date
+                })
+    
+    return updated_items
 
 if __name__ == "__main__":
     process_json_directory(JSON_DIR_PATH)
