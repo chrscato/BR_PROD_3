@@ -9,8 +9,16 @@ def process_line_items(line_items):
     """Process line items for document placeholders"""
     mapping = {}
     for i, line in enumerate(line_items[:6], start=1):
-        modifier = line.get("modifier") if line.get("modifier") in ACCEPTABLE_MODIFIERS else ""
-        pos = "11"  # Default POS
+        # Get modifier, handling both string format and list format
+        modifier_raw = line.get("modifier")
+        if isinstance(modifier_raw, list):
+            modifier = ",".join([m for m in modifier_raw if m in ACCEPTABLE_MODIFIERS])
+        elif isinstance(modifier_raw, str):
+            modifier = modifier_raw if modifier_raw in ACCEPTABLE_MODIFIERS else ""
+        else:
+            modifier = ""
+        
+        pos = line.get("pos", "11")  # Default POS
         units = line.get("units", 1)
         charge = float(line.get("charge", 0))
         rate = float(line.get("validated_rate", 0))
@@ -68,12 +76,12 @@ def generate_document(record, eobr_data, output_folders):
         "<doi>": data.get("patient_info", {}).get("Patient_Injury_Date", ""),
         "<provider_ref>": data.get("patient_info", {}).get("Claim_Number", "N/A"),
         "<order_no>": data.get("patient_info", {}).get("FileMaker_Record_Number", "N/A"),
-        "<billing_name>": data.get("provider_info", {}).get("Billing Name", "N/A"),
-        "<billing_address1>": data.get("provider_info", {}).get("Billing Address 1", "N/A"),
-        "<billing_address2>": data.get("provider_info", {}).get("Billing Address 2", "N/A"),
-        "<billing_city>": data.get("provider_info", {}).get("Billing Address City", "N/A"),
-        "<billing_state>": data.get("provider_info", {}).get("Billing Address State", "N/A"),
-        "<billing_zip>": data.get("provider_info", {}).get("Billing Address Postal Code", "N/A"),
+        "<billing_name>": data.get("provider_info", {}).get("Billing_Name", "N/A"),
+        "<billing_address1>": data.get("provider_info", {}).get("Billing_Address", {}).get("Address", "N/A"),
+        "<billing_address2>": "",  # Not present in new format
+        "<billing_city>": data.get("provider_info", {}).get("Billing_Address", {}).get("City", "N/A"),
+        "<billing_state>": data.get("provider_info", {}).get("Billing_Address", {}).get("State", "N/A"),
+        "<billing_zip>": data.get("provider_info", {}).get("Billing_Address", {}).get("Postal_Code", "N/A"),
         "<TIN>": data.get("provider_info", {}).get("TIN", "N/A"),
         "<NPI>": data.get("provider_info", {}).get("NPI", "N/A"),
         "<total_paid>": "${:,.2f}".format(sum(float(item.get('validated_rate', 0)) for item in data.get("line_items", []))),
